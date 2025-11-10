@@ -4,11 +4,6 @@
 typedef int modeNum;
 typedef curAnchorNode (*handler_t)(akinator_t* akinator);
 
-enum modeCodes{
-    GUESS,
-    EXIT
-};
-
 struct mode_t{
     modeNum num;
     handler_t modeFunc;

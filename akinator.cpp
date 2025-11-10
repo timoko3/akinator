@@ -44,23 +44,33 @@ curAnchorNode akinatorDtor(akinator_t* akinator){
 curAnchorNode akinatorGuess(akinator_t* akinator){
     assert(akinator);
 
+    log(akinator, "before guess");
+
     while(true){
         askQuestionUser(akinator);
         char* answer = getAnswerUser(akinator);
         if(isYes(answer)){
-            if(!curNode(akinator)->left){
-                // printResult();
-            }
-        }
-        else if(isNo(answer)){
-            if(!curNode(akinator)->right){
-                // askIntended();
+            if(!(*curNode(akinator))->left){
+                printResult(akinator);
+                free(answer);
                 break;
             }
+            *curNode(akinator) = (*curNode(akinator))->left;
         }
+        else if(isNo(answer)){
+            if(!(*curNode(akinator))->right){
+                // askIntended();
+                free(answer);
+                break;
+            }
+            *curNode(akinator) = (*curNode(akinator))->right;
+        }
+        log(akinator, "during guess");
     }
 
-    return curNode(akinator);
+    log(akinator, "after guess");
+
+    return *curNode(akinator);
 }
 
 curAnchorNode akinatorSaveAndExit(akinator_t* akinator){

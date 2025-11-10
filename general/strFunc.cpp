@@ -14,7 +14,7 @@ size_t myStrLen(const char* start, char endStr){
 }
 
 bool isEqualStrings(const char* str1, const char* str2){
-
+    printf("hash answer %s, длина %lu: %ld, hash %s, длина %lu: %ld\n", str1, myStrLen(str1) + 1, hash(str1, myStrLen(str1) + 1), str2, myStrLen(str2) + 1, hash(str2, myStrLen(str2) + 1));
     return hash(str1, myStrLen(str1) + 1) == hash(str2, myStrLen(str2) + 1);
 }
 

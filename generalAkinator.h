@@ -4,7 +4,7 @@
 #include <stddef.h>
 #include <limits.h>
 
-#define log(list1, text, ...) htmlLog(list1, __FILE__, __FUNCTION__, __LINE__, text, ##__VA_ARGS__)
+#define log(akinator, text, ...) htmlLog(akinator, __FILE__, __FUNCTION__, __LINE__, text, ##__VA_ARGS__)
 
 typedef char* treeVal_t;
 
@@ -48,6 +48,6 @@ struct akinator_t{
 };
 
 treeVal_t* curData(akinator_t* akinator);
-treeNode_t* curNode(akinator_t* akinator);
+treeNode_t** curNode(akinator_t* akinator);
 
 #endif /* GENERAL_AKINATOR_H */ 

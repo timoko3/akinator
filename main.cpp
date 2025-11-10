@@ -15,10 +15,6 @@ int main(void){
 
     log(&akinator, "test");
         
-    // printPostOrder(akinator.root);
-    // printf("\n");
-    
-    // askQuestionUser(&akinator);
     showMenu();
     menuModeVal_t modeNum = getMode();
     runMode(modeNum, &akinator);

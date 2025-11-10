@@ -21,4 +21,6 @@ static handler_t findHandler(modeNum num){
             return modes[curMode].modeFunc;
         }
     }
+
+    return NULL;
 }
