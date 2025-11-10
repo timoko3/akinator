@@ -13,7 +13,7 @@ const char* const ALERT_MENU_INCORRECT = "Выбирайте из предлож
 const char* const CHOOSE_YES_OR_NO     = "Выбирайте да или нет\n";
 const menuModeVal_t  MENU_FIRST_ITEM = 1; 
 const menuModeVal_t  EXIT            = 4;
-const size_t         MAX_ANSWER_SIZE = 10;
+const size_t         MAX_ANSWER_SIZE = 256;
 
 void showMenu(){
     printf("Выберите одну из доступных опций: 1)Отгадывать 2) Выйти\n");
@@ -42,6 +42,7 @@ char* getAnswerUser(akinator_t* akinator){
     assert(akinator);
 
     char* answer = (char*) calloc(MAX_ANSWER_SIZE, sizeof(char));
+    assert(answer);
     printf("%lu\n", malloc_usable_size(answer));
 
 
@@ -55,9 +56,47 @@ char* getAnswerUser(akinator_t* akinator){
     return answer;
 }
 
+
+
 void printResult(akinator_t* akinator){
     assert(akinator);
 
     printf("Опять Я угадал! Это %s", *curData(akinator));
+}
+
+char* getIntended(akinator_t* akinator){
+    assert(akinator);
+
+    printf("Кого вы загадали?\n");
+
+    char* answer = (char*) calloc(MAX_ANSWER_SIZE, sizeof(char));
+    assert(answer);
+
+    while(!scanf("%s", answer)){
+        printf("answer: %s\n", answer);
+        printf("isYes: %d", isYes(answer));
+        printf("%s", "Некорректный ввод");
+        clearBuffer();
+    }
+
+    return answer;
+}
+
+char* getDifference(akinator_t* akinator, char* intended){
+    assert(akinator);
+    assert(intended);
+
+    printf("Чем %s отличается от %s?", intended, (*curNode(akinator))->data);
+
+    char* difference = (char*) calloc(MAX_ANSWER_SIZE, sizeof(char));
+    assert(difference);
+
+    while(!scanf("%s", difference)){
+        printf("difference: %s\n", difference);
+        printf("%s", "Некорректный ввод");
+        clearBuffer();
+    }
+
+    return difference;
 }
 

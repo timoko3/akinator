@@ -10,6 +10,7 @@
 #include <assert.h>
 #include <stdio.h>
 #include <malloc.h>
+#include <string.h>
 
 static void freeNode(treeNode_t* node);
 // static curAnchorNode treeSortNodeInsert(treeNode_t* node, treeVal_t insertVal);
@@ -59,7 +60,15 @@ curAnchorNode akinatorGuess(akinator_t* akinator){
         }
         else if(isNo(answer)){
             if(!(*curNode(akinator))->right){
-                // askIntended();
+                char* intended = getIntended(akinator);
+                akinatorInsertLeft(akinator, (*curNode(akinator)), intended);
+
+                char* difference = getDifference(akinator, intended);
+                akinatorInsertRight(akinator, (*curNode(akinator)), *curData(akinator));
+                akinatorInsert(akinator, *curNode(akinator), difference);
+
+                free(intended);
+                free(difference);
                 free(answer);
                 break;
             }
@@ -79,22 +88,71 @@ curAnchorNode akinatorSaveAndExit(akinator_t* akinator){
     return NULL;
 }
 
+curAnchorNode akinatorInsert(akinator_t* akinator, treeNode_t* insertionAddr,  treeVal_t insertVal){
+    assert(akinator);
+    assert(insertionAddr);
 
-// curAnchorNode treeSortInsert(akinator_t* tree, treeVal_t insertVal){
-//     assert(tree);
+    log(akinator, "before", "insert", insertVal);
 
-//     log(tree, "before", "insert", insertVal);
+    insertionAddr = (treeNode_t*) calloc(1, sizeof(treeNode_t));
+    assert(insertionAddr);
 
-//     curAnchorNode insertionAddr = treeSortNodeInsert(tree->root, insertVal);
+    strcpy(insertionAddr->left->data, insertVal);
+    insertionAddr->left = NULL;
+    insertionAddr->right = NULL;
 
-//     LPRINTF("insertionAddr: %p", insertionAddr);
+    LPRINTF("insertionAddr: %p", insertionAddr);
 
-//     (tree->size)++;
+    (akinator->size)++;
 
-//     log(tree, "after", "insert", insertVal);
+    log(akinator, "after", "insert", insertVal);
 
-//     return insertionAddr;
-// }
+    return insertionAddr;
+}
+
+curAnchorNode akinatorInsertLeft(akinator_t* akinator, treeNode_t* insertionAddr,  treeVal_t insertVal){
+    assert(akinator);
+    assert(insertionAddr);
+
+    log(akinator, "before", "insert", insertVal);
+
+    insertionAddr->left = (treeNode_t*) calloc(1, sizeof(treeNode_t));
+    assert(insertionAddr->left);
+
+    strcpy(insertionAddr->left->data, insertVal);
+    insertionAddr->left->left = NULL;
+    insertionAddr->left->right = NULL;
+
+    LPRINTF("insertionAddr: %p", insertionAddr->left);
+
+    (akinator->size)++;
+
+    log(akinator, "after", "insert", insertVal);
+
+    return insertionAddr->left;
+}
+
+curAnchorNode akinatorInsertRight(akinator_t* akinator, treeNode_t* insertionAddr, treeVal_t insertVal){
+    assert(akinator);
+    assert(insertionAddr);
+
+    log(akinator, "before", "insert", insertVal);
+
+    insertionAddr->right = (treeNode_t*) calloc(1, sizeof(treeNode_t));
+    assert(insertionAddr->right);
+
+    strcpy(insertionAddr->right->data, insertVal);
+    insertionAddr->right->left = NULL;
+    insertionAddr->right->right = NULL;
+
+    LPRINTF("insertionAddr: %p", insertionAddr->right);
+
+    (akinator->size)++;
+
+    log(akinator, "after", "insert", insertVal);
+
+    return insertionAddr->right;
+}
 
 void printPreOrder(const treeNode_t* node){
     assert(node);
