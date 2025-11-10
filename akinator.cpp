@@ -1,65 +1,96 @@
 #include "akinator.h"
 
 #include "general/poison.h"
-
-#include "protectionAkinator.h"
-
 #include "general/debug.h"
-
+#include "general/strFunc.h"
+#include "protectionAkinator.h"
+#include "akinatorUI.h"
+#include "general/strFunc.h"
 
 #include <assert.h>
 #include <stdio.h>
 #include <malloc.h>
 
 static void freeNode(treeNode_t* node);
-static curAnchorNode treeSortNodeInsert(treeNode_t* node, treeVal_t insertVal);
+// static curAnchorNode treeSortNodeInsert(treeNode_t* node, treeVal_t insertVal);
 
-curAnchorNode akinatorCtor(akinator_t* tree){
-    assert(tree);
+curAnchorNode akinatorCtor(akinator_t* akinator){
+    assert(akinator);
 
-    tree->size = 1;
+    akinator->size = 1;
 
-    tree->root = (treeNode_t*) calloc(1, sizeof(treeNode_t));
-    assert(tree->root);
+    akinator->root = (treeNode_t*) calloc(1, sizeof(treeNode_t));
+    assert(akinator->root);
 
-    tree->root->data = TREE_POISON;
-    tree->root->left = NULL;
-    tree->root->right = NULL;
+    akinator->root->data = "someThing";
+    akinator->root->left = NULL;
+    akinator->root->right = NULL;
 
-    return tree->root;
+    akinator->curState.Node = akinator->root;
+
+    return akinator->root;
 }
 
-curAnchorNode treeDtor(akinator_t* tree){
-    assert(tree);
+curAnchorNode akinatorDtor(akinator_t* akinator){
+    assert(akinator);
 
-    freeNode(tree->root);
+    freeNode(akinator->root);
 
-    poisonMemory(&tree->size, sizeof(tree->size));
+    poisonMemory(&akinator->size, sizeof(akinator->size));
 
     return NULL;
 }
 
-curAnchorNode treeSortInsert(akinator_t* tree, treeVal_t insertVal){
-    assert(tree);
+curAnchorNode akinatorGuess(akinator_t* akinator){
+    assert(akinator);
 
-    log(tree, "before", "insert", insertVal);
+    while(true){
+        askQuestionUser(akinator);
+        char* answer = getAnswerUser(akinator);
+        if(isYes(answer)){
+            if(!curNode(akinator)->left){
+                // printResult();
+            }
+        }
+        else if(isNo(answer)){
+            if(!curNode(akinator)->right){
+                // askIntended();
+                break;
+            }
+        }
+    }
 
-    curAnchorNode insertionAddr = treeSortNodeInsert(tree->root, insertVal);
-
-    LPRINTF("insertionAddr: %p", insertionAddr);
-
-    (tree->size)++;
-
-    log(tree, "after", "insert", insertVal);
-
-    return insertionAddr;
+    return curNode(akinator);
 }
+
+curAnchorNode akinatorSaveAndExit(akinator_t* akinator){
+    assert(akinator);
+
+    return NULL;
+}
+
+
+// curAnchorNode treeSortInsert(akinator_t* tree, treeVal_t insertVal){
+//     assert(tree);
+
+//     log(tree, "before", "insert", insertVal);
+
+//     curAnchorNode insertionAddr = treeSortNodeInsert(tree->root, insertVal);
+
+//     LPRINTF("insertionAddr: %p", insertionAddr);
+
+//     (tree->size)++;
+
+//     log(tree, "after", "insert", insertVal);
+
+//     return insertionAddr;
+// }
 
 void printPreOrder(const treeNode_t* node){
     assert(node);
 
     printf("(");
-    printf("%d", node->data);
+    printf("%s", node->data);
 
     if(node->left){
         printPreOrder(node->left);
@@ -79,7 +110,7 @@ void printInOrder(const treeNode_t* node){
     }
 
     printf("(");
-    printf("%d", node->data);
+    printf("%s", node->data);
 
     
 
@@ -101,7 +132,7 @@ void printPostOrder(const treeNode_t* node){
         printPostOrder(node->right);
     }
     printf("(");
-    printf("%d", node->data);
+    printf("%s", node->data);
 
     printf(")");
 }
@@ -116,56 +147,55 @@ static void freeNode(treeNode_t* node){
     if(node->right){
         freeNode(node->right);
     }
-
     poisonMemory(node, sizeof(*node));
     free(node);
     node = NULL;
 }
 
-static curAnchorNode treeSortNodeInsert(treeNode_t* node, treeVal_t insertVal){
-    assert(node);
+// static curAnchorNode treeSortNodeInsert(treeNode_t* node, treeVal_t insertVal){
+//     assert(node);
 
-    curAnchorNode result = NULL;
+//     curAnchorNode result = NULL;
 
-    bool toPut = false;
-    bool putLeft = false;
+//     bool toPut = false;
+//     bool putLeft = false;
 
-    if(insertVal <= node->data){
-        if(node->left){
-            treeSortNodeInsert(node->left, insertVal);
-        }
-        else{
-            toPut = true;
-            putLeft = true;
-        }
+//     if(insertVal <= node->data){
+//         if(node->left){
+//             treeSortNodeInsert(node->left, insertVal);
+//         }
+//         else{
+//             toPut = true;
+//             putLeft = true;
+//         }
         
-    }
-    else{
-        if(node->right){
-            treeSortNodeInsert(node->right, insertVal);
-        }
-        else{
-            toPut = true;
-        }
-    }
+//     }
+//     else{
+//         if(node->right){
+//             treeSortNodeInsert(node->right, insertVal);
+//         }
+//         else{
+//             toPut = true;
+//         }
+//     }
 
-    if(toPut){
-        if(putLeft){
-            node->left = (treeNode_t*) calloc(1, sizeof(treeNode_t));
-            node->left->data  = insertVal;
-            node->left->left  = NULL;
-            node->left->right = NULL;
-            return node->left;
-        }
-        else{
-            node->right = (treeNode_t*) calloc(1, sizeof(treeNode_t));
-            node->right->data  = insertVal;
-            node->right->left  = NULL;
-            node->right->right = NULL;
-            return node->right;
-        }
-    }
+//     if(toPut){
+//         if(putLeft){
+//             node->left = (treeNode_t*) calloc(1, sizeof(treeNode_t));
+//             node->left->data  = insertVal;
+//             node->left->left  = NULL;
+//             node->left->right = NULL;
+//             return node->left;
+//         }
+//         else{
+//             node->right = (treeNode_t*) calloc(1, sizeof(treeNode_t));
+//             node->right->data  = insertVal;
+//             node->right->left  = NULL;
+//             node->right->right = NULL;
+//             return node->right;
+//         }
+//     }
 
-    return result;
-}
+//     return result;
+// }
 

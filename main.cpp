@@ -1,5 +1,8 @@
 #include "generalAkinator.h"
 #include "protectionAkinator.h"
+#include "akinator.h"
+#include "akinatorUI.h"
+#include "akinatorModes.h"
 
 #include "string.h"
 
@@ -8,27 +11,17 @@
 int main(void){
     akinator_t akinator;
 
-    akinator.root = (treeNode_t*) calloc(1, sizeof(treeNode_t));
-    printf("Выделенная память: %d\n", malloc_usable_size(akinator.root));
-    akinator.root->left = (treeNode_t*) calloc(1, sizeof(treeNode_t));
-    printf("Выделенная память: %d\n", malloc_usable_size(akinator.root->left));
-    akinator.root->right = (treeNode_t*) calloc(1, sizeof(treeNode_t));
-    printf("Выделенная память: %d\n", malloc_usable_size(akinator.root->right));
-    
-    strcpy(akinator.root->data, "Привет?");
-    strcpy(akinator.root->left->data, "Как дела?");
-    strcpy(akinator.root->right->data, "Где ты?");
-    akinator.root->left->left = NULL;
-    akinator.root->left->right = NULL;
-    akinator.root->right->left = NULL;
-    akinator.root->right->right = NULL;
+    akinatorCtor(&akinator);
 
     log(&akinator, "test");
-    // treeGraphDump(&akinator);
-    // treeGraphDump(&akinator);
+        
+    // printPostOrder(akinator.root);
+    // printf("\n");
     
-    
-    free(akinator.root->left);
-    free(akinator.root->right);
-    free(akinator.root);
+    // askQuestionUser(&akinator);
+    showMenu();
+    menuModeVal_t modeNum = getMode();
+    runMode(modeNum, &akinator);
+
+    akinatorDtor(&akinator);
 }

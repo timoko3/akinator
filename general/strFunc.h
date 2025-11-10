@@ -21,6 +21,11 @@ const int SIZE_OF_END_FILE     = 1;
 const char END_STR             = '\n';
 
 size_t countStrings(char* buf, size_t fileSize, char endStr);
+bool isEqualStrings(const char* str1, const char* str2);
 size_t myStrLen(const char* start, char endStr ='\0');
+void clearBuffer();
+
+bool isYes(char* answer);
+bool isNo(char* answer);
 
 #endif /* STR_FUNC_H */

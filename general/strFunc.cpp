@@ -1,6 +1,8 @@
 #include "strFunc.h"
+#include "hash.h"
 
 #include <assert.h>
+#include <stdio.h>
 
 size_t myStrLen(const char* start, char endStr){
     assert(start);
@@ -9,6 +11,11 @@ size_t myStrLen(const char* start, char endStr){
     while(start[curSymInd] != endStr) curSymInd++;
     
     return curSymInd;
+}
+
+bool isEqualStrings(const char* str1, const char* str2){
+
+    return hash(str1, myStrLen(str1) + 1) == hash(str2, myStrLen(str2) + 1);
 }
 
 size_t countStrings(char* buf, size_t fileSize, char endStr){
@@ -25,4 +32,22 @@ size_t countStrings(char* buf, size_t fileSize, char endStr){
     }
 
     return nStrings;
+}
+
+void clearBuffer(){
+    while(getchar() != '\n'){
+        continue;
+    }
+}
+
+bool isYes(char* answer){
+    assert(answer);
+
+    return isEqualStrings(answer, "да");
+}
+
+bool isNo(char* answer){
+    assert(answer);
+
+    return isEqualStrings(answer, "нет");
 }

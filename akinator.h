@@ -5,10 +5,12 @@
 
 typedef treeNode_t* curAnchorNode;
 
-curAnchorNode akinatorCtor(akinator_t* tree);
-curAnchorNode treeDtor(akinator_t* tree);
+curAnchorNode akinatorCtor(akinator_t* akinator);
+curAnchorNode akinatorDtor(akinator_t* akinator);
 
 // curAnchorNode treeSortInsert(akinator_t* tree, treeVal_t insertVal);
+curAnchorNode akinatorGuess(akinator_t* akinator);
+curAnchorNode akinatorSaveAndExit(akinator_t* akinator);
 
 void printPreOrder(const treeNode_t* node);
 void printInOrder(const treeNode_t* node);

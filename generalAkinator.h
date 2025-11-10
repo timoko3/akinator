@@ -6,7 +6,7 @@
 
 #define log(list1, text, ...) htmlLog(list1, __FILE__, __FUNCTION__, __LINE__, text, ##__VA_ARGS__)
 
-// typedef char* treeVal_t;
+typedef char* treeVal_t;
 
 // const treeVal_t TREE_POISON = "MEOW";
 
@@ -31,15 +31,23 @@ static struct treeStatusDescription treeStatuses[]{
 };
 
 struct treeNode_t{
-    char data[50];
+    treeVal_t data;
     treeNode_t* right;
     treeNode_t* left;
+};
+
+struct akinatorState_t{
+    treeNode_t* Node;
 };
 
 struct akinator_t{
     treeNode_t*   root;
     size_t        size;
+    akinatorState_t curState;
     treeStatusDescription status;
 };
+
+treeVal_t* curData(akinator_t* akinator);
+treeNode_t* curNode(akinator_t* akinator);
 
 #endif /* GENERAL_AKINATOR_H */ 
