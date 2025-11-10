@@ -1,0 +1,14 @@
+digraph G {
+bgcolor="transparent"
+nodesep = 1;
+ranksep = 1
+	node [shape=Mrecord, style="filled", fillcolor="#70c07cff", fontcolor="#001effff", color="#035068ff", penwidth=4, fontname="Menlo", fontsize=30];
+
+	node144 [label="{address = 0x507000000090 | data = Привет? | {no = 0x507000000100 | yes = 0x507000000170}} "];
+	node256 [label="{address = 0x507000000100 | data = Как дела? | {no = (nil) | yes = (nil)}} "];
+	node368 [label="{address = 0x507000000170 | data = Где ты? | {no = (nil) | yes = (nil)}} "];
+node144 ->node256 [color="#785946ff", arrowsize=1.5, penwidth=7, weight=1000];
+node144->node368 [color="#785946ff", arrowsize=1.5, penwidth=7, weight=1000];
+root_label [shape=box, width = 2.4, height = 1.4, label="ROOT", style="filled", fillcolor="#BBDDEE", color="#785946ff", penwidth = 6,  fontcolor="darkblue", fontsize = 40];
+root_label -> node144 [color="#785946ff"  , arrowsize=2.5, penwidth=3];
+}
