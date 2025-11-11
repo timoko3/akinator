@@ -219,3 +219,4 @@
 [DEBUG] akinator.cpp:135:akinatorInsert(): insertionAddr: 0x503000000100
 [DEBUG] akinator.cpp:141:akinatorInsert(): INSERT: node=0x503000000100 data=0x511000000e00 "someThing"
 [DEBUG] general/strFunc.cpp:27:myStrCpy(): strat copying
+[DEBUG] akinator.cpp:234:freeNode(): FREENODE: node=0x503000000040 data=0x511000000040 "someThing" left=(nil) right=(nil)

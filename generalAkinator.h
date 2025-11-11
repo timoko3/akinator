@@ -10,25 +10,25 @@ typedef char* treeVal_t;
 
 // const treeVal_t TREE_POISON = "MEOW";
 
-enum treeStatus{
-    TREE_PROCESS_OK,
-    TREE_NULL_POINTER,
-    TREE_SIZE_IS_ZERO,
-    TREE_SIZE_EXCEEDS_CAPACITY,
-    TREE_NON_VALID_INDEXES,
-    TREE_LIST_NOT_CONNECTED
-};
+// enum treeStatus{
+//     TREE_PROCESS_OK,
+//     TREE_NULL_POINTER,
+//     TREE_SIZE_IS_ZERO,
+//     TREE_SIZE_EXCEEDS_CAPACITY,
+//     TREE_NON_VALID_INDEXES,
+//     TREE_LIST_NOT_CONNECTED
+// };
 
-struct treeStatusDescription{
-    treeStatus type;
-    const char* text;
-};
+// struct treeStatusDescription{
+//     treeStatus type;
+//     const char* text;
+// };
 
-static struct treeStatusDescription treeStatuses[]{ 
-    {TREE_PROCESS_OK,                    "Все хорошо\n"},
-    {TREE_NULL_POINTER,                  "Указатели не должны быть нулевыми\n"},
-    {TREE_SIZE_IS_ZERO,                  "Capacity равно 0\n"}, 
-};
+// static struct treeStatusDescription treeStatuses[]{ 
+//     {TREE_PROCESS_OK,                    "Все хорошо\n"},
+//     {TREE_NULL_POINTER,                  "Указатели не должны быть нулевыми\n"},
+//     {TREE_SIZE_IS_ZERO,                  "Capacity равно 0\n"}, 
+// };
 
 struct treeNode_t{
     treeVal_t data;
@@ -44,7 +44,7 @@ struct akinator_t{
     treeNode_t*   root;
     size_t        size;
     akinatorState_t curState;
-    treeStatusDescription status;
+    // treeStatusDescription status;
 };
 
 treeVal_t* curData(akinator_t* akinator);

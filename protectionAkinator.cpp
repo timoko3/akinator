@@ -30,7 +30,7 @@ const size_t SCALE_MIN              = 30;
 
 static void initGraphNodes(const treeNode_t* node, FILE* graphFilePtr);
 static void printGraphNode(const treeNode_t* node, FILE* graphFilePtr);
-static void assignErrorStruct(akinator_t* akinator, treeStatus type);
+// static void assignErrorStruct(akinator_t* akinator, treeStatus type);
 
 // treeStatus verifyTree(akinator_t* tree, const char* function, const char* file, const int line){
 //     if(tree == NULL){

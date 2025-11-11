@@ -16,4 +16,4 @@ static mode_t modes[] = {
 
 
 void runModeMenu(akinator_t* akinator);
-void runMode(modeNum num, akinator_t* akinator);
+bool runMode(modeNum num, akinator_t* akinator);

@@ -87,7 +87,6 @@ char* getDifference(akinator_t* akinator, char* intended, char** difference){
     printf("Чем %s отличается от %s?", intended, (*curNode(akinator))->data);
 
     while(!myFGets(*difference, MAX_ANSWER_SIZE, stdin)){
-        printf("difference: %s\n", difference);
         printf("%s", "Некорректный ввод");
         clearBuffer();
     }

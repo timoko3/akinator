@@ -24,10 +24,6 @@ char* myStrCpy(char* dest, const char* src){
 
     int i = 0;
 
-    LPRINTF("strat copying");
-    for(size_t i = 0; i < myStrLen(src); i++){
-        printf("src[%d]: %d\n", i, src[i]);
-    }
     while(src[i] != '\0'){
         dest[i] = src[i];
         i++;
@@ -58,7 +54,7 @@ char* myFGets(char* str, int count, FILE* stream){
 }
 
 bool isEqualStrings(const char* str1, const char* str2){
-    printf("hash answer %s, длина %lu: %ld, hash %s, длина %lu: %ld\n", str1, myStrLen(str1) + 1, hash(str1, myStrLen(str1) + 1), str2, myStrLen(str2) + 1, hash(str2, myStrLen(str2) + 1));
+    LPRINTF("hash answer %s, длина %lu: %ld, hash %s, длина %lu: %lu\n", str1, myStrLen(str1) + 1, hash(str1, myStrLen(str1) + 1), str2, myStrLen(str2) + 1, hash(str2, myStrLen(str2) + 1));
     return hash(str1, myStrLen(str1) + 1) == hash(str2, myStrLen(str2) + 1);
 }
 
