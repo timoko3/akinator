@@ -3,6 +3,8 @@
 
 #include "generalAkinator.h"
 
+#include "stdio.h"
+
 typedef treeNode_t* curAnchorNode;
 
 curAnchorNode akinatorCtor(akinator_t* akinator);
@@ -14,8 +16,8 @@ curAnchorNode akinatorInsert(akinator_t* akinator, treeNode_t* insertionAddr,  t
 curAnchorNode akinatorGuess(akinator_t* akinator);
 curAnchorNode akinatorSaveAndExit(akinator_t* akinator);
 
-void printPreOrder(const treeNode_t* node);
-void printInOrder(const treeNode_t* node);
-void printPostOrder(const treeNode_t* node);
+void printPreOrder (const treeNode_t* node, FILE* stream);
+void printInOrder  (const treeNode_t* node, FILE* stream);
+void printPostOrder(const treeNode_t* node, FILE* stream);
 
 #endif /* AKINATOR_H */

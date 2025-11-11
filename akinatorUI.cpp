@@ -13,7 +13,7 @@ const char* const ALERT_MENU_INCORRECT = "Выбирайте из предлож
 const char* const CHOOSE_YES_OR_NO     = "Выбирайте да или нет\n";
 const menuModeVal_t  MENU_FIRST_ITEM = 1; 
 const menuModeVal_t  EXIT            = 4;
-const size_t         MAX_ANSWER_SIZE = 256;
+
 
 void showMenu(){
     printf("Выберите одну из доступных опций: 1)Отгадывать 2) Выйти\n");
@@ -53,10 +53,10 @@ char* getAnswerUser(akinator_t* akinator){
         clearBuffer();
     }
 
+    clearBuffer();
+
     return answer;
 }
-
-
 
 void printResult(akinator_t* akinator){
     assert(akinator);
@@ -64,39 +64,34 @@ void printResult(akinator_t* akinator){
     printf("Опять Я угадал! Это %s", *curData(akinator));
 }
 
-char* getIntended(akinator_t* akinator){
+char* getIntended(akinator_t* akinator, char** answer){
     assert(akinator);
 
-    printf("Кого вы загадали?\n");
+    printf("Кто был загадан?\n");
 
-    char* answer = (char*) calloc(MAX_ANSWER_SIZE, sizeof(char));
-    assert(answer);
 
-    while(!scanf("%s", answer)){
-        printf("answer: %s\n", answer);
-        printf("isYes: %d", isYes(answer));
+    while(!myFGets(*answer, MAX_ANSWER_SIZE, stdin)){
+        printf("answer: %s\n", *answer);
+        printf("isYes: %d", isYes(*answer));
         printf("%s", "Некорректный ввод");
         clearBuffer();
     }
-
-    return answer;
+    return *answer;
 }
 
-char* getDifference(akinator_t* akinator, char* intended){
+char* getDifference(akinator_t* akinator, char* intended, char** difference){
     assert(akinator);
     assert(intended);
+    assert(difference);
 
     printf("Чем %s отличается от %s?", intended, (*curNode(akinator))->data);
 
-    char* difference = (char*) calloc(MAX_ANSWER_SIZE, sizeof(char));
-    assert(difference);
-
-    while(!scanf("%s", difference)){
+    while(!myFGets(*difference, MAX_ANSWER_SIZE, stdin)){
         printf("difference: %s\n", difference);
         printf("%s", "Некорректный ввод");
         clearBuffer();
     }
 
-    return difference;
+    return *difference;
 }
 

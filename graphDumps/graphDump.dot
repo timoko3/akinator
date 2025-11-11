@@ -4,7 +4,17 @@ nodesep = 1;
 ranksep = 1
 	node [shape=Mrecord, style="filled", fillcolor="#70c07cff", fontcolor="#001effff", color="#035068ff", penwidth=4, fontname="Menlo", fontsize=30];
 
-	node64 [label="{address = 0x503000000040 | data = someThing | {no = (nil) | yes = (nil)}} "];
+	node64 [label="{address = 0x503000000040 | data = мальнькая | {yes = 0x503000000070 | no = 0x5030000000a0}} "];
+	node112 [label="{address = 0x503000000070 | data = пони | {yes = (nil) | no = (nil)}} "];
+	node160 [label="{address = 0x5030000000a0 | data = ест траву | {yes = 0x5030000000d0 | no = 0x503000000100}} "];
+	node208 [label="{address = 0x5030000000d0 | data = лошадь | {yes = (nil) | no = (nil)}} "];
+	node256 [label="{address = 0x503000000100 | data = someThing | {yes = (nil) | no = (nil)}} "];
+node64 ->node112 [color="#785946ff", arrowsize=1.5, penwidth=7, weight=1000];
+node64->node160 [color="#785946ff", arrowsize=1.5, penwidth=7, weight=1000];
+node160 ->node208 [color="#785946ff", arrowsize=1.5, penwidth=7, weight=1000];
+node160->node256 [color="#785946ff", arrowsize=1.5, penwidth=7, weight=1000];
 root_label [shape=box, width = 2.4, height = 1.4, label="ROOT", style="filled", fillcolor="#BBDDEE", color="#785946ff", penwidth = 6,  fontcolor="darkblue", fontsize = 40];
+cur_node_label [shape=box, width = 2.4, height = 1.4, label="curGuessNode", style="filled", fillcolor="#BBDDEE", color="#f8ff1fff", penwidth = 6,  fontcolor="darkblue", fontsize = 40];
 root_label -> node64 [color="#785946ff"  , arrowsize=2.5, penwidth=3];
+cur_node_label -> node64 [color="#f8ff1fff"  , arrowsize=2.5, penwidth=3];
 }

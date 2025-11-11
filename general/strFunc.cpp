@@ -1,5 +1,8 @@
 #include "strFunc.h"
 #include "hash.h"
+#include "poison.h"
+#define DEBUG
+#include "debug.h"
 
 #include <assert.h>
 #include <stdio.h>
@@ -11,6 +14,47 @@ size_t myStrLen(const char* start, char endStr){
     while(start[curSymInd] != endStr) curSymInd++;
     
     return curSymInd;
+}
+
+char* myStrCpy(char* dest, const char* src){
+    assert(dest);
+    assert(src);
+
+    poisonMemory(dest, myStrLen(dest) + 1);
+
+    int i = 0;
+
+    LPRINTF("strat copying");
+    for(size_t i = 0; i < myStrLen(src); i++){
+        printf("src[%d]: %d\n", i, src[i]);
+    }
+    while(src[i] != '\0'){
+        dest[i] = src[i];
+        i++;
+    }
+    dest[i] = '\0';
+
+    return dest;
+}
+
+char* myFGets(char* str, int count, FILE* stream){
+    assert(str);
+    assert(stream);
+    if(count < 1)return NULL;
+
+    int i = 0;
+    while(i < count) {
+        str[i] = (char)fgetc(stream);
+        printf("Код текущего символа: %d\n", str[i]);
+        if(str[i] == '\n'){
+            break;
+        }
+
+        i++;
+    }
+    str[i] = '\0';
+
+    return str;
 }
 
 bool isEqualStrings(const char* str1, const char* str2){

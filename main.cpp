@@ -5,6 +5,9 @@
 #include "akinatorModes.h"
 
 #include "string.h"
+#define DEBUG
+#include "general/debug.h"
+
 
 #include "malloc.h"
 
@@ -13,11 +16,7 @@ int main(void){
 
     akinatorCtor(&akinator);
 
-    log(&akinator, "test");
-        
-    showMenu();
-    menuModeVal_t modeNum = getMode();
-    runMode(modeNum, &akinator);
+    runModeMenu(&akinator);
 
     akinatorDtor(&akinator);
 }

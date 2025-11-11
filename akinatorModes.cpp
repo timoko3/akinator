@@ -1,14 +1,27 @@
 #include "akinatorModes.h"
+#include "akinatorUI.h"
 
 #include <assert.h>
 #include <stdio.h>
 
 static handler_t findHandler(modeNum num);
 
+void runModeMenu(akinator_t* akinator){
+    assert(akinator);
+
+    while(true){
+        showMenu();
+        menuModeVal_t modeNum = getMode();
+        runMode(modeNum, akinator);
+    }
+}
+
 void runMode(modeNum num, akinator_t* akinator){
     assert(akinator);
 
     handler_t handler = findHandler(num);
+    assert(handler);
+
 
     handler(akinator);
 }

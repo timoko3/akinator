@@ -5,14 +5,14 @@
 #include <assert.h>
 #include <stdarg.h>
 
-static const char* LOG_FILE_NAME            = "logAkinator.html";
+static const char* LOG_FILE_NAME            = "logAkinator.txt";
 
 void lprintf(const char* text, ...){
     assert(text);
     
     fileDescription logFile = {
         LOG_FILE_NAME,
-        "ab"
+        "ab+"
     };    
 
     FILE* logFilePtr = myOpenFile(&logFile);
@@ -22,4 +22,6 @@ void lprintf(const char* text, ...){
     va_start(args, text);
     vfprintf(logFilePtr, text, args);
     va_end(args);
+
+    fclose(logFilePtr);
 }

@@ -1,0 +1,221 @@
+[DEBUG] main.cpp:19:main(): MEOW TESt
+[DEBUG] akinator.cpp:136:akinatorInsertLeft(): NEW NODE: parent=0x503000000040 -> left=0x503000000070 (or right) allocated
+[DEBUG] akinator.cpp:117:akinatorInsert(): insertionAddr: 0x503000000070
+[DEBUG] akinator.cpp:123:akinatorInsert(): INSERT: node=0x503000000070 data=0x511000000400 "авыыаыа"
+[DEBUG] akinator.cpp:152:akinatorInsertRight(): NEW NODE: parent=0x503000000040 -> left=0x503000000070 (or right) allocated
+[DEBUG] akinator.cpp:117:akinatorInsert(): insertionAddr: 0x5030000000a0
+[DEBUG] akinator.cpp:123:akinatorInsert(): INSERT: node=0x5030000000a0 data=0x511000000680 "someThing"
+[DEBUG] akinator.cpp:117:akinatorInsert(): insertionAddr: 0x503000000040
+[DEBUG] akinator.cpp:123:akinatorInsert(): INSERT: node=0x503000000040 data=0x5110000007c0 "аыыа"
+[DEBUG] akinator.cpp:212:freeNode(): FREENODE: node=0x503000000040 data=0x5110000007c0 "аыыа" left=(nil) right=(nil)
+[DEBUG] main.cpp:19:main(): MEOW TESt
+[DEBUG] akinator.cpp:136:akinatorInsertLeft(): NEW NODE: parent=0x503000000040 -> left=0x503000000070 (or right) allocated
+[DEBUG] akinator.cpp:117:akinatorInsert(): insertionAddr: 0x503000000070
+[DEBUG] akinator.cpp:123:akinatorInsert(): INSERT: node=0x503000000070 data=0x511000000400 "авыаыаы"
+[DEBUG] akinator.cpp:152:akinatorInsertRight(): NEW NODE: parent=0x503000000040 -> left=0x503000000070 (or right) allocated
+[DEBUG] akinator.cpp:117:akinatorInsert(): insertionAddr: 0x5030000000a0
+[DEBUG] akinator.cpp:123:akinatorInsert(): INSERT: node=0x5030000000a0 data=0x511000000680 "someThing"
+[DEBUG] main.cpp:19:main(): MEOW TESt
+[DEBUG] akinator.cpp:137:akinatorInsertLeft(): NEW NODE: parent=0x503000000040 -> left=0x503000000070 (or right) allocated
+[DEBUG] akinator.cpp:118:akinatorInsert(): insertionAddr: 0x503000000070
+[DEBUG] akinator.cpp:124:akinatorInsert(): INSERT: node=0x503000000070 data=0x511000000400 "аыаы"
+[DEBUG] akinator.cpp:153:akinatorInsertRight(): NEW NODE: parent=0x503000000040 -> left=0x503000000070 (or right) allocated
+[DEBUG] akinator.cpp:118:akinatorInsert(): insertionAddr: 0x5030000000a0
+[DEBUG] akinator.cpp:124:akinatorInsert(): INSERT: node=0x5030000000a0 data=0x511000000680 "someThing"
+[DEBUG] akinator.cpp:213:freeNode(): FREENODE: node=0x503000000040 data=0x511000000040 "фвафф" left=0x503000000070 right=0x5030000000a0
+[DEBUG] akinator.cpp:213:freeNode(): FREENODE: node=0x503000000070 data=0x511000000400 "аыаы" left=(nil) right=(nil)
+[DEBUG] akinator.cpp:213:freeNode(): FREENODE: node=0x5030000000a0 data=0x511000000680 "someThing" left=(nil) right=(nil)
+[DEBUG] main.cpp:19:main(): MEOW TESt
+[DEBUG] main.cpp:19:main(): MEOW TESt
+[DEBUG] akinator.cpp:137:akinatorInsertLeft(): NEW NODE: parent=0x503000000040 -> left=0x503000000070 (or right) allocated
+[DEBUG] akinator.cpp:118:akinatorInsert(): insertionAddr: 0x503000000070
+[DEBUG] akinator.cpp:124:akinatorInsert(): INSERT: node=0x503000000070 data=0x511000000400 "космонавт"
+[DEBUG] akinator.cpp:153:akinatorInsertRight(): NEW NODE: parent=0x503000000040 -> left=0x503000000070 (or right) allocated
+[DEBUG] akinator.cpp:118:akinatorInsert(): insertionAddr: 0x5030000000a0
+[DEBUG] akinator.cpp:124:akinatorInsert(): INSERT: node=0x5030000000a0 data=0x511000000680 "someThing"
+[DEBUG] akinator.cpp:213:freeNode(): FREENODE: node=0x503000000040 data=0x511000000040 "он" left=0x503000000070 right=0x5030000000a0
+[DEBUG] akinator.cpp:213:freeNode(): FREENODE: node=0x503000000070 data=0x511000000400 "космонавт" left=(nil) right=(nil)
+[DEBUG] akinator.cpp:213:freeNode(): FREENODE: node=0x5030000000a0 data=0x511000000680 "someThing" left=(nil) right=(nil)
+[DEBUG] main.cpp:19:main(): MEOW TESt
+[DEBUG] akinator.cpp:137:akinatorInsertLeft(): NEW NODE: parent=0x503000000040 -> left=0x503000000070 (or right) allocated
+[DEBUG] akinator.cpp:118:akinatorInsert(): insertionAddr: 0x503000000070
+[DEBUG] akinator.cpp:124:akinatorInsert(): INSERT: node=0x503000000070 data=0x511000000400 "космонавт"
+[DEBUG] akinator.cpp:153:akinatorInsertRight(): NEW NODE: parent=0x503000000040 -> left=0x503000000070 (or right) allocated
+[DEBUG] akinator.cpp:118:akinatorInsert(): insertionAddr: 0x5030000000a0
+[DEBUG] akinator.cpp:124:akinatorInsert(): INSERT: node=0x5030000000a0 data=0x511000000680 "someThing"
+[DEBUG] akinator.cpp:213:freeNode(): FREENODE: node=0x503000000040 data=0x511000000040 "он" left=0x503000000070 right=0x5030000000a0
+[DEBUG] akinator.cpp:213:freeNode(): FREENODE: node=0x503000000070 data=0x511000000400 "космонавт" left=(nil) right=(nil)
+[DEBUG] akinator.cpp:213:freeNode(): FREENODE: node=0x5030000000a0 data=0x511000000680 "someThing" left=(nil) right=(nil)
+[DEBUG] main.cpp:19:main(): MEOW TESt
+[DEBUG] akinator.cpp:137:akinatorInsertLeft(): NEW NODE: parent=0x503000000040 -> left=0x503000000070 (or right) allocated
+[DEBUG] akinator.cpp:118:akinatorInsert(): insertionAddr: 0x503000000070
+[DEBUG] akinator.cpp:124:akinatorInsert(): INSERT: node=0x503000000070 data=0x511000000400 "аыаыаыаы"
+[DEBUG] akinator.cpp:153:akinatorInsertRight(): NEW NODE: parent=0x503000000040 -> left=0x503000000070 (or right) allocated
+[DEBUG] akinator.cpp:118:akinatorInsert(): insertionAddr: 0x5030000000a0
+[DEBUG] akinator.cpp:124:akinatorInsert(): INSERT: node=0x5030000000a0 data=0x511000000680 "someThing"
+[DEBUG] akinator.cpp:213:freeNode(): FREENODE: node=0x503000000040 data=0x511000000040 "ывыаваыв" left=0x503000000070 right=0x5030000000a0
+[DEBUG] akinator.cpp:213:freeNode(): FREENODE: node=0x503000000070 data=0x511000000400 "аыаыаыаы" left=(nil) right=(nil)
+[DEBUG] akinator.cpp:213:freeNode(): FREENODE: node=0x5030000000a0 data=0x511000000680 "someThing" left=(nil) right=(nil)
+[DEBUG] main.cpp:19:main(): MEOW TESt
+[DEBUG] akinator.cpp:137:akinatorInsertLeft(): NEW NODE: parent=0x503000000040 -> left=0x503000000070 (or right) allocated
+[DEBUG] akinator.cpp:118:akinatorInsert(): insertionAddr: 0x503000000070
+[DEBUG] akinator.cpp:124:akinatorInsert(): INSERT: node=0x503000000070 data=0x511000000400 "космонавт"
+[DEBUG] akinator.cpp:153:akinatorInsertRight(): NEW NODE: parent=0x503000000040 -> left=0x503000000070 (or right) allocated
+[DEBUG] akinator.cpp:118:akinatorInsert(): insertionAddr: 0x5030000000a0
+[DEBUG] akinator.cpp:124:akinatorInsert(): INSERT: node=0x5030000000a0 data=0x511000000680 "someThing"
+[DEBUG] general/strFunc.cpp:27:myStrCpy(): strat copying
+[DEBUG] akinator.cpp:213:freeNode(): FREENODE: node=0x503000000040 data=0x511000000040 "он" left=0x503000000070 right=0x5030000000a0
+[DEBUG] akinator.cpp:213:freeNode(): FREENODE: node=0x503000000070 data=0x511000000400 "космонавт" left=(nil) right=(nil)
+[DEBUG] akinator.cpp:213:freeNode(): FREENODE: node=0x5030000000a0 data=0x511000000680 "someThing" left=(nil) right=(nil)
+[DEBUG] main.cpp:19:main(): MEOW TESt
+[DEBUG] main.cpp:19:main(): MEOW TESt
+[DEBUG] main.cpp:19:main(): MEOW TESt
+[DEBUG] akinator.cpp:137:akinatorInsertLeft(): NEW NODE: parent=0x503000000040 -> left=0x503000000070 (or right) allocated
+[DEBUG] akinator.cpp:118:akinatorInsert(): insertionAddr: 0x503000000070
+[DEBUG] akinator.cpp:124:akinatorInsert(): INSERT: node=0x503000000070 data=0x511000000400 ""
+[DEBUG] main.cpp:19:main(): MEOW TESt
+[DEBUG] akinator.cpp:137:akinatorInsertLeft(): NEW NODE: parent=0x503000000040 -> left=0x503000000070 (or right) allocated
+[DEBUG] akinator.cpp:118:akinatorInsert(): insertionAddr: 0x503000000070
+[DEBUG] akinator.cpp:124:akinatorInsert(): INSERT: node=0x503000000070 data=0x511000000400 "космонавт"
+[DEBUG] akinator.cpp:153:akinatorInsertRight(): NEW NODE: parent=0x503000000040 -> left=0x503000000070 (or right) allocated
+[DEBUG] akinator.cpp:118:akinatorInsert(): insertionAddr: 0x5030000000a0
+[DEBUG] akinator.cpp:124:akinatorInsert(): INSERT: node=0x5030000000a0 data=0x511000000680 "someThing"
+[DEBUG] general/strFunc.cpp:27:myStrCpy(): strat copying
+[DEBUG] akinator.cpp:213:freeNode(): FREENODE: node=0x503000000040 data=0x511000000040 "ыв" left=0x503000000070 right=0x5030000000a0
+[DEBUG] akinator.cpp:213:freeNode(): FREENODE: node=0x503000000070 data=0x511000000400 "космонавт" left=(nil) right=(nil)
+[DEBUG] akinator.cpp:213:freeNode(): FREENODE: node=0x5030000000a0 data=0x511000000680 "someThing" left=(nil) right=(nil)
+[DEBUG] main.cpp:19:main(): MEOW TESt
+[DEBUG] main.cpp:19:main(): MEOW TESt
+[DEBUG] main.cpp:19:main(): MEOW TESt
+[DEBUG] main.cpp:19:main(): MEOW TESt
+[DEBUG] main.cpp:19:main(): MEOW TESt
+[DEBUG] main.cpp:19:main(): MEOW TESt
+[DEBUG] main.cpp:19:main(): MEOW TESt
+[DEBUG] main.cpp:19:main(): MEOW TESt
+[DEBUG] akinator.cpp:137:akinatorInsertLeft(): NEW NODE: parent=0x503000000040 -> left=0x503000000070 (or right) allocated
+[DEBUG] akinator.cpp:118:akinatorInsert(): insertionAddr: 0x503000000070
+[DEBUG] akinator.cpp:124:akinatorInsert(): INSERT: node=0x503000000070 data=0x511000000400 "космонавт"
+[DEBUG] akinator.cpp:153:akinatorInsertRight(): NEW NODE: parent=0x503000000040 -> left=0x503000000070 (or right) allocated
+[DEBUG] akinator.cpp:118:akinatorInsert(): insertionAddr: 0x5030000000a0
+[DEBUG] akinator.cpp:124:akinatorInsert(): INSERT: node=0x5030000000a0 data=0x511000000680 "someThing"
+[DEBUG] general/strFunc.cpp:27:myStrCpy(): strat copying
+[DEBUG] akinator.cpp:213:freeNode(): FREENODE: node=0x503000000040 data=0x511000000040 "чем-то" left=0x503000000070 right=0x5030000000a0
+[DEBUG] akinator.cpp:213:freeNode(): FREENODE: node=0x503000000070 data=0x511000000400 "космонавт" left=(nil) right=(nil)
+[DEBUG] akinator.cpp:213:freeNode(): FREENODE: node=0x5030000000a0 data=0x511000000680 "someThing" left=(nil) right=(nil)
+[DEBUG] main.cpp:19:main(): MEOW TESt
+[DEBUG] akinator.cpp:137:akinatorInsertLeft(): NEW NODE: parent=0x503000000040 -> left=0x503000000070 (or right) allocated
+[DEBUG] akinator.cpp:118:akinatorInsert(): insertionAddr: 0x503000000070
+[DEBUG] akinator.cpp:124:akinatorInsert(): INSERT: node=0x503000000070 data=0x511000000400 "космонавт"
+[DEBUG] akinator.cpp:153:akinatorInsertRight(): NEW NODE: parent=0x503000000040 -> left=0x503000000070 (or right) allocated
+[DEBUG] akinator.cpp:118:akinatorInsert(): insertionAddr: 0x5030000000a0
+[DEBUG] akinator.cpp:124:akinatorInsert(): INSERT: node=0x5030000000a0 data=0x511000000680 "someThing"
+[DEBUG] general/strFunc.cpp:27:myStrCpy(): strat copying
+[DEBUG] akinator.cpp:213:freeNode(): FREENODE: node=0x503000000040 data=0x511000000040 "он в космосе" left=0x503000000070 right=0x5030000000a0
+[DEBUG] akinator.cpp:213:freeNode(): FREENODE: node=0x503000000070 data=0x511000000400 "космонавт" left=(nil) right=(nil)
+[DEBUG] akinator.cpp:213:freeNode(): FREENODE: node=0x5030000000a0 data=0x511000000680 "someThing" left=(nil) right=(nil)
+[DEBUG] main.cpp:19:main(): MEOW TESt
+[DEBUG] akinator.cpp:137:akinatorInsertLeft(): NEW NODE: parent=0x503000000040 -> left=0x503000000070 (or right) allocated
+[DEBUG] akinator.cpp:118:akinatorInsert(): insertionAddr: 0x503000000070
+[DEBUG] akinator.cpp:124:akinatorInsert(): INSERT: node=0x503000000070 data=0x511000000400 "космонавт"
+[DEBUG] akinator.cpp:153:akinatorInsertRight(): NEW NODE: parent=0x503000000040 -> left=0x503000000070 (or right) allocated
+[DEBUG] akinator.cpp:118:akinatorInsert(): insertionAddr: 0x5030000000a0
+[DEBUG] akinator.cpp:124:akinatorInsert(): INSERT: node=0x5030000000a0 data=0x511000000680 "someThing"
+[DEBUG] general/strFunc.cpp:27:myStrCpy(): strat copying
+[DEBUG] akinator.cpp:213:freeNode(): FREENODE: node=0x503000000040 data=0x511000000040 "в космосе" left=0x503000000070 right=0x5030000000a0
+[DEBUG] akinator.cpp:213:freeNode(): FREENODE: node=0x503000000070 data=0x511000000400 "космонавт" left=(nil) right=(nil)
+[DEBUG] akinator.cpp:213:freeNode(): FREENODE: node=0x5030000000a0 data=0x511000000680 "someThing" left=(nil) right=(nil)
+[DEBUG] main.cpp:19:main(): MEOW TESt
+[DEBUG] akinator.cpp:137:akinatorInsertLeft(): NEW NODE: parent=0x503000000040 -> left=0x503000000070 (or right) allocated
+[DEBUG] akinator.cpp:118:akinatorInsert(): insertionAddr: 0x503000000070
+[DEBUG] akinator.cpp:124:akinatorInsert(): INSERT: node=0x503000000070 data=0x511000000400 "космонавт"
+[DEBUG] akinator.cpp:153:akinatorInsertRight(): NEW NODE: parent=0x503000000040 -> left=0x503000000070 (or right) allocated
+[DEBUG] akinator.cpp:118:akinatorInsert(): insertionAddr: 0x5030000000a0
+[DEBUG] akinator.cpp:124:akinatorInsert(): INSERT: node=0x5030000000a0 data=0x511000000680 "someThing"
+[DEBUG] general/strFunc.cpp:27:myStrCpy(): strat copying
+[DEBUG] akinator.cpp:213:freeNode(): FREENODE: node=0x503000000040 data=0x511000000040 "он в космосе" left=0x503000000070 right=0x5030000000a0
+[DEBUG] akinator.cpp:213:freeNode(): FREENODE: node=0x503000000070 data=0x511000000400 "космонавт" left=(nil) right=(nil)
+[DEBUG] akinator.cpp:213:freeNode(): FREENODE: node=0x5030000000a0 data=0x511000000680 "someThing" left=(nil) right=(nil)
+[DEBUG] akinator.cpp:137:akinatorInsertLeft(): NEW NODE: parent=0x503000000040 -> left=0x503000000070 (or right) allocated
+[DEBUG] akinator.cpp:118:akinatorInsert(): insertionAddr: 0x503000000070
+[DEBUG] akinator.cpp:124:akinatorInsert(): INSERT: node=0x503000000070 data=0x511000000400 "космонавт"
+[DEBUG] akinator.cpp:153:akinatorInsertRight(): NEW NODE: parent=0x503000000040 -> left=0x503000000070 (or right) allocated
+[DEBUG] akinator.cpp:118:akinatorInsert(): insertionAddr: 0x5030000000a0
+[DEBUG] akinator.cpp:124:akinatorInsert(): INSERT: node=0x5030000000a0 data=0x511000000680 "someThing"
+[DEBUG] general/strFunc.cpp:27:myStrCpy(): strat copying
+[DEBUG] akinator.cpp:137:akinatorInsertLeft(): NEW NODE: parent=0x5030000000a0 -> left=0x5030000000d0 (or right) allocated
+[DEBUG] akinator.cpp:118:akinatorInsert(): insertionAddr: 0x5030000000d0
+[DEBUG] akinator.cpp:124:akinatorInsert(): INSERT: node=0x5030000000d0 data=0x511000000b80 "петрович"
+[DEBUG] akinator.cpp:153:akinatorInsertRight(): NEW NODE: parent=0x5030000000a0 -> left=0x5030000000d0 (or right) allocated
+[DEBUG] akinator.cpp:118:akinatorInsert(): insertionAddr: 0x503000000100
+[DEBUG] akinator.cpp:124:akinatorInsert(): INSERT: node=0x503000000100 data=0x511000000e00 "someThing"
+[DEBUG] general/strFunc.cpp:27:myStrCpy(): strat copying
+[DEBUG] akinator.cpp:137:akinatorInsertLeft(): NEW NODE: parent=0x5030000000d0 -> left=0x503000000130 (or right) allocated
+[DEBUG] akinator.cpp:118:akinatorInsert(): insertionAddr: 0x503000000130
+[DEBUG] akinator.cpp:124:akinatorInsert(): INSERT: node=0x503000000130 data=0x511000001300 "кондрашев"
+[DEBUG] akinator.cpp:153:akinatorInsertRight(): NEW NODE: parent=0x5030000000d0 -> left=0x503000000130 (or right) allocated
+[DEBUG] akinator.cpp:118:akinatorInsert(): insertionAddr: 0x503000000160
+[DEBUG] akinator.cpp:124:akinatorInsert(): INSERT: node=0x503000000160 data=0x511000001580 "петрович"
+[DEBUG] general/strFunc.cpp:27:myStrCpy(): strat copying
+[DEBUG] akinator.cpp:138:akinatorInsertLeft(): NEW NODE: parent=0x503000000040 -> left=0x503000000070 (or right) allocated
+[DEBUG] akinator.cpp:119:akinatorInsert(): insertionAddr: 0x503000000070
+[DEBUG] akinator.cpp:125:akinatorInsert(): INSERT: node=0x503000000070 data=0x511000000400 "петрович"
+[DEBUG] akinator.cpp:154:akinatorInsertRight(): NEW NODE: parent=0x503000000040 -> left=0x503000000070 (or right) allocated
+[DEBUG] akinator.cpp:119:akinatorInsert(): insertionAddr: 0x5030000000a0
+[DEBUG] akinator.cpp:125:akinatorInsert(): INSERT: node=0x5030000000a0 data=0x511000000680 "someThing"
+[DEBUG] general/strFunc.cpp:27:myStrCpy(): strat copying
+[DEBUG] akinator.cpp:154:akinatorInsertLeft(): NEW NODE: parent=0x503000000040 -> left=0x503000000070 (or right) allocated
+[DEBUG] akinator.cpp:135:akinatorInsert(): insertionAddr: 0x503000000070
+[DEBUG] akinator.cpp:141:akinatorInsert(): INSERT: node=0x503000000070 data=0x511000000400 "дед мороз"
+[DEBUG] akinator.cpp:170:akinatorInsertRight(): NEW NODE: parent=0x503000000040 -> left=0x503000000070 (or right) allocated
+[DEBUG] akinator.cpp:135:akinatorInsert(): insertionAddr: 0x5030000000a0
+[DEBUG] akinator.cpp:141:akinatorInsert(): INSERT: node=0x5030000000a0 data=0x511000000680 "someThing"
+[DEBUG] general/strFunc.cpp:27:myStrCpy(): strat copying
+[DEBUG] akinator.cpp:154:akinatorInsertLeft(): NEW NODE: parent=0x503000000040 -> left=0x503000000070 (or right) allocated
+[DEBUG] akinator.cpp:135:akinatorInsert(): insertionAddr: 0x503000000070
+[DEBUG] akinator.cpp:141:akinatorInsert(): INSERT: node=0x503000000070 data=0x511000000400 "дед-мороз"
+[DEBUG] akinator.cpp:170:akinatorInsertRight(): NEW NODE: parent=0x503000000040 -> left=0x503000000070 (or right) allocated
+[DEBUG] akinator.cpp:135:akinatorInsert(): insertionAddr: 0x5030000000a0
+[DEBUG] akinator.cpp:141:akinatorInsert(): INSERT: node=0x5030000000a0 data=0x511000000680 "someThing"
+[DEBUG] general/strFunc.cpp:27:myStrCpy(): strat copying
+[DEBUG] akinator.cpp:154:akinatorInsertLeft(): NEW NODE: parent=0x5030000000a0 -> left=0x5030000000d0 (or right) allocated
+[DEBUG] akinator.cpp:135:akinatorInsert(): insertionAddr: 0x5030000000d0
+[DEBUG] akinator.cpp:141:akinatorInsert(): INSERT: node=0x5030000000d0 data=0x511000000b80 "дед"
+[DEBUG] akinator.cpp:170:akinatorInsertRight(): NEW NODE: parent=0x5030000000a0 -> left=0x5030000000d0 (or right) allocated
+[DEBUG] akinator.cpp:135:akinatorInsert(): insertionAddr: 0x503000000100
+[DEBUG] akinator.cpp:141:akinatorInsert(): INSERT: node=0x503000000100 data=0x511000000e00 "someThing"
+[DEBUG] general/strFunc.cpp:27:myStrCpy(): strat copying
+[DEBUG] akinator.cpp:154:akinatorInsertLeft(): NEW NODE: parent=0x503000000040 -> left=0x503000000070 (or right) allocated
+[DEBUG] akinator.cpp:135:akinatorInsert(): insertionAddr: 0x503000000070
+[DEBUG] akinator.cpp:141:akinatorInsert(): INSERT: node=0x503000000070 data=0x511000000400 "космонавт"
+[DEBUG] akinator.cpp:170:akinatorInsertRight(): NEW NODE: parent=0x503000000040 -> left=0x503000000070 (or right) allocated
+[DEBUG] akinator.cpp:135:akinatorInsert(): insertionAddr: 0x5030000000a0
+[DEBUG] akinator.cpp:141:akinatorInsert(): INSERT: node=0x5030000000a0 data=0x511000000680 "someThing"
+[DEBUG] general/strFunc.cpp:27:myStrCpy(): strat copying
+[DEBUG] akinator.cpp:154:akinatorInsertLeft(): NEW NODE: parent=0x503000000040 -> left=0x503000000070 (or right) allocated
+[DEBUG] akinator.cpp:135:akinatorInsert(): insertionAddr: 0x503000000070
+[DEBUG] akinator.cpp:141:akinatorInsert(): INSERT: node=0x503000000070 data=0x511000000400 "дед-мороз"
+[DEBUG] akinator.cpp:170:akinatorInsertRight(): NEW NODE: parent=0x503000000040 -> left=0x503000000070 (or right) allocated
+[DEBUG] akinator.cpp:135:akinatorInsert(): insertionAddr: 0x5030000000a0
+[DEBUG] akinator.cpp:141:akinatorInsert(): INSERT: node=0x5030000000a0 data=0x511000000680 "someThing"
+[DEBUG] general/strFunc.cpp:27:myStrCpy(): strat copying
+[DEBUG] akinator.cpp:154:akinatorInsertLeft(): NEW NODE: parent=0x5030000000a0 -> left=0x5030000000d0 (or right) allocated
+[DEBUG] akinator.cpp:135:akinatorInsert(): insertionAddr: 0x5030000000d0
+[DEBUG] akinator.cpp:141:akinatorInsert(): INSERT: node=0x5030000000d0 data=0x511000000b80 "дед"
+[DEBUG] akinator.cpp:170:akinatorInsertRight(): NEW NODE: parent=0x5030000000a0 -> left=0x5030000000d0 (or right) allocated
+[DEBUG] akinator.cpp:135:akinatorInsert(): insertionAddr: 0x503000000100
+[DEBUG] akinator.cpp:141:akinatorInsert(): INSERT: node=0x503000000100 data=0x511000000e00 "someThing"
+[DEBUG] general/strFunc.cpp:27:myStrCpy(): strat copying
+[DEBUG] akinator.cpp:154:akinatorInsertLeft(): NEW NODE: parent=0x503000000040 -> left=0x503000000070 (or right) allocated
+[DEBUG] akinator.cpp:135:akinatorInsert(): insertionAddr: 0x503000000070
+[DEBUG] akinator.cpp:141:akinatorInsert(): INSERT: node=0x503000000070 data=0x511000000400 "пони"
+[DEBUG] akinator.cpp:170:akinatorInsertRight(): NEW NODE: parent=0x503000000040 -> left=0x503000000070 (or right) allocated
+[DEBUG] akinator.cpp:135:akinatorInsert(): insertionAddr: 0x5030000000a0
+[DEBUG] akinator.cpp:141:akinatorInsert(): INSERT: node=0x5030000000a0 data=0x511000000680 "someThing"
+[DEBUG] general/strFunc.cpp:27:myStrCpy(): strat copying
+[DEBUG] akinator.cpp:154:akinatorInsertLeft(): NEW NODE: parent=0x5030000000a0 -> left=0x5030000000d0 (or right) allocated
+[DEBUG] akinator.cpp:135:akinatorInsert(): insertionAddr: 0x5030000000d0
+[DEBUG] akinator.cpp:141:akinatorInsert(): INSERT: node=0x5030000000d0 data=0x511000000b80 "лошадь"
+[DEBUG] akinator.cpp:170:akinatorInsertRight(): NEW NODE: parent=0x5030000000a0 -> left=0x5030000000d0 (or right) allocated
+[DEBUG] akinator.cpp:135:akinatorInsert(): insertionAddr: 0x503000000100
+[DEBUG] akinator.cpp:141:akinatorInsert(): INSERT: node=0x503000000100 data=0x511000000e00 "someThing"
+[DEBUG] general/strFunc.cpp:27:myStrCpy(): strat copying
