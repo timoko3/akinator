@@ -65,6 +65,9 @@ void akinatorReadData(akinator_t* akinator){
     static size_t curPose = 0;
     readNode(akinator, akinatorData.buffer, &curPose);
     
+    free(akinatorData.buffer);
+    free(akinatorData.strings);
+
     log(akinator, "ended reading");
 }
 
@@ -92,7 +95,6 @@ curAnchorNode akinatorGuess(akinator_t* akinator){
             }
             *curNode(akinator) = (*curNode(akinator))->right;
         }
-        // log(akinator, "during guess");
 
         free(answer);
     }
@@ -328,6 +330,7 @@ static curAnchorNode readNode(akinator_t* akinator, char* buffer, size_t* curBuf
     createdNode->right = readNode(akinator, buffer, curBufferPos);
 
     
+    (akinator->size)++;
 
     log(akinator, "endReadNode %lu", logNumber);
 
@@ -344,6 +347,7 @@ static curAnchorNode akinatorCreateNodeFile(akinator_t* akinator, char* buffer, 
     static size_t countNodes = 1;
     if(countNodes == 1){
         curNode = akinator->root;
+        (akinator->size)--;
     }
     else{
         curNode = (treeNode_t*) calloc(1, sizeof(treeNode_t));
