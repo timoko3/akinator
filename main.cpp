@@ -16,6 +16,8 @@ int main(void){
 
     akinatorCtor(&akinator);
 
+    akinatorReadData(&akinator);
+
     runModeMenu(&akinator);
 
     akinatorDtor(&akinator);

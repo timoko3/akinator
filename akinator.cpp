@@ -4,7 +4,6 @@
 #include "general/debug.h"
 #include "general/poison.h"
 #include "general/strFunc.h"
-#include "general/strFunc.h"
 #include "general/file.h"
 
 #include "protectionAkinator.h"
@@ -18,7 +17,9 @@
 const char* AKINATOR_DATA_BASE_FILE_NAME = "akinatorDataBase.txt";
 
 static void freeNode(treeNode_t* node);
-// static curAnchorNode treeSortNodeInsert(treeNode_t* node, treeVal_t insertVal);
+
+static void akinatorCreateNodeUser(akinator_t* akinator);
+static void akinatorCreateNodeFile(akinator_t* akinator, char* buffer, size_t* cuBufferPose);
 
 curAnchorNode akinatorCtor(akinator_t* akinator){
     assert(akinator);
@@ -68,27 +69,13 @@ curAnchorNode akinatorGuess(akinator_t* akinator){
         }
         else if(isNo(answer)){
             if(!(*curNode(akinator))->right){
-
-                char* intended = (char*) calloc(MAX_ANSWER_SIZE, sizeof(char));
-                assert(intended);
-                getIntended(akinator, &intended);
-                akinatorInsertLeft(akinator, (*curNode(akinator)), intended);
-
-                char* difference = (char*) calloc(MAX_ANSWER_SIZE, sizeof(char));
-                assert(difference);
-                getDifference(akinator, intended, &difference);
-                akinatorInsertRight(akinator, (*curNode(akinator)), *curData(akinator));
-
-                *curData(akinator) = myStrCpy(*curData(akinator), difference);
-
+                akinatorCreateNodeUser(akinator);
                 free(answer);
-                free(intended);
-                free(difference);
                 break;
             }
             *curNode(akinator) = (*curNode(akinator))->right;
         }
-        log(akinator, "during guess");
+        // log(akinator, "during guess");
 
         free(answer);
     }
@@ -111,11 +98,22 @@ curAnchorNode akinatorSaveAndExit(akinator_t* akinator){
     FILE* dataBasePtr = myOpenFile(&akinatorDataBase);
     assert(dataBasePtr);
 
-    printPostOrder(akinator->root, dataBasePtr);
+    printPreOrder(akinator->root, dataBasePtr);
 
     fclose(dataBasePtr);
 
     return NULL;
+}
+
+void akinatorReadData(akinator_t* akinator){
+    assert(akinator);
+
+    data_t akinatorData;
+    parseStringsFile(&akinatorData, AKINATOR_DATA_BASE_FILE_NAME);
+
+    size_t curPose = 0;
+    readNode(akinator, akinatorData.buffer, curPose);
+    
 }
 
 curAnchorNode akinatorInsert(akinator_t* akinator, treeNode_t* insertionAddr,  treeVal_t insertVal){
@@ -180,13 +178,20 @@ void printPreOrder(const treeNode_t* node, FILE* stream){
     assert(stream);
 
     fprintf(stream, "(");
-    fprintf(stream, "%s", node->data);
-
+    fprintf(stream, "\"%s\" ", node->data);
+    
     if(node->left){
         printPreOrder(node->left, stream);
     }
+    else{
+        fprintf(stream, "nil ");
+    }
+
     if(node->right){
         printPreOrder(node->right, stream);
+    }
+    else{
+        fprintf(stream, "nil ");
     }
 
     fprintf(stream, ")");
@@ -246,4 +251,55 @@ static void freeNode(treeNode_t* node){
     poisonMemory(node, sizeof(*node));
     free(node);
     node = NULL;
+}
+
+static void akinatorCreateNodeUser(akinator_t* akinator){
+    assert(akinator);
+
+    char* intended = (char*) calloc(MAX_ANSWER_SIZE, sizeof(char));
+    assert(intended);
+    getIntended(akinator, &intended);
+    akinatorInsertLeft(akinator, (*curNode(akinator)), intended);
+
+    char* difference = (char*) calloc(MAX_ANSWER_SIZE, sizeof(char));
+    assert(difference);
+    getDifference(akinator, intended, &difference);
+    akinatorInsertRight(akinator, (*curNode(akinator)), *curData(akinator));
+
+    *curData(akinator) = myStrCpy(*curData(akinator), difference);
+
+    
+    free(intended);
+    free(difference);
+}
+
+static curAnchorNode readNode(akinator_t* akinator, char* buffer, size_t curBufferPos){
+    assert(akinator);
+    assert(buffer);
+
+    if(buffer[curBufferPos] == '('){
+        akinatorCreateNodeFile(akinator, buffer, &curBufferPos);
+    }
+
+    (*curNode(akinator))->left  = readNode(akinator, buffer, curBufferPos);
+    (*curNode(akinator))->right = readNode(akinator, buffer, curBufferPos);
+
+    curBufferPos++;
+
+    return *
+}
+
+
+static void akinatorCreateNodeFile(akinator_t* akinator, char* buffer, size_t* curBufferPose){
+    assert(akinator);
+    assert(buffer);
+    
+    (*curBufferPose)++;
+    akinatorInsert(akinator, *curNode(akinator), &(buffer[*curBufferPose]));
+
+    size_t lenName = 0;
+
+    sscanf(&buffer[*curBufferPose], "\"%s[^\"]\"%n", &lenName);
+
+    *curBufferPose += lenName;
 }
