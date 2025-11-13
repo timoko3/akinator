@@ -1,1 +1,1 @@
-(готовит (лучше всех (мама nil nil )(повар nil nil ))(someThing nil nil ))
+("готовит" ("лучше всех" ("мама" nil nil )("повар" nil nil ))("someThing" nil nil ))
