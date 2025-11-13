@@ -16,7 +16,7 @@ const menuModeVal_t  EXIT            = 4;
 
 
 void showMenu(){
-    printf("Выберите одну из доступных опций: 1)Отгадывать 2) Выйти\n");
+    printf("Выберите одну из доступных опций: 1)Отгадывать 2)Определение 3)Выйти\n");
 }
 
 menuModeVal_t getMode(){
@@ -94,3 +94,16 @@ char* getDifference(akinator_t* akinator, char* intended, char** difference){
     return *difference;
 }
 
+
+char* getWhatDefine(char** toDefine){
+    assert(toDefine);
+
+    printf("Чему вы хотите, чтобы я дал определение?\n");
+
+    while(!myFGets(*toDefine, MAX_ANSWER_SIZE, stdin)){
+        printf("%s", "Некорректный ввод");
+        clearBuffer();
+    }
+
+    return *toDefine;
+}

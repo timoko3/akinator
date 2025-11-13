@@ -10,3 +10,5 @@ char* getAnswerUser(akinator_t* akinator);
 void printResult(akinator_t* akinator);
 char* getIntended(akinator_t* akinator, char** intended);
 char* getDifference(akinator_t* akinator, char* intended, char** difference);
+
+char* getWhatDefine(char** toDefine);

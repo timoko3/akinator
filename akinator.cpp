@@ -22,6 +22,8 @@ static void akinatorCreateNodeUser(akinator_t* akinator);
 static curAnchorNode akinatorCreateNodeFile(akinator_t* akinator, char* buffer, size_t* cuBufferPose);
 static curAnchorNode readNode(akinator_t* akinator, char* buffer, size_t* curBufferPos);
 
+static curAnchorNode checkNode(akinator_t* akinator, treeNode_t* curNode, treeVal_t toDefine);
+
 curAnchorNode akinatorCtor(akinator_t* akinator){
     assert(akinator);
 
@@ -104,6 +106,41 @@ curAnchorNode akinatorGuess(akinator_t* akinator){
     log(akinator, "after guess");
 
     return *curNode(akinator);
+}
+
+curAnchorNode akinatorDefine(akinator_t* akinator){
+    assert(akinator);
+
+    
+    char* toDefine = (char*) calloc(MAX_ANSWER_SIZE, sizeof(char));
+    assert(toDefine);
+
+    getWhatDefine(&toDefine);
+
+    checkNode(akinator, akinator->root, toDefine);
+
+    return akinator->root;
+}
+
+static curAnchorNode checkNode(akinator_t* akinator, treeNode_t* curNode, treeVal_t toDefine){
+    assert(akinator);
+    assert(curNode);
+    assert(toDefine);
+
+    if(isEqualStrings(curNode->data, toDefine)){
+        printf("%s —", toDefine);
+        return curNode;
+    }
+
+    if(curNode->left){
+        checkNode(akinator, curNode->left, toDefine);
+    }
+
+    if(curNode->right){
+        checkNode(akinator, curNode->right, toDefine);
+    }
+
+    return NULL;
 }
 
 curAnchorNode akinatorSaveAndExit(akinator_t* akinator){

@@ -15,6 +15,7 @@ curAnchorNode akinatorInsertLeft(akinator_t* akinator, treeNode_t* insertionAddr
 curAnchorNode akinatorInsertRight(akinator_t* akinator, treeNode_t* insertionAddr,  treeVal_t insertVal);
 curAnchorNode akinatorInsert(akinator_t* akinator, treeNode_t* insertionAddr,  treeVal_t insertVal);
 curAnchorNode akinatorGuess(akinator_t* akinator);
+curAnchorNode akinatorDefine(akinator_t* akinator);
 curAnchorNode akinatorSaveAndExit(akinator_t* akinator);
 
 void printPreOrder (const treeNode_t* node, FILE* stream);
