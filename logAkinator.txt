@@ -1,181 +1,101 @@
-[DEBUG] akinator.cpp:293:readNode(): скобочыка
+[DEBUG] akinator.cpp:302:readNode(): скобочка
 
-[DEBUG] akinator.cpp:352:akinatorCreateNodeFile(): записал указатель в data нового node
-[DEBUG] akinator.cpp:358:akinatorCreateNodeFile(): буфер перед чтением: "готовит" ("лучше всех" ("мама" nil nil )("повар" nil nil ))("someThing" nil nil ))
-[DEBUG] akinator.cpp:361:akinatorCreateNodeFile(): Получил размер строки 16 и саму строку готовит
-[DEBUG] akinator.cpp:364:akinatorCreateNodeFile(): 
+[DEBUG] akinator.cpp:361:akinatorCreateNodeFile(): записал указатель в data нового node
+[DEBUG] akinator.cpp:367:akinatorCreateNodeFile(): буфер перед чтением: "готовит" ("лучше всех" ("мама" nil nil )("повар" nil nil ))("someThing" nil nil ))
+[DEBUG] akinator.cpp:370:akinatorCreateNodeFile(): Получил размер строки 16 и саму строку готовит
+[DEBUG] akinator.cpp:373:akinatorCreateNodeFile(): 
 буфер после чтением:  ("лучше всех" ("мама" nil nil )("повар" nil nil ))("someThing" nil nil ))
-[DEBUG] akinator.cpp:315:readNode(): адрес текущей созданной ноды: 0x503000000040
-[DEBUG] akinator.cpp:317:readNode(): 
+[DEBUG] akinator.cpp:324:readNode(): адрес текущей созданной ноды: 0x503000000040
+[DEBUG] akinator.cpp:326:readNode(): 
 
 рекурсивный запуск
-[DEBUG] akinator.cpp:293:readNode(): скобочыка
+[DEBUG] akinator.cpp:302:readNode(): скобочка
 
-[DEBUG] akinator.cpp:342:akinatorCreateNodeFile(): Выделил память
-[DEBUG] akinator.cpp:352:akinatorCreateNodeFile(): записал указатель в data нового node
-[DEBUG] akinator.cpp:358:akinatorCreateNodeFile(): буфер перед чтением: "лучше всех" ("мама" nil nil )("повар" nil nil ))("someThing" nil nil ))
-[DEBUG] akinator.cpp:361:akinatorCreateNodeFile(): Получил размер строки 21 и саму строку лучше всех
-[DEBUG] akinator.cpp:364:akinatorCreateNodeFile(): 
+[DEBUG] akinator.cpp:351:akinatorCreateNodeFile(): Выделил память
+[DEBUG] akinator.cpp:361:akinatorCreateNodeFile(): записал указатель в data нового node
+[DEBUG] akinator.cpp:367:akinatorCreateNodeFile(): буфер перед чтением: "лучше всех" ("мама" nil nil )("повар" nil nil ))("someThing" nil nil ))
+[DEBUG] akinator.cpp:370:akinatorCreateNodeFile(): Получил размер строки 21 и саму строку лучше всех
+[DEBUG] akinator.cpp:373:akinatorCreateNodeFile(): 
 буфер после чтением:  ("мама" nil nil )("повар" nil nil ))("someThing" nil nil ))
-[DEBUG] akinator.cpp:315:readNode(): адрес текущей созданной ноды: 0x503000000070
-[DEBUG] akinator.cpp:317:readNode(): 
+[DEBUG] akinator.cpp:324:readNode(): адрес текущей созданной ноды: 0x503000000070
+[DEBUG] akinator.cpp:326:readNode(): 
 
 рекурсивный запуск
-[DEBUG] akinator.cpp:293:readNode(): скобочыка
+[DEBUG] akinator.cpp:302:readNode(): скобочка
 
-[DEBUG] akinator.cpp:342:akinatorCreateNodeFile(): Выделил память
-[DEBUG] akinator.cpp:352:akinatorCreateNodeFile(): записал указатель в data нового node
-[DEBUG] akinator.cpp:358:akinatorCreateNodeFile(): буфер перед чтением: "мама" nil nil )("повар" nil nil ))("someThing" nil nil ))
-[DEBUG] akinator.cpp:361:akinatorCreateNodeFile(): Получил размер строки 10 и саму строку мама
-[DEBUG] akinator.cpp:364:akinatorCreateNodeFile(): 
+[DEBUG] akinator.cpp:351:akinatorCreateNodeFile(): Выделил память
+[DEBUG] akinator.cpp:361:akinatorCreateNodeFile(): записал указатель в data нового node
+[DEBUG] akinator.cpp:367:akinatorCreateNodeFile(): буфер перед чтением: "мама" nil nil )("повар" nil nil ))("someThing" nil nil ))
+[DEBUG] akinator.cpp:370:akinatorCreateNodeFile(): Получил размер строки 10 и саму строку мама
+[DEBUG] akinator.cpp:373:akinatorCreateNodeFile(): 
 буфер после чтением:  nil nil )("повар" nil nil ))("someThing" nil nil ))
-[DEBUG] akinator.cpp:315:readNode(): адрес текущей созданной ноды: 0x5030000000a0
-[DEBUG] akinator.cpp:317:readNode(): 
+[DEBUG] akinator.cpp:324:readNode(): адрес текущей созданной ноды: 0x5030000000a0
+[DEBUG] akinator.cpp:326:readNode(): 
 
 рекурсивный запуск
-[DEBUG] akinator.cpp:300:readNode(): буфер перед чтением: nil nil )("повар" nil nil ))("someThing" nil nil ))
-[DEBUG] akinator.cpp:303:readNode(): Прочиталось внутри случая nil: nil
+[DEBUG] akinator.cpp:309:readNode(): буфер перед чтением: nil nil )("повар" nil nil ))("someThing" nil nil ))
+[DEBUG] akinator.cpp:312:readNode(): Прочиталось внутри случая nil: nil
 [DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 6385511880, hash nil, длина 4: 6385511880
 
-[DEBUG] akinator.cpp:305:readNode(): Зашел в nil
-[DEBUG] akinator.cpp:307:readNode(): буфер после чтения:  nil )("повар" nil nil ))("someThing" nil nil ))
+[DEBUG] akinator.cpp:314:readNode(): Зашел в nil
+[DEBUG] akinator.cpp:316:readNode(): буфер после чтения:  nil )("повар" nil nil ))("someThing" nil nil ))
 
-[DEBUG] akinator.cpp:300:readNode(): буфер перед чтением: nil nil )("повар" nil nil ))("someThing" nil nil ))
-[DEBUG] akinator.cpp:303:readNode(): Прочиталось внутри случая nil: nil
+[DEBUG] akinator.cpp:309:readNode(): буфер перед чтением: nil )("повар" nil nil ))("someThing" nil nil ))
+[DEBUG] akinator.cpp:312:readNode(): Прочиталось внутри случая nil: nil
 [DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 6385511880, hash nil, длина 4: 6385511880
 
-[DEBUG] akinator.cpp:305:readNode(): Зашел в nil
-[DEBUG] akinator.cpp:307:readNode(): буфер после чтения:  nil )("повар" nil nil ))("someThing" nil nil ))
+[DEBUG] akinator.cpp:314:readNode(): Зашел в nil
+[DEBUG] akinator.cpp:316:readNode(): буфер после чтения:  )("повар" nil nil ))("someThing" nil nil ))
 
-[DEBUG] akinator.cpp:293:readNode(): скобочыка
+[DEBUG] akinator.cpp:302:readNode(): скобочка
 
-[DEBUG] akinator.cpp:342:akinatorCreateNodeFile(): Выделил память
-[DEBUG] akinator.cpp:352:akinatorCreateNodeFile(): записал указатель в data нового node
-[DEBUG] akinator.cpp:358:akinatorCreateNodeFile(): буфер перед чтением: "мама" nil nil )("повар" nil nil ))("someThing" nil nil ))
-[DEBUG] akinator.cpp:361:akinatorCreateNodeFile(): Получил размер строки 10 и саму строку мама
-[DEBUG] akinator.cpp:364:akinatorCreateNodeFile(): 
-буфер после чтением:  nil nil )("повар" nil nil ))("someThing" nil nil ))
-[DEBUG] akinator.cpp:315:readNode(): адрес текущей созданной ноды: 0x5030000000d0
-[DEBUG] akinator.cpp:317:readNode(): 
+[DEBUG] akinator.cpp:351:akinatorCreateNodeFile(): Выделил память
+[DEBUG] akinator.cpp:361:akinatorCreateNodeFile(): записал указатель в data нового node
+[DEBUG] akinator.cpp:367:akinatorCreateNodeFile(): буфер перед чтением: "повар" nil nil ))("someThing" nil nil ))
+[DEBUG] akinator.cpp:370:akinatorCreateNodeFile(): Получил размер строки 12 и саму строку повар
+[DEBUG] akinator.cpp:373:akinatorCreateNodeFile(): 
+буфер после чтением:  nil nil ))("someThing" nil nil ))
+[DEBUG] akinator.cpp:324:readNode(): адрес текущей созданной ноды: 0x5030000000d0
+[DEBUG] akinator.cpp:326:readNode(): 
 
 рекурсивный запуск
-[DEBUG] akinator.cpp:300:readNode(): буфер перед чтением: nil nil )("повар" nil nil ))("someThing" nil nil ))
-[DEBUG] akinator.cpp:303:readNode(): Прочиталось внутри случая nil: nil
+[DEBUG] akinator.cpp:309:readNode(): буфер перед чтением: nil nil ))("someThing" nil nil ))
+[DEBUG] akinator.cpp:312:readNode(): Прочиталось внутри случая nil: nil
 [DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 6385511880, hash nil, длина 4: 6385511880
 
-[DEBUG] akinator.cpp:305:readNode(): Зашел в nil
-[DEBUG] akinator.cpp:307:readNode(): буфер после чтения:  nil )("повар" nil nil ))("someThing" nil nil ))
+[DEBUG] akinator.cpp:314:readNode(): Зашел в nil
+[DEBUG] akinator.cpp:316:readNode(): буфер после чтения:  nil ))("someThing" nil nil ))
 
-[DEBUG] akinator.cpp:300:readNode(): буфер перед чтением: nil nil )("повар" nil nil ))("someThing" nil nil ))
-[DEBUG] akinator.cpp:303:readNode(): Прочиталось внутри случая nil: nil
+[DEBUG] akinator.cpp:309:readNode(): буфер перед чтением: nil ))("someThing" nil nil ))
+[DEBUG] akinator.cpp:312:readNode(): Прочиталось внутри случая nil: nil
 [DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 6385511880, hash nil, длина 4: 6385511880
 
-[DEBUG] akinator.cpp:305:readNode(): Зашел в nil
-[DEBUG] akinator.cpp:307:readNode(): буфер после чтения:  nil )("повар" nil nil ))("someThing" nil nil ))
+[DEBUG] akinator.cpp:314:readNode(): Зашел в nil
+[DEBUG] akinator.cpp:316:readNode(): буфер после чтения:  ))("someThing" nil nil ))
 
-[DEBUG] akinator.cpp:293:readNode(): скобочыка
+[DEBUG] akinator.cpp:302:readNode(): скобочка
 
-[DEBUG] akinator.cpp:342:akinatorCreateNodeFile(): Выделил память
-[DEBUG] akinator.cpp:352:akinatorCreateNodeFile(): записал указатель в data нового node
-[DEBUG] akinator.cpp:358:akinatorCreateNodeFile(): буфер перед чтением: "лучше всех" ("мама" nil nil )("повар" nil nil ))("someThing" nil nil ))
-[DEBUG] akinator.cpp:361:akinatorCreateNodeFile(): Получил размер строки 21 и саму строку лучше всех
-[DEBUG] akinator.cpp:364:akinatorCreateNodeFile(): 
-буфер после чтением:  ("мама" nil nil )("повар" nil nil ))("someThing" nil nil ))
-[DEBUG] akinator.cpp:315:readNode(): адрес текущей созданной ноды: 0x503000000100
-[DEBUG] akinator.cpp:317:readNode(): 
+[DEBUG] akinator.cpp:351:akinatorCreateNodeFile(): Выделил память
+[DEBUG] akinator.cpp:361:akinatorCreateNodeFile(): записал указатель в data нового node
+[DEBUG] akinator.cpp:367:akinatorCreateNodeFile(): буфер перед чтением: "someThing" nil nil ))
+[DEBUG] akinator.cpp:370:akinatorCreateNodeFile(): Получил размер строки 11 и саму строку someThing
+[DEBUG] akinator.cpp:373:akinatorCreateNodeFile(): 
+буфер после чтением:  nil nil ))
+[DEBUG] akinator.cpp:324:readNode(): адрес текущей созданной ноды: 0x503000000100
+[DEBUG] akinator.cpp:326:readNode(): 
 
 рекурсивный запуск
-[DEBUG] akinator.cpp:293:readNode(): скобочыка
-
-[DEBUG] akinator.cpp:342:akinatorCreateNodeFile(): Выделил память
-[DEBUG] akinator.cpp:352:akinatorCreateNodeFile(): записал указатель в data нового node
-[DEBUG] akinator.cpp:358:akinatorCreateNodeFile(): буфер перед чтением: "мама" nil nil )("повар" nil nil ))("someThing" nil nil ))
-[DEBUG] akinator.cpp:361:akinatorCreateNodeFile(): Получил размер строки 10 и саму строку мама
-[DEBUG] akinator.cpp:364:akinatorCreateNodeFile(): 
-буфер после чтением:  nil nil )("повар" nil nil ))("someThing" nil nil ))
-[DEBUG] akinator.cpp:315:readNode(): адрес текущей созданной ноды: 0x503000000130
-[DEBUG] akinator.cpp:317:readNode(): 
-
-рекурсивный запуск
-[DEBUG] akinator.cpp:300:readNode(): буфер перед чтением: nil nil )("повар" nil nil ))("someThing" nil nil ))
-[DEBUG] akinator.cpp:303:readNode(): Прочиталось внутри случая nil: nil
+[DEBUG] akinator.cpp:309:readNode(): буфер перед чтением: nil nil ))
+[DEBUG] akinator.cpp:312:readNode(): Прочиталось внутри случая nil: nil
 [DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 6385511880, hash nil, длина 4: 6385511880
 
-[DEBUG] akinator.cpp:305:readNode(): Зашел в nil
-[DEBUG] akinator.cpp:307:readNode(): буфер после чтения:  nil )("повар" nil nil ))("someThing" nil nil ))
+[DEBUG] akinator.cpp:314:readNode(): Зашел в nil
+[DEBUG] akinator.cpp:316:readNode(): буфер после чтения:  nil ))
 
-[DEBUG] akinator.cpp:300:readNode(): буфер перед чтением: nil nil )("повар" nil nil ))("someThing" nil nil ))
-[DEBUG] akinator.cpp:303:readNode(): Прочиталось внутри случая nil: nil
+[DEBUG] akinator.cpp:309:readNode(): буфер перед чтением: nil ))
+[DEBUG] akinator.cpp:312:readNode(): Прочиталось внутри случая nil: nil
 [DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 6385511880, hash nil, длина 4: 6385511880
 
-[DEBUG] akinator.cpp:305:readNode(): Зашел в nil
-[DEBUG] akinator.cpp:307:readNode(): буфер после чтения:  nil )("повар" nil nil ))("someThing" nil nil ))
-
-[DEBUG] akinator.cpp:293:readNode(): скобочыка
-
-[DEBUG] akinator.cpp:342:akinatorCreateNodeFile(): Выделил память
-[DEBUG] akinator.cpp:352:akinatorCreateNodeFile(): записал указатель в data нового node
-[DEBUG] akinator.cpp:358:akinatorCreateNodeFile(): буфер перед чтением: "мама" nil nil )("повар" nil nil ))("someThing" nil nil ))
-[DEBUG] akinator.cpp:361:akinatorCreateNodeFile(): Получил размер строки 10 и саму строку мама
-[DEBUG] akinator.cpp:364:akinatorCreateNodeFile(): 
-буфер после чтением:  nil nil )("повар" nil nil ))("someThing" nil nil ))
-[DEBUG] akinator.cpp:315:readNode(): адрес текущей созданной ноды: 0x503000000160
-[DEBUG] akinator.cpp:317:readNode(): 
-
-рекурсивный запуск
-[DEBUG] akinator.cpp:300:readNode(): буфер перед чтением: nil nil )("повар" nil nil ))("someThing" nil nil ))
-[DEBUG] akinator.cpp:303:readNode(): Прочиталось внутри случая nil: nil
-[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 6385511880, hash nil, длина 4: 6385511880
-
-[DEBUG] akinator.cpp:305:readNode(): Зашел в nil
-[DEBUG] akinator.cpp:307:readNode(): буфер после чтения:  nil )("повар" nil nil ))("someThing" nil nil ))
-
-[DEBUG] akinator.cpp:300:readNode(): буфер перед чтением: nil nil )("повар" nil nil ))("someThing" nil nil ))
-[DEBUG] akinator.cpp:303:readNode(): Прочиталось внутри случая nil: nil
-[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 6385511880, hash nil, длина 4: 6385511880
-
-[DEBUG] akinator.cpp:305:readNode(): Зашел в nil
-[DEBUG] akinator.cpp:307:readNode(): буфер после чтения:  nil )("повар" nil nil ))("someThing" nil nil ))
-
-[DEBUG] akinator.cpp:293:readNode(): скобочка
-
-[DEBUG] akinator.cpp:352:akinatorCreateNodeFile(): записал указатель в data нового node
-[DEBUG] akinator.cpp:358:akinatorCreateNodeFile(): буфер перед чтением: "готовит" ("лучше всех" ("мама" nil nil )("повар" nil nil ))("someThing" nil nil ))
-[DEBUG] akinator.cpp:361:akinatorCreateNodeFile(): Получил размер строки 16 и саму строку готовит
-[DEBUG] akinator.cpp:364:akinatorCreateNodeFile(): 
-буфер после чтением:  ("лучше всех" ("мама" nil nil )("повар" nil nil ))("someThing" nil nil ))
-[DEBUG] akinator.cpp:315:readNode(): адрес текущей созданной ноды: 0x503000000040
-[DEBUG] akinator.cpp:317:readNode(): 
-
-рекурсивный запуск
-[DEBUG] akinator.cpp:293:readNode(): скобочка
-
-[DEBUG] akinator.cpp:342:akinatorCreateNodeFile(): Выделил память
-[DEBUG] akinator.cpp:352:akinatorCreateNodeFile(): записал указатель в data нового node
-[DEBUG] akinator.cpp:358:akinatorCreateNodeFile(): буфер перед чтением: "лучше всех" ("мама" nil nil )("повар" nil nil ))("someThing" nil nil ))
-[DEBUG] akinator.cpp:361:akinatorCreateNodeFile(): Получил размер строки 21 и саму строку лучше всех
-[DEBUG] akinator.cpp:364:akinatorCreateNodeFile(): 
-буфер после чтением:  ("мама" nil nil )("повар" nil nil ))("someThing" nil nil ))
-[DEBUG] akinator.cpp:315:readNode(): адрес текущей созданной ноды: 0x503000000070
-[DEBUG] akinator.cpp:317:readNode(): 
-
-рекурсивный запуск
-[DEBUG] akinator.cpp:293:readNode(): скобочка
-
-[DEBUG] akinator.cpp:342:akinatorCreateNodeFile(): Выделил память
-[DEBUG] akinator.cpp:352:akinatorCreateNodeFile(): записал указатель в data нового node
-[DEBUG] akinator.cpp:358:akinatorCreateNodeFile(): буфер перед чтением: "мама" nil nil )("повар" nil nil ))("someThing" nil nil ))
-[DEBUG] akinator.cpp:361:akinatorCreateNodeFile(): Получил размер строки 10 и саму строку мама
-[DEBUG] akinator.cpp:364:akinatorCreateNodeFile(): 
-буфер после чтением:  nil nil )("повар" nil nil ))("someThing" nil nil ))
-[DEBUG] akinator.cpp:315:readNode(): адрес текущей созданной ноды: 0x5030000000a0
-[DEBUG] akinator.cpp:317:readNode(): 
-
-рекурсивный запуск
-[DEBUG] akinator.cpp:300:readNode(): буфер перед чтением: nil nil )("повар" nil nil ))("someThing" nil nil ))
-[DEBUG] akinator.cpp:303:readNode(): Прочиталось внутри случая nil: nil
-[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 6385511880, hash nil, длина 4: 6385511880
-
-[DEBUG] akinator.cpp:305:readNode(): Зашел в nil
-[DEBUG] akinator.cpp:307:readNode(): буфер после чтения:  nil )("повар" nil nil ))("someThing" nil nil ))
+[DEBUG] akinator.cpp:314:readNode(): Зашел в nil
+[DEBUG] akinator.cpp:316:readNode(): буфер после чтения:  ))
 
