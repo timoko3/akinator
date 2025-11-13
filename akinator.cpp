@@ -62,7 +62,7 @@ void akinatorReadData(akinator_t* akinator){
 
     printf("akinator buffer: %s\n", akinatorData.buffer);
 
-    size_t curPose = 0;
+    static size_t curPose = 0;
     readNode(akinator, akinatorData.buffer, curPose);
     
     log(akinator, "ended reading");
@@ -290,7 +290,7 @@ static curAnchorNode readNode(akinator_t* akinator, char* buffer, size_t curBuff
     treeNode_t* createdNode = NULL;
     
     if((buffer[curBufferPos] == '(') ){
-        LPRINTF("скобочыка\n");
+        LPRINTF("скобочка\n");
         createdNode = akinatorCreateNodeFile(akinator, buffer, &curBufferPos);
     }
     else{
@@ -316,7 +316,7 @@ static curAnchorNode readNode(akinator_t* akinator, char* buffer, size_t curBuff
     curBufferPos++;
     LPRINTF("\n\nрекурсивный запуск");
     createdNode->left  = readNode(akinator, buffer, curBufferPos);
-    // (*curNode(akinator))->right = readNode(akinator, buffer, curBufferPos);
+    // createdNode->right = readNode(akinator, buffer, curBufferPos);
 
     
 
@@ -332,8 +332,6 @@ static curAnchorNode akinatorCreateNodeFile(akinator_t* akinator, char* buffer, 
     
     treeNode_t* curNode;
 
-    treeVal_t curNodeData;
-
     static size_t countNodes = 1;
     if(countNodes == 1){
         curNode = akinator->root;
@@ -344,17 +342,18 @@ static curAnchorNode akinatorCreateNodeFile(akinator_t* akinator, char* buffer, 
         LPRINTF("Выделил память");
         curNode->data = (treeVal_t) calloc(MAX_ANSWER_SIZE, sizeof(char));
         assert(curNode->data);
-
-        curNodeData = (treeVal_t) calloc(MAX_ANSWER_SIZE, sizeof(char));
-        assert(curNodeData);
     }
     countNodes++;
     
+
 
     (*curBufferPose)++;
     
     LPRINTF("записал указатель в data нового node");
     size_t lenName = 0;
+
+    treeVal_t curNodeData = (treeVal_t) calloc(MAX_ANSWER_SIZE, sizeof(char));
+    assert(curNodeData);
 
     LPRINTF("буфер перед чтением: %s", &buffer[*curBufferPose]);
 
