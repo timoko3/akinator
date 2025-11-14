@@ -119,27 +119,55 @@ void printComparisonResults(size_t depth1, size_t depth2,
     treeVal_t secondCompNodeName = compareNode2->data;
 
     while (depth1 > depth2) { 
-        printf("В отличие от %s %s: %s\n", secondCompNodeName, firstCompNodeName, compareNode1->data);
+        if(compareNode1->parent->left == compareNode1){
+            printf("%s: %s\n", firstCompNodeName, compareNode1->parent->data);
+        }
+        else{
+            printf("%s: не %s\n", firstCompNodeName, compareNode1->parent->data);
+        }
         compareNode1 = compareNode1->parent;
         depth1--;
     }
+
     while (depth2 > depth1) {
-        printf("В отличие от %s %s: %s\n", firstCompNodeName, secondCompNodeName, compareNode2->data);
+        if(compareNode2->parent->left == compareNode2){
+            printf("%s: %s\n", secondCompNodeName, compareNode2->parent->data);
+        }
+        else{
+            printf("%s: не %s\n", secondCompNodeName, compareNode2->parent->data);
+        }
         compareNode2 = compareNode2->parent;
         depth2--;
     }
+    printf("\n");
     
-
     while (compareNode1 && compareNode2 && (compareNode1 != compareNode2)) {
-        printf("В отличие от %s %s: %s\n", secondCompNodeName, firstCompNodeName, compareNode1->data);
-        printf("В отличие от %s %s: %s\n", firstCompNodeName, secondCompNodeName, compareNode2->data);
+        if(compareNode1->parent->left == compareNode1){
+            printf("%s: %s\n", firstCompNodeName, compareNode1->parent->data);
+        }
+        else{
+            printf("%s: не %s\n", firstCompNodeName, compareNode1->parent->data);
+        }
+        
+        if(compareNode2->parent->left == compareNode2){
+            printf("%s: %s\n", secondCompNodeName, compareNode2->parent->data);
+        }
+        else{
+            printf("%s: не %s\n", secondCompNodeName, compareNode2->parent->data);
+        }
         compareNode1 = compareNode1->parent;
         compareNode2 = compareNode2->parent;
     }
-
+    
+    
     printf("%s и %s — ", firstCompNodeName, secondCompNodeName);
-    while(compareNode1){
-        printf("%s, ", compareNode1->data);
+    while(compareNode1->parent){
+        if(compareNode1->parent->left == compareNode1){
+            printf("%s, ", compareNode1->parent->data);
+        }
+        else{
+            printf("не %s,", compareNode1->parent->data);
+        }
         compareNode1 = compareNode1->parent;
     }
 
