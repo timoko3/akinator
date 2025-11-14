@@ -110,3 +110,38 @@ char* getWhatCompare(char** toCompare){
     return getString(toCompare);
 }
 
+void printComparisonResults(size_t depth1, size_t depth2, 
+        treeNode_t* compareNode1, treeNode_t* compareNode2){
+    assert(compareNode1);
+    assert(compareNode2);
+
+    treeVal_t firstCompNodeName  = compareNode1->data;
+    treeVal_t secondCompNodeName = compareNode2->data;
+
+    while (depth1 > depth2) { 
+        printf("В отличие от %s %s: %s\n", secondCompNodeName, firstCompNodeName, compareNode1->data);
+        compareNode1 = compareNode1->parent;
+        depth1--;
+    }
+    while (depth2 > depth1) {
+        printf("В отличие от %s %s: %s\n", firstCompNodeName, secondCompNodeName, compareNode2->data);
+        compareNode2 = compareNode2->parent;
+        depth2--;
+    }
+    
+
+    while (compareNode1 && compareNode2 && (compareNode1 != compareNode2)) {
+        printf("В отличие от %s %s: %s\n", secondCompNodeName, firstCompNodeName, compareNode1->data);
+        printf("В отличие от %s %s: %s\n", firstCompNodeName, secondCompNodeName, compareNode2->data);
+        compareNode1 = compareNode1->parent;
+        compareNode2 = compareNode2->parent;
+    }
+
+    printf("%s и %s — ", firstCompNodeName, secondCompNodeName);
+    while(compareNode1){
+        printf("%s, ", compareNode1->data);
+        compareNode1 = compareNode1->parent;
+    }
+
+    printf("\n");
+}
