@@ -22,7 +22,7 @@ static void akinatorCreateNodeUser(akinator_t* akinator);
 static curAnchorNode akinatorCreateNodeFile(akinator_t* akinator, char* buffer, size_t* cuBufferPose);
 static curAnchorNode readNode(akinator_t* akinator, char* buffer, size_t* curBufferPos);
 
-static curAnchorNode checkNode(akinator_t* akinator, treeNode_t* curNode, treeVal_t toDefine);
+static curAnchorNode findDefineNode(akinator_t* akinator, treeNode_t* curNode, treeVal_t toDefine);
 static void printParent(treeNode_t* curNode);
 
 static size_t countNodeDepth(treeNode_t* node);
@@ -125,7 +125,7 @@ curAnchorNode akinatorDefine(akinator_t* akinator){
 
     printf("\n");
     curAnchorNode result = NULL;
-    if(!(result = checkNode(akinator, akinator->root, toDefine))){
+    if(!(result = findDefineNode(akinator, akinator->root, toDefine))){
         printf("Я не имею представления о %s\n", toDefine);
         result = akinator->root;
     }
@@ -323,25 +323,6 @@ static void freeNode(treeNode_t* node){
     node = NULL;
 }
 
-static void akinatorCreateNodeUser(akinator_t* akinator){
-    assert(akinator);
-
-    char* intended = (char*) calloc(MAX_ANSWER_SIZE, sizeof(char));
-    assert(intended);
-    getIntended(akinator, &intended);
-    akinatorInsertLeft(akinator, (*curNode(akinator)), intended);
-
-    char* difference = (char*) calloc(MAX_ANSWER_SIZE, sizeof(char));
-    assert(difference);
-    getDifference(akinator, intended, &difference);
-    akinatorInsertRight(akinator, (*curNode(akinator)), *curData(akinator));
-
-    *curData(akinator) = myStrCpy(*curData(akinator), difference);
-    
-    free(intended);
-    free(difference);
-}
-
 static curAnchorNode readNode(akinator_t* akinator, char* buffer, size_t* curBufferPos){
     assert(akinator);
     assert(buffer);
@@ -421,7 +402,24 @@ static void skipSpaceAndCloseBracket(char* buffer, size_t* curBufferPos){
     }
 }   
 
+static void akinatorCreateNodeUser(akinator_t* akinator){
+    assert(akinator);
 
+    char* intended = (char*) calloc(MAX_ANSWER_SIZE, sizeof(char));
+    assert(intended);
+    getIntended(akinator, &intended);
+    akinatorInsertLeft(akinator, (*curNode(akinator)), intended);
+
+    char* difference = (char*) calloc(MAX_ANSWER_SIZE, sizeof(char));
+    assert(difference);
+    getDifference(akinator, intended, &difference);
+    akinatorInsertRight(akinator, (*curNode(akinator)), *curData(akinator));
+
+    *curData(akinator) = myStrCpy(*curData(akinator), difference);
+    
+    free(intended);
+    free(difference);
+}
 
 static curAnchorNode akinatorCreateNodeFile(akinator_t* akinator, char* buffer, size_t* curBufferPose){
     assert(akinator);
@@ -463,7 +461,7 @@ static curAnchorNode akinatorCreateNodeFile(akinator_t* akinator, char* buffer, 
     return curNode;
 }
 
-static curAnchorNode checkNode(akinator_t* akinator, treeNode_t* curNode, treeVal_t toDefine){
+static curAnchorNode findDefineNode(akinator_t* akinator, treeNode_t* curNode, treeVal_t toDefine){
     assert(akinator);
     assert(curNode);
     assert(toDefine);
@@ -475,11 +473,11 @@ static curAnchorNode checkNode(akinator_t* akinator, treeNode_t* curNode, treeVa
     }
 
     if(curNode->left){
-        if(curAnchorNode result = checkNode(akinator, curNode->left, toDefine)) return result;
+        if(curAnchorNode result = findDefineNode(akinator, curNode->left, toDefine)) return result;
     }
 
     if(curNode->right){
-        if(curAnchorNode result = checkNode(akinator, curNode->right, toDefine)) return result;
+        if(curAnchorNode result = findDefineNode(akinator, curNode->right, toDefine)) return result;
     }
 
     return NULL;
