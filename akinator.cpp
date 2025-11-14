@@ -25,6 +25,8 @@ static curAnchorNode readNode(akinator_t* akinator, char* buffer, size_t* curBuf
 static curAnchorNode checkNode(akinator_t* akinator, treeNode_t* curNode, treeVal_t toDefine);
 static void printParent(treeNode_t* curNode);
 
+static curAnchorNode findCompareNode(akinator_t* akinator, treeNode_t* curNode, treeVal_t toCompare, size_t* depth);
+
 curAnchorNode akinatorCtor(akinator_t* akinator){
     assert(akinator);
 
@@ -113,7 +115,6 @@ curAnchorNode akinatorGuess(akinator_t* akinator){
 curAnchorNode akinatorDefine(akinator_t* akinator){
     assert(akinator);
 
-    
     char* toDefine = (char*) calloc(MAX_ANSWER_SIZE, sizeof(char));
     assert(toDefine);
 
@@ -121,13 +122,43 @@ curAnchorNode akinatorDefine(akinator_t* akinator){
 
     curAnchorNode result = NULL;
     if(!(result = checkNode(akinator, akinator->root, toDefine))){
-        printf("Я не имею представления об этом\n");
+        printf("Я не имею представления о %s\n", toDefine);
         result = akinator->root;
     }
 
     free(toDefine);
     return result;
 }   
+
+curAnchorNode akinatorCompare(akinator_t* akinator){
+    assert(akinator);
+
+    char* toCompare1 = (char*) calloc(MAX_ANSWER_SIZE, sizeof(char));
+    assert(toCompare1);
+
+    getWhatCompare(&toCompare1);
+
+    char* toCompare2 = (char*) calloc(MAX_ANSWER_SIZE, sizeof(char));
+    assert(toCompare2);
+
+    getWhatCompare(&toCompare2);
+
+
+    size_t depth1 = 0;
+    treeNode_t* compareNode1 = findCompareNode(akinator, akinator->root, toCompare1, &depth1);
+    LPRINTF("depth1: %lu", depth1);
+
+    size_t depth2 = 0;
+    treeNode_t* compareNode2 = findCompareNode(akinator, akinator->root, toCompare2, &depth2);
+    LPRINTF("depth2: %lu", depth2);
+
+
+
+    free(toCompare1);
+    free(toCompare2);
+
+    return akinator->root;
+}
 
 curAnchorNode akinatorSaveAndExit(akinator_t* akinator){
     assert(akinator);
@@ -452,4 +483,34 @@ static void printParent(treeNode_t* curNode){
     else{
         printf("не %s, ", curNode->parent->data);
     }    
+}
+
+static curAnchorNode findCompareNode(akinator_t* akinator, treeNode_t* curNode, treeVal_t toCompare, size_t* depth){
+    assert(akinator);
+    assert(curNode);
+    assert(toCompare);
+
+    (*depth)++;
+    LPRINTF("depth: %lu", *depth);
+
+    if(isEqualStrings(curNode->data, toCompare)){
+        printParent(curNode);
+        return curNode;
+    }
+
+    if(curNode->left){
+        if(curAnchorNode result = findCompareNode(akinator, curNode->left, toCompare, depth)) return result;
+    }
+    else{
+        (*depth)--;
+    }
+
+    if(curNode->right){
+        if(curAnchorNode result = findCompareNode(akinator, curNode->right, toCompare, depth)) return result;
+    }
+    else{
+        (*depth)--;
+    }
+
+    return NULL;
 }

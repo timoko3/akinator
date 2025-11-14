@@ -16,7 +16,7 @@ const menuModeVal_t  EXIT            = 4;
 
 
 void showMenu(){
-    printf("Выберите одну из доступных опций: 1)Отгадывать 2)Определение 3)Выйти\n");
+    printf("Выберите одну из доступных опций: 1)Отгадывать 2)Определение 3)Сравнение 4)Выйти\n");
 }
 
 menuModeVal_t getMode(){
@@ -64,19 +64,23 @@ void printResult(akinator_t* akinator){
     printf("Опять Я угадал! Это %s", *curData(akinator));
 }
 
+char* getString(char** buffer){
+    assert(buffer);
+
+    while(!myFGets(*buffer, MAX_ANSWER_SIZE, stdin)){
+        printf("%s", "Некорректный ввод\n");
+        clearBuffer();
+    }
+
+    return *buffer;
+}
+
 char* getIntended(akinator_t* akinator, char** answer){
     assert(akinator);
 
     printf("Кто был загадан?\n");
 
-
-    while(!myFGets(*answer, MAX_ANSWER_SIZE, stdin)){
-        printf("answer: %s\n", *answer);
-        printf("isYes: %d", isYes(*answer));
-        printf("%s", "Некорректный ввод");
-        clearBuffer();
-    }
-    return *answer;
+    return getString(answer);
 }
 
 char* getDifference(akinator_t* akinator, char* intended, char** difference){
@@ -84,14 +88,9 @@ char* getDifference(akinator_t* akinator, char* intended, char** difference){
     assert(intended);
     assert(difference);
 
-    printf("Чем %s отличается от %s?", intended, (*curNode(akinator))->data);
+    printf("Чем %s отличается от %s?\n", intended, (*curNode(akinator))->data);
 
-    while(!myFGets(*difference, MAX_ANSWER_SIZE, stdin)){
-        printf("%s", "Некорректный ввод");
-        clearBuffer();
-    }
-
-    return *difference;
+    return getString(difference);
 }
 
 
@@ -100,10 +99,14 @@ char* getWhatDefine(char** toDefine){
 
     printf("Чему вы хотите, чтобы я дал определение?\n");
 
-    while(!myFGets(*toDefine, MAX_ANSWER_SIZE, stdin)){
-        printf("%s", "Некорректный ввод");
-        clearBuffer();
-    }
-
-    return *toDefine;
+    return getString(toDefine);
 }
+
+char* getWhatCompare(char** toCompare){
+    assert(toCompare);
+
+    printf("Введите кого вы хотите сравнить\n");
+
+    return getString(toCompare);
+}
+

@@ -12,7 +12,8 @@ struct mode_t{
 static mode_t modes[] = {
     {0, akinatorGuess},
     {1, akinatorDefine},
-    {2, akinatorSaveAndExit}
+    {2, akinatorCompare},
+    {3, akinatorSaveAndExit}
 };
 
 
