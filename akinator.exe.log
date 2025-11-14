@@ -1,0 +1,231 @@
+
+--------------------------------------------------
+TXLib ñîáîëåçíóåò...
+
+Ïðîãðàììà: C:\MIPT\proga\prodva\projects\akinator\akinator.exe,
+
+ÂÍÅÇÀÏÍÎ: signal (22, 0x00): SIGABRT: Àâàðèéíîå çàâåðøåíèå ïðîãðàììû, âûçâàíà ôóíêöèÿ abort(). 
+
+Ñ ïîìîùüþ ôóíêöèè signal() âû ìîæåòå ñàìè îáðàáîòàòü ýòó îøèáêó.
+
+#1: TXLib [Ver: 00173a, Rev: 174, Date: 2025-08-17 06:00:49 +0400], Instance: 0x00007FF6A8FCA7F0 (64-bit), Flags: Cmdre0, Thread: 0x6FEC (Main), GetLastError(): 183 (ÐÐµÐ²Ð¾Ð·Ð¼Ð¾Ð¶Ð½Ð¾ ÑÐ¾Ð·Ð´Ð°Ñ‚ÑŒ Ñ„Ð°Ð¹Ð», Ñ‚Ð°Ðº ÐºÐ°Ðº Ð¾Ð½ ÑƒÐ¶Ðµ ÑÑƒÑ‰ÐµÑÑ‚Ð²ÑƒÐµÑ‚). 
+
+--------------------------------------------------
+Ñòåê âûçîâîâ:
+
+# 0 0x00007FF6A8F765E7 in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: (anonymous namespace)::TX::_txError() at C:/Users/Lenovo/Downloads/TX/TXLib.h:11090
+# 1 0x00007FF6A8F76BB7 in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: (anonymous namespace)::TX::_txOnSignal() at C:/Users/Lenovo/Downloads/TX/TXLib.h:11171
+# 2 0x00007FFA92A8EC01 in C:\Windows\System32\msvcrt.dll: raise()
+# 3 0x00007FFA92A9305B in C:\Windows\System32\msvcrt.dll: abort()
+# 4 0x00007FFA92A8F9DD in C:\Windows\System32\msvcrt.dll: assert()
+
+# 5 0x00007FF6A8F642DB in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: countNodeDepth() at C:/MIPT/proga/prodva/projects/akinator/akinator.cpp:505:
+
+    503: 
+    504: static size_t countNodeDepth(treeNode_t* node){
+=>  505:     assert(node);
+    506: 
+    507:     size_t depth = 0;
+
+# 6 0x00007FF6A8F62CF8 in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: akinatorCompare() at C:/MIPT/proga/prodva/projects/akinator/akinator.cpp:151:
+
+    149:     treeNode_t* compareNode1 = findCompareNode(akinator, akinator->root, toCompare1);
+    150: 
+=>  151:     size_t depth1 = countNodeDepth(compareNode1);
+    152:     LPRINTF("depth1 : %lu", depth1);
+    153: 
+
+# 7 0x00007FF6A8F61E67 in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: runMode() at C:/MIPT/proga/prodva/projects/akinator/akinatorModes.cpp:27:
+
+     25: 
+     26: 
+=>   27:     if(!handler(akinator))return false;
+     28:     return true;
+     29: }
+
+# 8 0x00007FF6A8F61DDF in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: runModeMenu() at C:/MIPT/proga/prodva/projects/akinator/akinatorModes.cpp:16:
+
+     14:         showMenu();
+     15:         menuModeVal_t userModeNum = getMode();
+=>   16:         if(!runMode(userModeNum, akinator)) return;
+     17:     }
+     18: }
+
+# 9 0x00007FF6A8F94F14 in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: main() at C:/MIPT/proga/prodva/projects/akinator/main.cpp:29:
+
+     27:     akinatorReadData(&akinator);
+     28: 
+=>   29:     runModeMenu(&akinator);
+     30: 
+     31:     akinatorDtor(&akinator);
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 174, Date: 2025-08-17 06:00:49 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Users\Lenovo\Downloads\TX/TXLib.h
+Compiled:	Nov 14 2025 20:48:58, GNU g++ 15.1.0, std=201703L, MinGW-W64 Runtime 14.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, DEBUG
+Started:	Nov 14 2025 20:49:06
+
+Run file:	C:\MIPT\proga\prodva\projects\akinator\akinator.exe
+Directory:	C:\MIPT\proga\prodva\projects\akinator
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib ñîáîëåçíóåò...
+
+Ïðîãðàììà: C:\MIPT\proga\prodva\projects\akinator\akinator.exe,
+
+ÂÍÅÇÀÏÍÎ: signal (22, 0x00): SIGABRT: Àâàðèéíîå çàâåðøåíèå ïðîãðàììû, âûçâàíà ôóíêöèÿ abort(). 
+
+Ñ ïîìîùüþ ôóíêöèè signal() âû ìîæåòå ñàìè îáðàáîòàòü ýòó îøèáêó.
+
+#1: TXLib [Ver: 00173a, Rev: 174, Date: 2025-08-17 06:00:49 +0400], Instance: 0x00007FF6690DA7F0 (64-bit), Flags: Cmdre0, Thread: 0x8C88 (Main), GetLastError(): 183 (ÐÐµÐ²Ð¾Ð·Ð¼Ð¾Ð¶Ð½Ð¾ ÑÐ¾Ð·Ð´Ð°Ñ‚ÑŒ Ñ„Ð°Ð¹Ð», Ñ‚Ð°Ðº ÐºÐ°Ðº Ð¾Ð½ ÑƒÐ¶Ðµ ÑÑƒÑ‰ÐµÑÑ‚Ð²ÑƒÐµÑ‚). 
+
+--------------------------------------------------
+Ñòåê âûçîâîâ:
+
+# 0 0x00007FF6690865E7 in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: (anonymous namespace)::TX::_txError() at C:/Users/Lenovo/Downloads/TX/TXLib.h:11090
+# 1 0x00007FF669086BB7 in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: (anonymous namespace)::TX::_txOnSignal() at C:/Users/Lenovo/Downloads/TX/TXLib.h:11171
+# 2 0x00007FFA92A8EC01 in C:\Windows\System32\msvcrt.dll: raise()
+# 3 0x00007FFA92A9305B in C:\Windows\System32\msvcrt.dll: abort()
+# 4 0x00007FFA92A8F9DD in C:\Windows\System32\msvcrt.dll: assert()
+
+# 5 0x00007FF6690742DB in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: countNodeDepth() at C:/MIPT/proga/prodva/projects/akinator/akinator.cpp:505:
+
+    503: 
+    504: static size_t countNodeDepth(treeNode_t* node){
+=>  505:     assert(node);
+    506: 
+    507:     size_t depth = 0;
+
+# 6 0x00007FF669072CF8 in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: akinatorCompare() at C:/MIPT/proga/prodva/projects/akinator/akinator.cpp:151:
+
+    149:     treeNode_t* compareNode1 = findCompareNode(akinator, akinator->root, toCompare1);
+    150: 
+=>  151:     size_t depth1 = countNodeDepth(compareNode1);
+    152:     LPRINTF("depth1 : %lu", depth1);
+    153: 
+
+# 7 0x00007FF669071E67 in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: runMode() at C:/MIPT/proga/prodva/projects/akinator/akinatorModes.cpp:27:
+
+     25: 
+     26: 
+=>   27:     if(!handler(akinator))return false;
+     28:     return true;
+     29: }
+
+# 8 0x00007FF669071DDF in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: runModeMenu() at C:/MIPT/proga/prodva/projects/akinator/akinatorModes.cpp:16:
+
+     14:         showMenu();
+     15:         menuModeVal_t userModeNum = getMode();
+=>   16:         if(!runMode(userModeNum, akinator)) return;
+     17:     }
+     18: }
+
+# 9 0x00007FF6690A4F14 in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: main() at C:/MIPT/proga/prodva/projects/akinator/main.cpp:29:
+
+     27:     akinatorReadData(&akinator);
+     28: 
+=>   29:     runModeMenu(&akinator);
+     30: 
+     31:     akinatorDtor(&akinator);
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 174, Date: 2025-08-17 06:00:49 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Users\Lenovo\Downloads\TX/TXLib.h
+Compiled:	Nov 14 2025 20:51:46, GNU g++ 15.1.0, std=201703L, MinGW-W64 Runtime 14.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, DEBUG
+Started:	Nov 14 2025 20:51:59
+
+Run file:	C:\MIPT\proga\prodva\projects\akinator\akinator.exe
+Directory:	C:\MIPT\proga\prodva\projects\akinator
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib ñîáîëåçíóåò...
+
+Ïðîãðàììà: C:\MIPT\proga\prodva\projects\akinator\akinator.exe,
+
+ÂÍÅÇÀÏÍÎ: signal (22, 0x00): SIGABRT: Àâàðèéíîå çàâåðøåíèå ïðîãðàììû, âûçâàíà ôóíêöèÿ abort(). 
+
+Ñ ïîìîùüþ ôóíêöèè signal() âû ìîæåòå ñàìè îáðàáîòàòü ýòó îøèáêó.
+
+#1: TXLib [Ver: 00173a, Rev: 174, Date: 2025-08-17 06:00:49 +0400], Instance: 0x00007FF7284AA7F0 (64-bit), Flags: Cmdre0, Thread: 0x9FA4 (Main), GetLastError(): 183 (ÐÐµÐ²Ð¾Ð·Ð¼Ð¾Ð¶Ð½Ð¾ ÑÐ¾Ð·Ð´Ð°Ñ‚ÑŒ Ñ„Ð°Ð¹Ð», Ñ‚Ð°Ðº ÐºÐ°Ðº Ð¾Ð½ ÑƒÐ¶Ðµ ÑÑƒÑ‰ÐµÑÑ‚Ð²ÑƒÐµÑ‚). 
+
+--------------------------------------------------
+Ñòåê âûçîâîâ:
+
+# 0 0x00007FF728456607 in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: (anonymous namespace)::TX::_txError() at C:/Users/Lenovo/Downloads/TX/TXLib.h:11090
+# 1 0x00007FF728456BD7 in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: (anonymous namespace)::TX::_txOnSignal() at C:/Users/Lenovo/Downloads/TX/TXLib.h:11171
+# 2 0x00007FFA92A8EC01 in C:\Windows\System32\msvcrt.dll: raise()
+# 3 0x00007FFA92A9305B in C:\Windows\System32\msvcrt.dll: abort()
+# 4 0x00007FFA92A8F9DD in C:\Windows\System32\msvcrt.dll: assert()
+
+# 5 0x00007FF728444301 in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: countNodeDepth() at C:/MIPT/proga/prodva/projects/akinator/akinator.cpp:507:
+
+    505: 
+    506: static size_t countNodeDepth(treeNode_t* node){
+=>  507:     assert(node);
+    508: 
+    509:     size_t depth = 0;
+
+# 6 0x00007FF728442D1E in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: akinatorCompare() at C:/MIPT/proga/prodva/projects/akinator/akinator.cpp:153:
+
+    151:     treeNode_t* compareNode1 = findCompareNode(akinator, akinator->root, toCompare1);
+    152: 
+=>  153:     size_t depth1 = countNodeDepth(compareNode1);
+    154:     LPRINTF("depth1 : %lu", depth1);
+    155: 
+
+# 7 0x00007FF728441E67 in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: runMode() at C:/MIPT/proga/prodva/projects/akinator/akinatorModes.cpp:27:
+
+     25: 
+     26: 
+=>   27:     if(!handler(akinator))return false;
+     28:     return true;
+     29: }
+
+# 8 0x00007FF728441DDF in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: runModeMenu() at C:/MIPT/proga/prodva/projects/akinator/akinatorModes.cpp:16:
+
+     14:         showMenu();
+     15:         menuModeVal_t userModeNum = getMode();
+=>   16:         if(!runMode(userModeNum, akinator)) return;
+     17:     }
+     18: }
+
+# 9 0x00007FF728474F34 in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: main() at C:/MIPT/proga/prodva/projects/akinator/main.cpp:29:
+
+     27:     akinatorReadData(&akinator);
+     28: 
+=>   29:     runModeMenu(&akinator);
+     30: 
+     31:     akinatorDtor(&akinator);
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 174, Date: 2025-08-17 06:00:49 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Users\Lenovo\Downloads\TX/TXLib.h
+Compiled:	Nov 14 2025 20:58:23, GNU g++ 15.1.0, std=201703L, MinGW-W64 Runtime 14.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, DEBUG
+Started:	Nov 14 2025 20:58:31
+
+Run file:	C:\MIPT\proga\prodva\projects\akinator\akinator.exe
+Directory:	C:\MIPT\proga\prodva\projects\akinator
+
+--------------------------------------------------

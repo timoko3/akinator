@@ -41,7 +41,7 @@ char* myFGets(char* str, int count, FILE* stream){
     int i = 0;
     while(i < count) {
         str[i] = (char)fgetc(stream);
-        LPRINTF("ÐšÐ¾Ð´ Ñ‚ÐµÐºÑƒÑ‰ÐµÐ³Ð¾ ÑÐ¸Ð¼Ð²Ð¾Ð»Ð°: %d\n", str[i]);
+        LPRINTF("Êîä òåêóùåãî ñèìâîëà: %d\n", str[i]);
         if(str[i] == '\n'){
             break;
         }
@@ -54,7 +54,7 @@ char* myFGets(char* str, int count, FILE* stream){
 }
 
 bool isEqualStrings(const char* str1, const char* str2){
-    LPRINTF("hash answer %s, Ð´Ð»Ð¸Ð½Ð° %lu: %ld, hash %s, Ð´Ð»Ð¸Ð½Ð° %lu: %lu\n", str1, myStrLen(str1) + 1, hash(str1, myStrLen(str1) + 1), str2, myStrLen(str2) + 1, hash(str2, myStrLen(str2) + 1));
+    LPRINTF("hash answer %s, äëèíà %lu: %ld, hash %s, äëèíà %lu: %lu\n", str1, myStrLen(str1) + 1, hash(str1, myStrLen(str1) + 1), str2, myStrLen(str2) + 1, hash(str2, myStrLen(str2) + 1));
     return hash(str1, myStrLen(str1) + 1) == hash(str2, myStrLen(str2) + 1);
 }
 
@@ -83,11 +83,11 @@ void clearBuffer(){
 bool isYes(char* answer){
     assert(answer);
 
-    return isEqualStrings(answer, "Ð´Ð°");
+    return isEqualStrings(answer, "äà");
 }
 
 bool isNo(char* answer){
     assert(answer);
 
-    return isEqualStrings(answer, "Ð½ÐµÑ‚");
+    return isEqualStrings(answer, "íåò");
 }

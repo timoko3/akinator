@@ -2,7 +2,7 @@
 #include "general/file.h"
 
 #include "general/debug.h"
-#define DEBUG
+// #define DEBUG
 
 #include <assert.h>
 #include <stdint.h>
@@ -84,7 +84,7 @@ void htmlLog(akinator_t* akinator, const char* callFileName, const char* callFun
             "<meta charset=\"utf-8\">"
             "<title>Tree Dump</title>"
             "<style>"
-            "body{font-family:'Consolas','Menlo',monospace;background:#f7f9fb;color:#222;"
+            "body{font-family:'Consolas','Consolas',monospace;background:#f7f9fb;color:#222;"
             "margin:16px;font-size:15px;line-height:1.4;}"
             ".dump{border-left:6px solid #007cad;background:#fff;border-radius:8px;"
             "padding:10px 14px;margin-bottom:20px;box-shadow:0 2px 8px rgba(0,0,0,0.06);}"
@@ -167,9 +167,9 @@ void treeGraphDump(akinator_t* akinator){
     fprintf(graphFilePtr, "bgcolor=\"transparent\"\n");
 
     fprintf(graphFilePtr, "nodesep = 1;\n");
-    fprintf(graphFilePtr, "ranksep = 1\n");
+    fprintf(graphFilePtr, "ranksep = 1;\n");
 
-    fprintf(graphFilePtr, "\tnode [shape=Mrecord, style=\"filled\", fillcolor=\"%s\", fontcolor=\"%s\", color=\"%s\", penwidth=4, fontname=\"Menlo\", fontsize=30];\n\n", LEAF_COLOR, FONT_COLOR, LEAF_BORDER_COLOR);
+    fprintf(graphFilePtr, "\tnode [shape=Mrecord, style=\"filled\", fillcolor=\"%s\", fontcolor=\"%s\", color=\"%s\", penwidth=4, fontname=\"Consolas\", fontsize=30];\n\n", LEAF_COLOR, FONT_COLOR, LEAF_BORDER_COLOR);
 
     initGraphNodes(akinator->root, graphFilePtr);
 

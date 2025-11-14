@@ -30,8 +30,8 @@ bool runMode(modeNum num, akinator_t* akinator){
 
 static handler_t findHandler(modeNum num){
     LPRINTF("num = %d\n", num);
-    LPRINTF("size: %lu\n", sizeof(modes) / sizeof(mode_t));
-    for(size_t curMode = 0; curMode < sizeof(modes) / sizeof(mode_t); curMode++){
+    LPRINTF("size: %lu\n", sizeof(modes) / sizeof(akinator_mode_t));
+    for(size_t curMode = 0; curMode < sizeof(modes) / sizeof(akinator_mode_t); curMode++){
         if((modeNum) curMode == num){
             return modes[curMode].modeFunc;
         }

@@ -4,12 +4,12 @@
 typedef int modeNum;
 typedef curAnchorNode (*handler_t)(akinator_t* akinator);
 
-struct mode_t{
+struct akinator_mode_t{
     modeNum num;
     handler_t modeFunc;
 };
 
-static mode_t modes[] = {
+static akinator_mode_t modes[] = {
     {0, akinatorGuess},
     {1, akinatorDefine},
     {2, akinatorCompare},

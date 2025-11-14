@@ -9,4 +9,4 @@ void lprintf(const char* text, ...);
     #define LPRINTF(text, ...) ((void)0)
 #endif
 
-#define $ LPRINTF("MEOW");
+// #define $ LPRINTF("MEOW");

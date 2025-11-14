@@ -1,3 +1,6 @@
+#define TX_USE_SPEAK
+#include "TXLib.h"
+
 #include "akinatorUI.h"
 #include "generalAkinator.h"
 #include "general/strFunc.h"
@@ -11,14 +14,24 @@
 #include <malloc.h>
 
 
-const char* const ALERT_MENU_INCORRECT = "Р’С‹Р±РёСЂР°Р№С‚Рµ РёР· РїСЂРµРґР»РѕР¶РµРЅРЅС‹С… РІР°СЂРёР°РЅС‚РѕРІ\n";
-const char* const CHOOSE_YES_OR_NO     = "Р’С‹Р±РёСЂР°Р№С‚Рµ РґР° РёР»Рё РЅРµС‚\n";
+const char* const ALERT_MENU_INCORRECT = "Выбирайте из предложенных вариантов\n";
+const char* const CHOOSE_YES_OR_NO     = "Выбирайте да или нет\n";
 const menuModeVal_t  MENU_FIRST_ITEM = 1; 
 const menuModeVal_t  EXIT            = 4;
 
 
 void showMenu(){
-    printf("Р’С‹Р±РµСЂРёС‚Рµ РѕРґРЅСѓ РёР· РґРѕСЃС‚СѓРїРЅС‹С… РѕРїС†РёР№: " SET_STYLE_BOLD_FONT_PURPLE "1)" RESET "РћС‚РіР°РґС‹РІР°С‚СЊ " SET_STYLE_BOLD_FONT_PURPLE "2)" RESET "РћРїСЂРµРґРµР»РµРЅРёРµ " SET_STYLE_BOLD_FONT_PURPLE "3)" RESET "РЎСЂР°РІРЅРµРЅРёРµ " SET_STYLE_BOLD_FONT_PURPLE "4)" RESET "Р’С‹Р№С‚Рё\n");
+    printf("Выберите одну из доступных опций: " SET_STYLE_BOLD_FONT_PURPLE "1)" RESET "Отгадывать " SET_STYLE_BOLD_FONT_PURPLE "2)" RESET "Определение " SET_STYLE_BOLD_FONT_PURPLE "3)" RESET "Сравнение " SET_STYLE_BOLD_FONT_PURPLE "4)" RESET "Выйти\n");
+    txSpeak("Выберите одну из доступных опций:");
+    txSpeak(NULL);
+    txSpeak("Могу отгадать, что ты загадал");
+    txSpeak(NULL);
+    txSpeak("Могу дать определение");
+    txSpeak(NULL);
+    txSpeak("Могу сравнить два объекта");
+    txSpeak(NULL);
+    txSpeak("Ну а если не устраивают иди нафиг и уходи");
+    txSpeak(NULL);
 }
 
 menuModeVal_t getMode(){
@@ -61,14 +74,17 @@ char* getAnswerUser(akinator_t* akinator){
 void printResult(akinator_t* akinator){
     assert(akinator);
 
-    printf("РћРїСЏС‚СЊ РЇ СѓРіР°РґР°Р»! Р­С‚Рѕ %s\n", *curData(akinator));
+    txSpeak("Тебе не провести меня кожаный мешок!");
+    txSpeak(NULL);
+
+    printf("Опять Я угадал! Это %s\n", *curData(akinator));
 }
 
 char* getString(char** buffer){
     assert(buffer);
 
     while(!myFGets(*buffer, MAX_ANSWER_SIZE, stdin)){
-        printf("%s", "РќРµРєРѕСЂСЂРµРєС‚РЅС‹Р№ РІРІРѕРґ\n");
+        printf("%s", "Некорректный ввод\n");
         clearBuffer();
     }
 
@@ -78,7 +94,7 @@ char* getString(char** buffer){
 char* getIntended(akinator_t* akinator, char** answer){
     assert(akinator);
 
-    printf("РљС‚Рѕ Р±С‹Р» Р·Р°РіР°РґР°РЅ?\n");
+    printf("Кто был загадан?\n");
 
     return getString(answer);
 }
@@ -88,7 +104,7 @@ char* getDifference(akinator_t* akinator, char* intended, char** difference){
     assert(intended);
     assert(difference);
 
-    printf("Р§РµРј %s РѕС‚Р»РёС‡Р°РµС‚СЃСЏ РѕС‚ %s?\n", intended, (*curNode(akinator))->data);
+    printf("Чем %s отличается от %s?\n", intended, (*curNode(akinator))->data);
 
     return getString(difference);
 }
@@ -97,7 +113,7 @@ char* getDifference(akinator_t* akinator, char* intended, char** difference){
 char* getWhatDefine(char** toDefine){
     assert(toDefine);
 
-    printf("РљРѕРјСѓ РІС‹ С…РѕС‚РёС‚Рµ, С‡С‚РѕР±С‹ СЏ РґР°Р» РѕРїСЂРµРґРµР»РµРЅРёРµ?\n");
+    printf("Кому вы хотите, чтобы я дал определение?\n");
 
     return getString(toDefine);
 }
@@ -105,7 +121,7 @@ char* getWhatDefine(char** toDefine){
 char* getWhatCompare(char** toCompare){
     assert(toCompare);
 
-    printf("Р’РІРµРґРёС‚Рµ РєРѕРіРѕ РІС‹ С…РѕС‚РёС‚Рµ СЃСЂР°РІРЅРёС‚СЊ\n");
+    printf("Введите кого вы хотите сравнить\n");
 
     return getString(toCompare);
 }
@@ -124,7 +140,7 @@ void printComparisonResults(akinator_t* akinator, size_t depth1, size_t depth2,
             // printf("%s: %s\n", firstCompNodeName, compareNode1->parent->data);
         }
         else{
-            // printf("%s: РЅРµ %s\n", firstCompNodeName, compareNode1->parent->data);
+            // printf("%s: не %s\n", firstCompNodeName, compareNode1->parent->data);
         }
         compareNode1 = compareNode1->parent;
         depth1--;
@@ -135,7 +151,7 @@ void printComparisonResults(akinator_t* akinator, size_t depth1, size_t depth2,
             // printf("%s: %s\n", secondCompNodeName, compareNode2->parent->data);
         }
         else{
-            // printf("%s: РЅРµ %s\n", secondCompNodeName, compareNode2->parent->data);
+            // printf("%s: не %s\n", secondCompNodeName, compareNode2->parent->data);
         }
         compareNode2 = compareNode2->parent;
         depth2--;
@@ -150,14 +166,14 @@ void printComparisonResults(akinator_t* akinator, size_t depth1, size_t depth2,
             // printf("%s: %s\n", firstCompNodeName, compareNode1->parent->data);
         }
         else{
-            // printf("%s: РЅРµ %s\n", firstCompNodeName, compareNode1->parent->data);
+            // printf("%s: не %s\n", firstCompNodeName, compareNode1->parent->data);
         }
         
         if(compareNode2->parent->left == compareNode2){
             // printf("%s: %s\n", secondCompNodeName, compareNode2->parent->data);
         }
         else{
-            // printf("%s: РЅРµ %s\n", secondCompNodeName, compareNode2->parent->data);
+            // printf("%s: не %s\n", secondCompNodeName, compareNode2->parent->data);
         }
         firstBeforeEqualNode1 = compareNode1;
         compareNode1 = compareNode1->parent;
@@ -169,16 +185,16 @@ void printComparisonResults(akinator_t* akinator, size_t depth1, size_t depth2,
     printf("\n");
 
     if(compareNode1->left == firstBeforeEqualNode1){
-        printf(SET_STYLE_ITALICS_FONT_YELLOW "%s" RESET " РѕС‚Р»РёС‡Р°С‚РµСЃСЏ РѕС‚ " SET_STYLE_ITALICS_FONT_TURQUOISE "%s" RESET " С‚РµРј, С‡С‚Рѕ " SET_STYLE_ITALICS_FONT_YELLOW "%s" RESET " %s, a " SET_STYLE_ITALICS_FONT_TURQUOISE "%s" RESET " РЅРµ %s. ", firstCompNodeName, secondCompNodeName,
+        printf(SET_STYLE_ITALICS_FONT_YELLOW "%s" RESET " отличатеся от " SET_STYLE_ITALICS_FONT_TURQUOISE "%s" RESET " тем, что " SET_STYLE_ITALICS_FONT_YELLOW "%s" RESET " %s, a " SET_STYLE_ITALICS_FONT_TURQUOISE "%s" RESET " не %s. ", firstCompNodeName, secondCompNodeName,
             firstCompNodeName, compareNode1->data, secondCompNodeName, compareNode1->data);
     }
     else{
-        printf(SET_STYLE_ITALICS_FONT_TURQUOISE "%s" RESET " РѕС‚Р»РёС‡Р°С‚РµСЃСЏ РѕС‚ " SET_STYLE_ITALICS_FONT_YELLOW "%s" RESET " С‚РµРј, С‡С‚Рѕ " SET_STYLE_ITALICS_FONT_TURQUOISE "%s" RESET " %s, a " SET_STYLE_ITALICS_FONT_YELLOW "%s" RESET " РЅРµ %s. ", secondCompNodeName, firstCompNodeName,
+        printf(SET_STYLE_ITALICS_FONT_TURQUOISE "%s" RESET " отличатеся от " SET_STYLE_ITALICS_FONT_YELLOW "%s" RESET " тем, что " SET_STYLE_ITALICS_FONT_TURQUOISE "%s" RESET " %s, a " SET_STYLE_ITALICS_FONT_YELLOW "%s" RESET " не %s. ", secondCompNodeName, firstCompNodeName,
             secondCompNodeName, compareNode1->data, firstCompNodeName, compareNode1->data);
     }
     
     if(compareNode1->parent){
-        printf("Р " SET_STYLE_ITALICS_FONT_YELLOW "%s" RESET ", Рё " SET_STYLE_ITALICS_FONT_TURQUOISE "%s" RESET " РѕР±Р° ", firstCompNodeName, secondCompNodeName);
+        printf("И " SET_STYLE_ITALICS_FONT_YELLOW "%s" RESET ", и " SET_STYLE_ITALICS_FONT_TURQUOISE "%s" RESET " оба ", firstCompNodeName, secondCompNodeName);
     }
     while(compareNode1->parent){
         if(compareNode1->parent->left == compareNode1){
@@ -191,10 +207,10 @@ void printComparisonResults(akinator_t* akinator, size_t depth1, size_t depth2,
         }
         else{
             if(compareNode1->parent->parent){
-                printf("РЅРµ %s, ", compareNode1->parent->data);
+                printf("не %s, ", compareNode1->parent->data);
             }
             else{
-                printf("РЅРµ %s.", compareNode1->parent->data);
+                printf("не %s.", compareNode1->parent->data);
             }
         }
         compareNode1 = compareNode1->parent;
@@ -207,7 +223,7 @@ void printDefinition(treeNode_t* curNode, treeVal_t toDefine){
     assert(curNode);
     assert(toDefine);
 
-    printf(SET_STYLE_BOLD_FONT_BLUE "%s" RESET " вЂ” ", toDefine);
+    printf(SET_STYLE_BOLD_FONT_BLUE "%s" RESET " — ", toDefine);
     printParent(curNode);
 }
 
@@ -234,7 +250,7 @@ void printParent(treeNode_t* curNode){
         }
     }
     else{
-        printf("РЅРµ %s", curNode->parent->data);
+        printf("не %s", curNode->parent->data);
 
         if(curNode != defineNodeAddr){
             printf(", ");
@@ -244,4 +260,36 @@ void printParent(treeNode_t* curNode){
         }
         
     }    
+}
+
+void animation(){
+    static size_t countAnimationCalls = 0;
+    if(countAnimationCalls == 0){
+        txCreateWindow (500, 500);
+    }
+    countAnimationCalls++;
+
+    for(size_t curFrame = 0; curFrame < 30; curFrame++){
+        
+        char frameName[50] = "";
+
+        sprintf(frameName, "animation/OmnX-%lu.bmp", curFrame);
+
+        HDC frame = txLoadImage (frameName, 500, 500);
+
+        if (!frame)
+            txMessageBox ("Не могу загрузить", "Да, я скопировал это из примера");
+
+        // Не надо часто загружать одно и то же изображение, особенно в цикле -- программа будет тормозить!
+        // Загрузите один раз перед циклом, потом используйте много раз.
+        // Посмотрите, как сделано в примере TX\Examples\Tennis\Tennis.cpp.
+
+        txBitBlt (txDC(), 0, 0, 800, 600, frame, 0, 0);
+
+        txDeleteDC (frame);
+        txSleep(100);
+        // if(curFrame == 29){
+        //     curFrame = 0;
+        // }
+    }
 }

@@ -9,7 +9,7 @@
 // #define DEBUG
 
 static char* getTextToBuffer(FILE* inputFile, size_t fileSize);
-static string* divideBufferToStringsStructure(char* buffer, size_t nStrings);
+static myString* divideBufferToStringsStructure(char* buffer, size_t nStrings);
 
 #ifdef DEBUG
 static void printBuffer(char* buffer);
@@ -83,11 +83,11 @@ static char* getTextToBuffer(FILE* inputFIle, size_t fileSize){
     return buffer;
 }
 
-static string* divideBufferToStringsStructure(char* buffer, size_t nStrings){
+static myString* divideBufferToStringsStructure(char* buffer, size_t nStrings){
     // struct 
     assert(buffer);
     
-    string* strings = (string*) calloc(nStrings, sizeof(string));
+    myString* strings = (myString*) calloc(nStrings, sizeof(myString));
     assert(strings);
 
     strings[0].ptr = buffer;

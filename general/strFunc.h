@@ -6,7 +6,7 @@
 
 const size_t         MAX_ANSWER_SIZE = 256;
 
-struct string {
+struct myString {
     char* ptr;
     size_t len;
 };

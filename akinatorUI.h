@@ -21,3 +21,5 @@ void printComparisonResults(akinator_t* akinator, size_t depth1, size_t depth2,
 
 void printDefinition(treeNode_t* curNode, treeVal_t toDefine);
 void printParent(treeNode_t* curNode);
+
+void animation();

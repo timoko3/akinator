@@ -4,7 +4,7 @@
 #include <stddef.h>
 #include <limits.h>
 
-#define log(akinator, text, ...) htmlLog(akinator, __FILE__, __FUNCTION__, __LINE__, text, ##__VA_ARGS__)
+#define LOG(akinator, text, ...) htmlLog(akinator, __FILE__, __FUNCTION__, __LINE__, text, ##__VA_ARGS__)
 
 typedef char* treeVal_t;
 

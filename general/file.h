@@ -17,11 +17,11 @@ struct data_t {
     size_t bufferSize;
     char* buffer;
     size_t nStrings;
-    string* strings;
+    myString* strings;
 };
 
 struct strings_t{
-    string* ptrs; // ptrs
+    myString* ptrs; // ptrs
     size_t  count;
 };
 

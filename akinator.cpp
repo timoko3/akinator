@@ -1,6 +1,9 @@
+#define TX_USE_SPEAK
+#include "TXLib.h"
+
 #include "akinator.h"
 
-#define DEBUG
+// #define DEBUG
 #include "general/debug.h"
 #include "general/poison.h"
 #include "general/strFunc.h"
@@ -63,7 +66,7 @@ curAnchorNode akinatorDtor(akinator_t* akinator){
 void akinatorReadData(akinator_t* akinator){
     assert(akinator);
 
-    log(akinator, "started reading");
+    // LOG(akinator, "started reading");
 
     data_t akinatorData;
     parseStringsFile(&akinatorData, AKINATOR_DATA_BASE_FILE_NAME);
@@ -76,31 +79,44 @@ void akinatorReadData(akinator_t* akinator){
     free(akinatorData.buffer);
     free(akinatorData.strings);
 
-    log(akinator, "ended reading");
+    // LOG(akinator, "ended reading");
 }
 
 curAnchorNode akinatorGuess(akinator_t* akinator){
     assert(akinator);
 
-    log(akinator, "before guess");
+    // LOG(akinator, "before guess");
+
+    txSpeak("Анализирую импульсы твоего мозга");
+    txSpeak(NULL);
 
     while(true){
         askQuestionUser(akinator);
         char* answer = getAnswerUser(akinator);
         if(isYes(answer)){
             if(!(*curNode(akinator))->left){
+
                 printResult(akinator);
                 free(answer);
                 break;
             }
+
+            txSpeak("Так и знал!");
+            txSpeak(NULL);
             *curNode(akinator) = (*curNode(akinator))->left;
         }
         else if(isNo(answer)){
             if(!(*curNode(akinator))->right){
+                txSpeak("Ну ладно первый и последний раз я не смог угадать");
+                txSpeak(NULL);
+
                 akinatorCreateNodeUser(akinator);
                 free(answer);
                 break;
             }
+            txSpeak("хм... Тебе меня не надурить");
+            txSpeak(NULL);
+
             *curNode(akinator) = (*curNode(akinator))->right;
         }
 
@@ -109,7 +125,7 @@ curAnchorNode akinatorGuess(akinator_t* akinator){
 
     *curNode(akinator) = akinator->root;
 
-    log(akinator, "after guess");
+    // LOG(akinator, "after guess");
 
     return *curNode(akinator);
 }
@@ -125,7 +141,7 @@ curAnchorNode akinatorDefine(akinator_t* akinator){
     printf("\n");
     curAnchorNode result = NULL;
     if(!(result = findDefineNode(akinator, akinator->root, toDefine))){
-        printf("РЇ РЅРµ РёРјРµСЋ РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏ Рѕ %s", toDefine);
+        printf("Я не имею представления о %s", toDefine);
         result = akinator->root;
     }
     printf("\n\n");
@@ -145,6 +161,8 @@ curAnchorNode akinatorCompare(akinator_t* akinator){
     assert(toCompare2);
 
     getWhatCompare(&toCompare2);
+    printf("toCompare1: %s\n", toCompare1);
+    printf("toCompare2: %s\n", toCompare2);
 
     treeNode_t* compareNode1 = findCompareNode(akinator, akinator->root, toCompare1);
 
@@ -187,7 +205,7 @@ curAnchorNode akinatorInsert(akinator_t* akinator, treeNode_t* insertionAddr,  t
     assert(insertionAddr);
     assert(insertVal);
 
-    log(akinator, "before insert(%s)", insertVal);
+    // LOG(akinator, "before insert(%s)", insertVal);
 
     insertionAddr->data = (treeVal_t) calloc(MAX_ANSWER_SIZE, sizeof(char));
     assert(insertionAddr->data);
@@ -200,7 +218,7 @@ curAnchorNode akinatorInsert(akinator_t* akinator, treeNode_t* insertionAddr,  t
 
     (akinator->size)++;
 
-    log(akinator, "after insert(%s)", insertVal);
+    // LOG(akinator, "after insert(%s)", insertVal);
 
     LPRINTF("INSERT: node=%p data=%p \"%s\"", (void*)insertionAddr, (void*)insertionAddr->data, (char*)insertionAddr->data);
 
@@ -326,14 +344,14 @@ static curAnchorNode readNode(akinator_t* akinator, char* buffer, size_t* curBuf
     assert(akinator);
     assert(buffer);
 
-    log(akinator, "startReadNode with curBuffer: %s", &buffer[*curBufferPos]);
+    // LOG(akinator, "startReadNode with curBuffer: %s", &buffer[*curBufferPos]);
 
     skipSpaceAndCloseBracket(buffer, curBufferPos);
 
     treeNode_t* createdNode = NULL;
     
     if((buffer[*curBufferPos] == '(') ){
-        LPRINTF("СЃРєРѕР±РѕС‡РєР°\n");
+        LPRINTF("скобочка\n");
         createdNode = akinatorCreateNodeFile(akinator, buffer, curBufferPos);
     }
     else{
@@ -343,9 +361,9 @@ static curAnchorNode readNode(akinator_t* akinator, char* buffer, size_t* curBuf
     }
     
 
-    LPRINTF("Р°РґСЂРµСЃ С‚РµРєСѓС‰РµР№ СЃРѕР·РґР°РЅРЅРѕР№ РЅРѕРґС‹: %p", createdNode);
+    LPRINTF("адрес текущей созданной ноды: %p", createdNode);
     (*curBufferPos)++;
-    LPRINTF("\n\nСЂРµРєСѓСЂСЃРёРІРЅС‹Р№ Р·Р°РїСѓСЃРє");
+    LPRINTF("\n\nрекурсивный запуск");
     createdNode->left  = readNode(akinator, buffer, curBufferPos);
     if(createdNode->left){
         createdNode->left->parent = createdNode;
@@ -358,7 +376,7 @@ static curAnchorNode readNode(akinator_t* akinator, char* buffer, size_t* curBuf
     
     (akinator->size)++;
 
-    log(akinator, "endReadNode with curBuffer: %s", &buffer[*curBufferPos]);
+    // LOG(akinator, "endReadNode with curBuffer: %s", &buffer[*curBufferPos]);
 
     return createdNode;
 }
@@ -370,14 +388,14 @@ static bool isNilNode(char* buffer, size_t* curBufferPos){
     treeVal_t curNodeData = (treeVal_t) calloc(MAX_ANSWER_SIZE, sizeof(char));
     assert(curNodeData);
 
-    LPRINTF("Р±СѓС„РµСЂ РїРµСЂРµРґ С‡С‚РµРЅРёРµРј: %s", &buffer[*curBufferPos]);
+    LPRINTF("буфер перед чтением: %s", &buffer[*curBufferPos]);
     size_t lenName = 0;
     sscanf(&buffer[*curBufferPos], "%s%n", curNodeData, &lenName);
-    LPRINTF("РџСЂРѕС‡РёС‚Р°Р»РѕСЃСЊ РІРЅСѓС‚СЂРё СЃР»СѓС‡Р°СЏ nil: %s", curNodeData);
+    LPRINTF("Прочиталось внутри случая nil: %s", curNodeData);
     if(isEqualStrings(curNodeData, "nil")){
-        LPRINTF("Р—Р°С€РµР» РІ nil");
+        LPRINTF("Зашел в nil");
         *curBufferPos += lenName;
-        LPRINTF("Р±СѓС„РµСЂ РїРѕСЃР»Рµ С‡С‚РµРЅРёСЏ: %s\n", &buffer[*curBufferPos]);
+        LPRINTF("буфер после чтения: %s\n", &buffer[*curBufferPos]);
         free(curNodeData);
         return true;
     }
@@ -434,7 +452,7 @@ static curAnchorNode akinatorCreateNodeFile(akinator_t* akinator, char* buffer, 
     else{
         curNode = (treeNode_t*) calloc(1, sizeof(treeNode_t));
         assert(curNode);
-        LPRINTF("Р’С‹РґРµР»РёР» РїР°РјСЏС‚СЊ");
+        LPRINTF("Выделил память");
         curNode->data = (treeVal_t) calloc(MAX_ANSWER_SIZE, sizeof(char));
         assert(curNode->data);
     }
@@ -442,19 +460,19 @@ static curAnchorNode akinatorCreateNodeFile(akinator_t* akinator, char* buffer, 
 
     (*curBufferPose)++;
     
-    LPRINTF("Р·Р°РїРёСЃР°Р» СѓРєР°Р·Р°С‚РµР»СЊ РІ data РЅРѕРІРѕРіРѕ node");
+    LPRINTF("записал указатель в data нового node");
     size_t lenName = 0;
 
     treeVal_t curNodeData = (treeVal_t) calloc(MAX_ANSWER_SIZE, sizeof(char));
     assert(curNodeData);
 
-    LPRINTF("Р±СѓС„РµСЂ РїРµСЂРµРґ С‡С‚РµРЅРёРµРј: %s", &buffer[*curBufferPose]);
+    LPRINTF("буфер перед чтением: %s", &buffer[*curBufferPose]);
 
     sscanf(&buffer[*curBufferPose], "\"%[^\"]\"%n", curNodeData, &lenName);
-    LPRINTF("РџРѕР»СѓС‡РёР» СЂР°Р·РјРµСЂ СЃС‚СЂРѕРєРё %lu Рё СЃР°РјСѓ СЃС‚СЂРѕРєСѓ %s", lenName, curNodeData);
+    LPRINTF("Получил размер строки %lu и саму строку %s", lenName, curNodeData);
     strcpy(curNode->data, curNodeData);
     *curBufferPose += lenName;
-    LPRINTF("\nР±СѓС„РµСЂ РїРѕСЃР»Рµ С‡С‚РµРЅРёРµРј: %s", &buffer[*curBufferPose]);
+    LPRINTF("\nбуфер после чтением: %s", &buffer[*curBufferPose]);
 
     free(curNodeData);
     return curNode;

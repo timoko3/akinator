@@ -1,0 +1,1139 @@
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\MIPT\proga\prodva\projects\akinator\akinator.exe, файл: C:\Users\Lenovo\Downloads\TX/TXLib.h, строка: 13868, функция: bool {anonymous}::TX::txBitBlt(double, double, HDC, double, double),
+
+Сообщение: Возможно, окно рисования не создано или не в порядке.
+
+#1: TXLib [Ver: 00173a, Rev: 174, Date: 2025-08-17 06:00:49 +0400], Instance: 0x00007FF7F10DD7D0 (64-bit), Flags: cmdre0, Thread: 0xB394 (Main), GetLastError(): 13 (РќРµРґРѕРїСѓСЃС‚РёРјС‹Рµ РґР°РЅРЅС‹Рµ). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00007FF7F1003727 in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: (anonymous namespace)::TX::_txError() at C:/Users/Lenovo/Downloads/TX/TXLib.h:11090
+# 1 0x00007FF7F1017A83 in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: (anonymous namespace)::TX::txBitBlt() at C:/Users/Lenovo/Downloads/TX/TXLib.h:13868
+
+# 2 0x00007FF7F1022D90 in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: animation() at C:/MIPT/proga/prodva/projects/akinator/akinatorUI.cpp:269:
+
+    267:     HDC frame2 = txLoadImage("animation\frame2.bmp");
+    268:     HDC frame3 = txLoadImage("animation\frame3.bmp");
+=>  269:     txBitBlt(200, 200, frame1);
+    270:     txSleep(100);           // Задержка 100 мс
+    271:     txBitBlt(200, 200, frame2);
+
+# 3 0x00007FF7F1089551 in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: main() at C:/MIPT/proga/prodva/projects/akinator/main.cpp:21:
+
+     19:     txCreateWindow(800, 600);
+     20: 
+=>   21:     animation();
+     22: 
+     23:     txSpeak ("Привет всем кожаным мешкам!");
+
+--------------------------------------------------
+Стек вызовов TX:
+
+# 0 in bool {anonymous}::TX::txBitBlt(double, double, HDC, double, double) at C:\Users\Lenovo\Downloads\TX/TXLib.h:13868:
+
+  13866: bool txBitBlt (double xDest, double yDest, HDC sourceImage, double xSource /*= 0*/, double ySource /*= 0*/)
+  13867:     {
+=>13868: $1  if (_TX_TXWINDOW_FAILED()) return false;
+  13869: 
+  13870: $   return txBitBlt (txDC(), xDest, yDest, 0, 0, sourceImage, xSource, ySource);
+
+# 1 in void animation() at akinatorUI.cpp:269:
+
+    267:     HDC frame2 = txLoadImage("animation\frame2.bmp");
+    268:     HDC frame3 = txLoadImage("animation\frame3.bmp");
+=>  269:     txBitBlt(200, 200, frame1);
+    270:     txSleep(100);           // Задержка 100 мс
+    271:     txBitBlt(200, 200, frame2);
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 174, Date: 2025-08-17 06:00:49 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Users\Lenovo\Downloads\TX/TXLib.h
+Compiled:	Nov 14 2025 22:15:17, GNU g++ 15.1.0, std=201703L, MinGW-W64 Runtime 14.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, DEBUG
+Started:	Nov 14 2025 22:15:37
+
+Run file:	C:\MIPT\proga\prodva\projects\akinator\akinator.exe
+Directory:	C:\MIPT\proga\prodva\projects\akinator
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\MIPT\proga\prodva\projects\akinator\akinator.exe, файл: C:\Users\Lenovo\Downloads\TX/TXLib.h, строка: 13868, функция: bool {anonymous}::TX::txBitBlt(double, double, HDC, double, double),
+
+Сообщение: Возможно, окно рисования не создано или не в порядке.
+
+#1: TXLib [Ver: 00173a, Rev: 174, Date: 2025-08-17 06:00:49 +0400], Instance: 0x00007FF6ABD8D7D0 (64-bit), Flags: cmdre0, Thread: 0xCE98 (Main), GetLastError(): 13 (РќРµРґРѕРїСѓСЃС‚РёРјС‹Рµ РґР°РЅРЅС‹Рµ). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00007FF6ABCB3727 in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: (anonymous namespace)::TX::_txError() at C:/Users/Lenovo/Downloads/TX/TXLib.h:11090
+# 1 0x00007FF6ABCC7A83 in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: (anonymous namespace)::TX::txBitBlt() at C:/Users/Lenovo/Downloads/TX/TXLib.h:13868
+
+# 2 0x00007FF6ABCD2D90 in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: animation() at C:/MIPT/proga/prodva/projects/akinator/akinatorUI.cpp:269:
+
+    267:     HDC frame2 = txLoadImage("animation/OmnX-1.bmp");
+    268:     HDC frame3 = txLoadImage("animation/OmnX-2.bmp");
+=>  269:     txBitBlt(200, 200, frame1);
+    270:     txSleep(100);           // Задержка 100 мс
+    271:     txBitBlt(200, 200, frame2);
+
+# 3 0x00007FF6ABD39551 in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: main() at C:/MIPT/proga/prodva/projects/akinator/main.cpp:21:
+
+     19:     txCreateWindow(800, 600);
+     20: 
+=>   21:     animation();
+     22: 
+     23:     txSpeak ("Привет всем кожаным мешкам!");
+
+--------------------------------------------------
+Стек вызовов TX:
+
+# 0 in bool {anonymous}::TX::txBitBlt(double, double, HDC, double, double) at C:\Users\Lenovo\Downloads\TX/TXLib.h:13868:
+
+  13866: bool txBitBlt (double xDest, double yDest, HDC sourceImage, double xSource /*= 0*/, double ySource /*= 0*/)
+  13867:     {
+=>13868: $1  if (_TX_TXWINDOW_FAILED()) return false;
+  13869: 
+  13870: $   return txBitBlt (txDC(), xDest, yDest, 0, 0, sourceImage, xSource, ySource);
+
+# 1 in void animation() at akinatorUI.cpp:269:
+
+    267:     HDC frame2 = txLoadImage("animation/OmnX-1.bmp");
+    268:     HDC frame3 = txLoadImage("animation/OmnX-2.bmp");
+=>  269:     txBitBlt(200, 200, frame1);
+    270:     txSleep(100);           // Задержка 100 мс
+    271:     txBitBlt(200, 200, frame2);
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 174, Date: 2025-08-17 06:00:49 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Users\Lenovo\Downloads\TX/TXLib.h
+Compiled:	Nov 14 2025 23:32:14, GNU g++ 15.1.0, std=201703L, MinGW-W64 Runtime 14.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, DEBUG
+Started:	Nov 14 2025 23:32:32
+
+Run file:	C:\MIPT\proga\prodva\projects\akinator\akinator.exe
+Directory:	C:\MIPT\proga\prodva\projects\akinator
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\MIPT\proga\prodva\projects\akinator\akinator.exe, файл: C:\Users\Lenovo\Downloads\TX/TXLib.h, строка: 13868, функция: bool {anonymous}::TX::txBitBlt(double, double, HDC, double, double),
+
+Сообщение: Возможно, окно рисования не создано или не в порядке.
+
+#1: TXLib [Ver: 00173a, Rev: 174, Date: 2025-08-17 06:00:49 +0400], Instance: 0x00007FF74F1CD7D0 (64-bit), Flags: cmdre0, Thread: 0xD2A0 (Main), GetLastError(): 13 (РќРµРґРѕРїСѓСЃС‚РёРјС‹Рµ РґР°РЅРЅС‹Рµ). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00007FF74F0F3727 in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: (anonymous namespace)::TX::_txError() at C:/Users/Lenovo/Downloads/TX/TXLib.h:11090
+# 1 0x00007FF74F107A83 in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: (anonymous namespace)::TX::txBitBlt() at C:/Users/Lenovo/Downloads/TX/TXLib.h:13868
+
+# 2 0x00007FF74F112CFC in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: animation() at C:/MIPT/proga/prodva/projects/akinator/akinatorUI.cpp:269:
+
+    267:     // HDC frame2 = txLoadImage("animation/OmnX-1.bmp");
+    268:     // HDC frame3 = txLoadImage("animation/OmnX-2.bmp");
+=>  269:     txBitBlt(200, 200, frame1);
+    270:     // txSleep(100);           // Задержка 100 мс
+    271:     // txBitBlt(200, 200, frame2);
+
+# 3 0x00007FF74F179397 in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: main() at C:/MIPT/proga/prodva/projects/akinator/main.cpp:21:
+
+     19:     txCreateCompatibleDC(800, 600);
+     20: 
+=>   21:     animation();
+     22: 
+     23:     txSpeak ("Привет всем кожаным мешкам!");
+
+--------------------------------------------------
+Стек вызовов TX:
+
+# 0 in bool {anonymous}::TX::txBitBlt(double, double, HDC, double, double) at C:\Users\Lenovo\Downloads\TX/TXLib.h:13868:
+
+  13866: bool txBitBlt (double xDest, double yDest, HDC sourceImage, double xSource /*= 0*/, double ySource /*= 0*/)
+  13867:     {
+=>13868: $1  if (_TX_TXWINDOW_FAILED()) return false;
+  13869: 
+  13870: $   return txBitBlt (txDC(), xDest, yDest, 0, 0, sourceImage, xSource, ySource);
+
+# 1 in void animation() at akinatorUI.cpp:269:
+
+    267:     // HDC frame2 = txLoadImage("animation/OmnX-1.bmp");
+    268:     // HDC frame3 = txLoadImage("animation/OmnX-2.bmp");
+=>  269:     txBitBlt(200, 200, frame1);
+    270:     // txSleep(100);           // Задержка 100 мс
+    271:     // txBitBlt(200, 200, frame2);
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 174, Date: 2025-08-17 06:00:49 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Users\Lenovo\Downloads\TX/TXLib.h
+Compiled:	Nov 14 2025 23:36:28, GNU g++ 15.1.0, std=201703L, MinGW-W64 Runtime 14.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, DEBUG
+Started:	Nov 14 2025 23:37:00
+
+Run file:	C:\MIPT\proga\prodva\projects\akinator\akinator.exe
+Directory:	C:\MIPT\proga\prodva\projects\akinator
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\MIPT\proga\prodva\projects\akinator\akinator.exe, файл: C:\Users\Lenovo\Downloads\TX/TXLib.h, строка: 13853, функция: bool {anonymous}::TX::txBitBlt(HDC, double, double, double, double, HDC, double, double, unsigned int),
+
+Сообщение: Параметр "destImage" неверен. Возможно, этот холст не создан, или уже уничтожен, или не загрузилась картинка.
+
+#1: TXLib [Ver: 00173a, Rev: 174, Date: 2025-08-17 06:00:49 +0400], Instance: 0x00007FF78135D7D0 (64-bit), Flags: cmdre0, Thread: 0xD12C (Main), GetLastError(): 13 (РќРµРґРѕРїСѓСЃС‚РёРјС‹Рµ РґР°РЅРЅС‹Рµ). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00007FF781283727 in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: (anonymous namespace)::TX::_txError() at C:/Users/Lenovo/Downloads/TX/TXLib.h:11090
+# 1 0x00007FF7812975C4 in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: (anonymous namespace)::TX::txBitBlt() at C:/Users/Lenovo/Downloads/TX/TXLib.h:13853
+
+# 2 0x00007FF7812A2C2C in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: animation() at C:/MIPT/proga/prodva/projects/akinator/akinatorUI.cpp:275:
+
+    273:     // Посмотрите, как сделано в примере TX\Examples\Tennis\Tennis.cpp.
+    274: 
+=>  275:     txBitBlt (txDC(), 0, 0, 800, 600, frame1, 0, 0);
+    276: 
+    277:     txDeleteDC (frame1);
+
+# 3 0x00007FF7813092B0 in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: main() at C:/MIPT/proga/prodva/projects/akinator/main.cpp:19:
+
+     17:     akinator_t akinator;
+     18: 
+=>   19:     animation();
+     20: 
+     21:     txSpeak ("Привет всем кожаным мешкам!");
+
+--------------------------------------------------
+Стек вызовов TX:
+
+# 0 in bool {anonymous}::TX::txBitBlt(HDC, double, double, double, double, HDC, double, double, unsigned int) at C:\Users\Lenovo\Downloads\TX/TXLib.h:13853:
+
+  13851:                HDC sourceImage, double xSource /*= 0*/, double ySource /*= 0*/, unsigned operation /*= SRCCOPY*/)
+  13852:     {
+=>13853: $1  if (_TX_HDC_FAILED (destImage))   return false;
+  13854: $   if (_TX_HDC_FAILED (sourceImage)) return false;
+  13855: 
+
+# 1 in void animation() at akinatorUI.cpp:275:
+
+    273:     // Посмотрите, как сделано в примере TX\Examples\Tennis\Tennis.cpp.
+    274: 
+=>  275:     txBitBlt (txDC(), 0, 0, 800, 600, frame1, 0, 0);
+    276: 
+    277:     txDeleteDC (frame1);
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 174, Date: 2025-08-17 06:00:49 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Users\Lenovo\Downloads\TX/TXLib.h
+Compiled:	Nov 14 2025 23:48:01, GNU g++ 15.1.0, std=201703L, MinGW-W64 Runtime 14.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, DEBUG
+Started:	Nov 14 2025 23:48:20
+
+Run file:	C:\MIPT\proga\prodva\projects\akinator\akinator.exe
+Directory:	C:\MIPT\proga\prodva\projects\akinator
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\MIPT\proga\prodva\projects\akinator\akinator.exe, файл: C:\Users\Lenovo\Downloads\TX/TXLib.h, строка: 13853, функция: bool {anonymous}::TX::txBitBlt(HDC, double, double, double, double, HDC, double, double, unsigned int),
+
+Сообщение: Параметр "destImage" неверен. Возможно, этот холст не создан, или уже уничтожен, или не загрузилась картинка.
+
+#1: TXLib [Ver: 00173a, Rev: 174, Date: 2025-08-17 06:00:49 +0400], Instance: 0x00007FF7C5BDD7D0 (64-bit), Flags: cmdre0, Thread: 0xA4C0 (Main), GetLastError(): 13 (РќРµРґРѕРїСѓСЃС‚РёРјС‹Рµ РґР°РЅРЅС‹Рµ). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00007FF7C5B03727 in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: (anonymous namespace)::TX::_txError() at C:/Users/Lenovo/Downloads/TX/TXLib.h:11090
+# 1 0x00007FF7C5B175C4 in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: (anonymous namespace)::TX::txBitBlt() at C:/Users/Lenovo/Downloads/TX/TXLib.h:13853
+
+# 2 0x00007FF7C5B22C2C in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: animation() at C:/MIPT/proga/prodva/projects/akinator/akinatorUI.cpp:275:
+
+    273:     // Посмотрите, как сделано в примере TX\Examples\Tennis\Tennis.cpp.
+    274: 
+=>  275:     txBitBlt (txDC(), 0, 0, 800, 600, frame1, 0, 0);
+    276: 
+    277:     txDeleteDC (frame1);
+
+# 3 0x00007FF7C5B892B0 in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: main() at C:/MIPT/proga/prodva/projects/akinator/main.cpp:19:
+
+     17:     akinator_t akinator;
+     18: 
+=>   19:     animation();
+     20: 
+     21:     txSpeak ("Привет всем кожаным мешкам!");
+
+--------------------------------------------------
+Стек вызовов TX:
+
+# 0 in bool {anonymous}::TX::txBitBlt(HDC, double, double, double, double, HDC, double, double, unsigned int) at C:\Users\Lenovo\Downloads\TX/TXLib.h:13853:
+
+  13851:                HDC sourceImage, double xSource /*= 0*/, double ySource /*= 0*/, unsigned operation /*= SRCCOPY*/)
+  13852:     {
+=>13853: $1  if (_TX_HDC_FAILED (destImage))   return false;
+  13854: $   if (_TX_HDC_FAILED (sourceImage)) return false;
+  13855: 
+
+# 1 in void animation() at akinatorUI.cpp:275:
+
+    273:     // Посмотрите, как сделано в примере TX\Examples\Tennis\Tennis.cpp.
+    274: 
+=>  275:     txBitBlt (txDC(), 0, 0, 800, 600, frame1, 0, 0);
+    276: 
+    277:     txDeleteDC (frame1);
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 174, Date: 2025-08-17 06:00:49 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Users\Lenovo\Downloads\TX/TXLib.h
+Compiled:	Nov 14 2025 23:48:51, GNU g++ 15.1.0, std=201703L, MinGW-W64 Runtime 14.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, DEBUG
+Started:	Nov 14 2025 23:49:16
+
+Run file:	C:\MIPT\proga\prodva\projects\akinator\akinator.exe
+Directory:	C:\MIPT\proga\prodva\projects\akinator
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\MIPT\proga\prodva\projects\akinator\akinator.exe, файл: C:\Users\Lenovo\Downloads\TX/TXLib.h, строка: 13854, функция: bool {anonymous}::TX::txBitBlt(HDC, double, double, double, double, HDC, double, double, unsigned int),
+
+Сообщение: Параметр "sourceImage" неверен. Возможно, этот холст не создан, или уже уничтожен, или не загрузилась картинка.
+
+#1: TXLib [Ver: 00173a, Rev: 174, Date: 2025-08-17 06:00:49 +0400], Instance: 0x00007FF67CB5D7D0 (64-bit), Flags: cMdRe0, Thread: 0x266C (Main), GetLastError(): 13 (РќРµРґРѕРїСѓСЃС‚РёРјС‹Рµ РґР°РЅРЅС‹Рµ). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00007FF67CA83727 in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: (anonymous namespace)::TX::_txError() at C:/Users/Lenovo/Downloads/TX/TXLib.h:11090
+# 1 0x00007FF67CA9765F in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: (anonymous namespace)::TX::txBitBlt() at C:/Users/Lenovo/Downloads/TX/TXLib.h:13854
+
+# 2 0x00007FF67CAA2C6D in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: animation() at C:/MIPT/proga/prodva/projects/akinator/akinatorUI.cpp:277:
+
+    275:     // Посмотрите, как сделано в примере TX\Examples\Tennis\Tennis.cpp.
+    276: 
+=>  277:     txBitBlt (txDC(), 0, 0, 800, 600, frame1, 0, 0);
+    278: 
+    279:     txDeleteDC (frame1);
+
+# 3 0x00007FF67CB092F0 in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: main() at C:/MIPT/proga/prodva/projects/akinator/main.cpp:19:
+
+     17:     akinator_t akinator;
+     18: 
+=>   19:     animation();
+     20: 
+     21:     txSpeak ("Привет всем кожаным мешкам!");
+
+--------------------------------------------------
+Стек вызовов TX:
+
+# 0 in bool {anonymous}::TX::txBitBlt(HDC, double, double, double, double, HDC, double, double, unsigned int) at C:\Users\Lenovo\Downloads\TX/TXLib.h:13854:
+
+  13852:     {
+  13853: $1  if (_TX_HDC_FAILED (destImage))   return false;
+=>13854: $   if (_TX_HDC_FAILED (sourceImage)) return false;
+  13855: 
+  13856: $   POINT size = txGetExtent (sourceImage);
+
+# 1 in void animation() at akinatorUI.cpp:277:
+
+    275:     // Посмотрите, как сделано в примере TX\Examples\Tennis\Tennis.cpp.
+    276: 
+=>  277:     txBitBlt (txDC(), 0, 0, 800, 600, frame1, 0, 0);
+    278: 
+    279:     txDeleteDC (frame1);
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 174, Date: 2025-08-17 06:00:49 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Users\Lenovo\Downloads\TX/TXLib.h
+Compiled:	Nov 14 2025 23:51:24, GNU g++ 15.1.0, std=201703L, MinGW-W64 Runtime 14.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, DEBUG
+Started:	Nov 14 2025 23:51:43
+
+Run file:	C:\MIPT\proga\prodva\projects\akinator\akinator.exe
+Directory:	C:\MIPT\proga\prodva\projects\akinator
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\MIPT\proga\prodva\projects\akinator\akinator.exe, файл: C:\Users\Lenovo\Downloads\TX/TXLib.h, строка: 13854, функция: bool {anonymous}::TX::txBitBlt(HDC, double, double, double, double, HDC, double, double, unsigned int),
+
+Сообщение: Параметр "sourceImage" неверен. Возможно, этот холст не создан, или уже уничтожен, или не загрузилась картинка.
+
+#1: TXLib [Ver: 00173a, Rev: 174, Date: 2025-08-17 06:00:49 +0400], Instance: 0x00007FF69C65D7D0 (64-bit), Flags: cMdRe0, Thread: 0xC6E8 (Main), GetLastError(): 13 (РќРµРґРѕРїСѓСЃС‚РёРјС‹Рµ РґР°РЅРЅС‹Рµ). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00007FF69C583727 in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: (anonymous namespace)::TX::_txError() at C:/Users/Lenovo/Downloads/TX/TXLib.h:11090
+# 1 0x00007FF69C59765F in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: (anonymous namespace)::TX::txBitBlt() at C:/Users/Lenovo/Downloads/TX/TXLib.h:13854
+
+# 2 0x00007FF69C5A2C6D in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: animation() at C:/MIPT/proga/prodva/projects/akinator/akinatorUI.cpp:277:
+
+    275:     // Посмотрите, как сделано в примере TX\Examples\Tennis\Tennis.cpp.
+    276: 
+=>  277:     txBitBlt (txDC(), 0, 0, 800, 600, frame1, 0, 0);
+    278: 
+    279:     txDeleteDC (frame1);
+
+# 3 0x00007FF69C6092F0 in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: main() at C:/MIPT/proga/prodva/projects/akinator/main.cpp:19:
+
+     17:     akinator_t akinator;
+     18: 
+=>   19:     animation();
+     20: 
+     21:     txSpeak ("Привет всем кожаным мешкам!");
+
+--------------------------------------------------
+Стек вызовов TX:
+
+# 0 in bool {anonymous}::TX::txBitBlt(HDC, double, double, double, double, HDC, double, double, unsigned int) at C:\Users\Lenovo\Downloads\TX/TXLib.h:13854:
+
+  13852:     {
+  13853: $1  if (_TX_HDC_FAILED (destImage))   return false;
+=>13854: $   if (_TX_HDC_FAILED (sourceImage)) return false;
+  13855: 
+  13856: $   POINT size = txGetExtent (sourceImage);
+
+# 1 in void animation() at akinatorUI.cpp:277:
+
+    275:     // Посмотрите, как сделано в примере TX\Examples\Tennis\Tennis.cpp.
+    276: 
+=>  277:     txBitBlt (txDC(), 0, 0, 800, 600, frame1, 0, 0);
+    278: 
+    279:     txDeleteDC (frame1);
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 174, Date: 2025-08-17 06:00:49 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Users\Lenovo\Downloads\TX/TXLib.h
+Compiled:	Nov 14 2025 23:53:54, GNU g++ 15.1.0, std=201703L, MinGW-W64 Runtime 14.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, DEBUG
+Started:	Nov 14 2025 23:54:15
+
+Run file:	C:\MIPT\proga\prodva\projects\akinator\akinator.exe
+Directory:	C:\MIPT\proga\prodva\projects\akinator
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\MIPT\proga\prodva\projects\akinator\akinator.exe, файл: C:\Users\Lenovo\Downloads\TX/TXLib.h, строка: 13854, функция: bool {anonymous}::TX::txBitBlt(HDC, double, double, double, double, HDC, double, double, unsigned int),
+
+Сообщение: Параметр "sourceImage" неверен. Возможно, этот холст не создан, или уже уничтожен, или не загрузилась картинка.
+
+#1: TXLib [Ver: 00173a, Rev: 174, Date: 2025-08-17 06:00:49 +0400], Instance: 0x00007FF62FD4D7D0 (64-bit), Flags: cMdRe0, Thread: 0x9ED8 (Main), GetLastError(): 13 (РќРµРґРѕРїСѓСЃС‚РёРјС‹Рµ РґР°РЅРЅС‹Рµ). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00007FF62FC73727 in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: (anonymous namespace)::TX::_txError() at C:/Users/Lenovo/Downloads/TX/TXLib.h:11090
+# 1 0x00007FF62FC8765F in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: (anonymous namespace)::TX::txBitBlt() at C:/Users/Lenovo/Downloads/TX/TXLib.h:13854
+
+# 2 0x00007FF62FC92C6D in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: animation() at C:/MIPT/proga/prodva/projects/akinator/akinatorUI.cpp:277:
+
+    275:     // Посмотрите, как сделано в примере TX\Examples\Tennis\Tennis.cpp.
+    276: 
+=>  277:     txBitBlt (txDC(), 0, 0, 800, 600, frame1, 0, 0);
+    278: 
+    279:     txDeleteDC (frame1);
+
+# 3 0x00007FF62FCF92F0 in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: main() at C:/MIPT/proga/prodva/projects/akinator/main.cpp:19:
+
+     17:     akinator_t akinator;
+     18: 
+=>   19:     animation();
+     20: 
+     21:     txSpeak ("Привет всем кожаным мешкам!");
+
+--------------------------------------------------
+Стек вызовов TX:
+
+# 0 in bool {anonymous}::TX::txBitBlt(HDC, double, double, double, double, HDC, double, double, unsigned int) at C:\Users\Lenovo\Downloads\TX/TXLib.h:13854:
+
+  13852:     {
+  13853: $1  if (_TX_HDC_FAILED (destImage))   return false;
+=>13854: $   if (_TX_HDC_FAILED (sourceImage)) return false;
+  13855: 
+  13856: $   POINT size = txGetExtent (sourceImage);
+
+# 1 in void animation() at akinatorUI.cpp:277:
+
+    275:     // Посмотрите, как сделано в примере TX\Examples\Tennis\Tennis.cpp.
+    276: 
+=>  277:     txBitBlt (txDC(), 0, 0, 800, 600, frame1, 0, 0);
+    278: 
+    279:     txDeleteDC (frame1);
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 174, Date: 2025-08-17 06:00:49 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Users\Lenovo\Downloads\TX/TXLib.h
+Compiled:	Nov 15 2025 00:00:07, GNU g++ 15.1.0, std=201703L, MinGW-W64 Runtime 14.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, DEBUG
+Started:	Nov 15 2025 00:00:26
+
+Run file:	C:\MIPT\proga\prodva\projects\akinator\akinator.exe
+Directory:	C:\MIPT\proga\prodva\projects\akinator
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\MIPT\proga\prodva\projects\akinator\akinator.exe, файл: C:\Users\Lenovo\Downloads\TX/TXLib.h, строка: 13854, функция: bool {anonymous}::TX::txBitBlt(HDC, double, double, double, double, HDC, double, double, unsigned int),
+
+Сообщение: Параметр "sourceImage" неверен. Возможно, этот холст не создан, или уже уничтожен, или не загрузилась картинка.
+
+#1: TXLib [Ver: 00173a, Rev: 174, Date: 2025-08-17 06:00:49 +0400], Instance: 0x00007FF7B587C7D0 (64-bit), Flags: cMdRe0, Thread: 0x8E8C (Main), GetLastError(): 13 (РќРµРґРѕРїСѓСЃС‚РёРјС‹Рµ РґР°РЅРЅС‹Рµ). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00007FF7B57E3727 in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: (anonymous namespace)::TX::_txError() at C:/Users/Lenovo/Downloads/TX/TXLib.h:11090
+# 1 0x00007FF7B57F765F in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: (anonymous namespace)::TX::txBitBlt() at C:/Users/Lenovo/Downloads/TX/TXLib.h:13854
+
+# 2 0x00007FF7B5802C6D in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: animation() at C:/MIPT/proga/prodva/projects/akinator/akinatorUI.cpp:277:
+
+    275:     // Посмотрите, как сделано в примере TX\Examples\Tennis\Tennis.cpp.
+    276: 
+=>  277:     txBitBlt (txDC(), 0, 0, 800, 600, frame1, 0, 0);
+    278: 
+    279:     txDeleteDC (frame1);
+
+# 3 0x00007FF7B5838772 in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: main() at C:/MIPT/proga/prodva/projects/akinator/main.cpp:19:
+
+     17:     akinator_t akinator;
+     18: 
+=>   19:     animation();
+     20: 
+     21:     // txSpeak ("Привет всем кожаным мешкам!");
+
+--------------------------------------------------
+Стек вызовов TX:
+
+# 0 in bool {anonymous}::TX::txBitBlt(HDC, double, double, double, double, HDC, double, double, unsigned int) at C:\Users\Lenovo\Downloads\TX/TXLib.h:13854:
+
+  13852:     {
+  13853: $1  if (_TX_HDC_FAILED (destImage))   return false;
+=>13854: $   if (_TX_HDC_FAILED (sourceImage)) return false;
+  13855: 
+  13856: $   POINT size = txGetExtent (sourceImage);
+
+# 1 in void animation() at akinatorUI.cpp:277:
+
+    275:     // Посмотрите, как сделано в примере TX\Examples\Tennis\Tennis.cpp.
+    276: 
+=>  277:     txBitBlt (txDC(), 0, 0, 800, 600, frame1, 0, 0);
+    278: 
+    279:     txDeleteDC (frame1);
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 174, Date: 2025-08-17 06:00:49 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Users\Lenovo\Downloads\TX/TXLib.h
+Compiled:	Nov 15 2025 00:01:14, GNU g++ 15.1.0, std=201703L, MinGW-W64 Runtime 14.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, DEBUG
+Started:	Nov 15 2025 00:01:28
+
+Run file:	C:\MIPT\proga\prodva\projects\akinator\akinator.exe
+Directory:	C:\MIPT\proga\prodva\projects\akinator
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\MIPT\proga\prodva\projects\akinator\akinator.exe, файл: C:\Users\Lenovo\Downloads\TX/TXLib.h, строка: 13854, функция: bool {anonymous}::TX::txBitBlt(HDC, double, double, double, double, HDC, double, double, unsigned int),
+
+Сообщение: Параметр "sourceImage" неверен. Возможно, этот холст не создан, или уже уничтожен, или не загрузилась картинка.
+
+#1: TXLib [Ver: 00173a, Rev: 174, Date: 2025-08-17 06:00:49 +0400], Instance: 0x00007FF68CBAC7D0 (64-bit), Flags: cMdRe0, Thread: 0x7518 (Main), GetLastError(): 13 (РќРµРґРѕРїСѓСЃС‚РёРјС‹Рµ РґР°РЅРЅС‹Рµ). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00007FF68CB13727 in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: (anonymous namespace)::TX::_txError() at C:/Users/Lenovo/Downloads/TX/TXLib.h:11090
+# 1 0x00007FF68CB2765F in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: (anonymous namespace)::TX::txBitBlt() at C:/Users/Lenovo/Downloads/TX/TXLib.h:13854
+
+# 2 0x00007FF68CB32C6D in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: animation() at C:/MIPT/proga/prodva/projects/akinator/akinatorUI.cpp:277:
+
+    275:     // Посмотрите, как сделано в примере TX\Examples\Tennis\Tennis.cpp.
+    276: 
+=>  277:     txBitBlt (txDC(), 0, 0, 800, 600, frame1, 0, 0);
+    278: 
+    279:     txDeleteDC (frame1);
+
+# 3 0x00007FF68CB68772 in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: main() at C:/MIPT/proga/prodva/projects/akinator/main.cpp:19:
+
+     17:     akinator_t akinator;
+     18: 
+=>   19:     animation();
+     20: 
+     21:     // txSpeak ("Привет всем кожаным мешкам!");
+
+--------------------------------------------------
+Стек вызовов TX:
+
+# 0 in bool {anonymous}::TX::txBitBlt(HDC, double, double, double, double, HDC, double, double, unsigned int) at C:\Users\Lenovo\Downloads\TX/TXLib.h:13854:
+
+  13852:     {
+  13853: $1  if (_TX_HDC_FAILED (destImage))   return false;
+=>13854: $   if (_TX_HDC_FAILED (sourceImage)) return false;
+  13855: 
+  13856: $   POINT size = txGetExtent (sourceImage);
+
+# 1 in void animation() at akinatorUI.cpp:277:
+
+    275:     // Посмотрите, как сделано в примере TX\Examples\Tennis\Tennis.cpp.
+    276: 
+=>  277:     txBitBlt (txDC(), 0, 0, 800, 600, frame1, 0, 0);
+    278: 
+    279:     txDeleteDC (frame1);
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 174, Date: 2025-08-17 06:00:49 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Users\Lenovo\Downloads\TX/TXLib.h
+Compiled:	Nov 15 2025 00:05:47, GNU g++ 15.1.0, std=201703L, MinGW-W64 Runtime 14.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, DEBUG
+Started:	Nov 15 2025 00:06:02
+
+Run file:	C:\MIPT\proga\prodva\projects\akinator\akinator.exe
+Directory:	C:\MIPT\proga\prodva\projects\akinator
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\MIPT\proga\prodva\projects\akinator\akinator.exe, файл: C:\Users\Lenovo\Downloads\TX/TXLib.h, строка: 13854, функция: bool {anonymous}::TX::txBitBlt(HDC, double, double, double, double, HDC, double, double, unsigned int),
+
+Сообщение: Параметр "sourceImage" неверен. Возможно, этот холст не создан, или уже уничтожен, или не загрузилась картинка.
+
+#1: TXLib [Ver: 00173a, Rev: 174, Date: 2025-08-17 06:00:49 +0400], Instance: 0x00007FF76C0CC7D0 (64-bit), Flags: cMdRe0, Thread: 0xC9A4 (Main), GetLastError(): 13 (РќРµРґРѕРїСѓСЃС‚РёРјС‹Рµ РґР°РЅРЅС‹Рµ). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00007FF76C033727 in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: (anonymous namespace)::TX::_txError() at C:/Users/Lenovo/Downloads/TX/TXLib.h:11090
+# 1 0x00007FF76C04765F in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: (anonymous namespace)::TX::txBitBlt() at C:/Users/Lenovo/Downloads/TX/TXLib.h:13854
+
+# 2 0x00007FF76C052C6D in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: animation() at C:/MIPT/proga/prodva/projects/akinator/akinatorUI.cpp:277:
+
+    275:     // Посмотрите, как сделано в примере TX\Examples\Tennis\Tennis.cpp.
+    276: 
+=>  277:     txBitBlt (txDC(), 0, 0, 800, 600, frame1, 0, 0);
+    278: 
+    279:     txDeleteDC (frame1);
+
+# 3 0x00007FF76C088772 in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: main() at C:/MIPT/proga/prodva/projects/akinator/main.cpp:19:
+
+     17:     akinator_t akinator;
+     18: 
+=>   19:     animation();
+     20: 
+     21:     // txSpeak ("Привет всем кожаным мешкам!");
+
+--------------------------------------------------
+Стек вызовов TX:
+
+# 0 in bool {anonymous}::TX::txBitBlt(HDC, double, double, double, double, HDC, double, double, unsigned int) at C:\Users\Lenovo\Downloads\TX/TXLib.h:13854:
+
+  13852:     {
+  13853: $1  if (_TX_HDC_FAILED (destImage))   return false;
+=>13854: $   if (_TX_HDC_FAILED (sourceImage)) return false;
+  13855: 
+  13856: $   POINT size = txGetExtent (sourceImage);
+
+# 1 in void animation() at akinatorUI.cpp:277:
+
+    275:     // Посмотрите, как сделано в примере TX\Examples\Tennis\Tennis.cpp.
+    276: 
+=>  277:     txBitBlt (txDC(), 0, 0, 800, 600, frame1, 0, 0);
+    278: 
+    279:     txDeleteDC (frame1);
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 174, Date: 2025-08-17 06:00:49 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Users\Lenovo\Downloads\TX/TXLib.h
+Compiled:	Nov 15 2025 00:10:20, GNU g++ 15.1.0, std=201703L, MinGW-W64 Runtime 14.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, DEBUG
+Started:	Nov 15 2025 00:10:34
+
+Run file:	C:\MIPT\proga\prodva\projects\akinator\akinator.exe
+Directory:	C:\MIPT\proga\prodva\projects\akinator
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\MIPT\proga\prodva\projects\akinator\akinator.exe, файл: C:\Users\Lenovo\Downloads\TX/TXLib.h, строка: 13854, функция: bool {anonymous}::TX::txBitBlt(HDC, double, double, double, double, HDC, double, double, unsigned int),
+
+Сообщение: Параметр "sourceImage" неверен. Возможно, этот холст не создан, или уже уничтожен, или не загрузилась картинка.
+
+#1: TXLib [Ver: 00173a, Rev: 174, Date: 2025-08-17 06:00:49 +0400], Instance: 0x00007FF67338B7D0 (64-bit), Flags: cMdRe0, Thread: 0xC724 (Main), GetLastError(): 13 (РќРµРґРѕРїСѓСЃС‚РёРјС‹Рµ РґР°РЅРЅС‹Рµ). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00007FF6732F3727 in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: (anonymous namespace)::TX::_txError() at C:/Users/Lenovo/Downloads/TX/TXLib.h:11090
+# 1 0x00007FF67330765F in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: (anonymous namespace)::TX::txBitBlt() at C:/Users/Lenovo/Downloads/TX/TXLib.h:13854
+
+# 2 0x00007FF673312C7B in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: animation() at C:/MIPT/proga/prodva/projects/akinator/akinatorUI.cpp:280:
+
+    278:         // Посмотрите, как сделано в примере TX\Examples\Tennis\Tennis.cpp.
+    279: 
+=>  280:         txBitBlt (txDC(), 0, 0, 800, 600, frame1, 0, 0);
+    281: 
+    282:         txDeleteDC (frame1);
+
+# 3 0x00007FF6733481D2 in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: main() at C:/MIPT/proga/prodva/projects/akinator/main.cpp:19:
+
+     17:     akinator_t akinator;
+     18: 
+=>   19:     animation();
+     20: 
+     21:     // txSpeak ("Привет всем кожаным мешкам!");
+
+--------------------------------------------------
+Стек вызовов TX:
+
+# 0 in bool {anonymous}::TX::txBitBlt(HDC, double, double, double, double, HDC, double, double, unsigned int) at C:\Users\Lenovo\Downloads\TX/TXLib.h:13854:
+
+  13852:     {
+  13853: $1  if (_TX_HDC_FAILED (destImage))   return false;
+=>13854: $   if (_TX_HDC_FAILED (sourceImage)) return false;
+  13855: 
+  13856: $   POINT size = txGetExtent (sourceImage);
+
+# 1 in void animation() at akinatorUI.cpp:280:
+
+    278:         // Посмотрите, как сделано в примере TX\Examples\Tennis\Tennis.cpp.
+    279: 
+=>  280:         txBitBlt (txDC(), 0, 0, 800, 600, frame1, 0, 0);
+    281: 
+    282:         txDeleteDC (frame1);
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 174, Date: 2025-08-17 06:00:49 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Users\Lenovo\Downloads\TX/TXLib.h
+Compiled:	Nov 15 2025 00:26:05, GNU g++ 15.1.0, std=201703L, MinGW-W64 Runtime 14.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, DEBUG
+Started:	Nov 15 2025 00:26:18
+
+Run file:	C:\MIPT\proga\prodva\projects\akinator\akinator.exe
+Directory:	C:\MIPT\proga\prodva\projects\akinator
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\MIPT\proga\prodva\projects\akinator\akinator.exe, файл: C:\Users\Lenovo\Downloads\TX/TXLib.h, строка: 13854, функция: bool {anonymous}::TX::txBitBlt(HDC, double, double, double, double, HDC, double, double, unsigned int),
+
+Сообщение: Параметр "sourceImage" неверен. Возможно, этот холст не создан, или уже уничтожен, или не загрузилась картинка.
+
+#1: TXLib [Ver: 00173a, Rev: 174, Date: 2025-08-17 06:00:49 +0400], Instance: 0x00007FF63906B7D0 (64-bit), Flags: cMdRe0, Thread: 0x2D24 (Main), GetLastError(): 13 (РќРµРґРѕРїСѓСЃС‚РёРјС‹Рµ РґР°РЅРЅС‹Рµ). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00007FF638FD3727 in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: (anonymous namespace)::TX::_txError() at C:/Users/Lenovo/Downloads/TX/TXLib.h:11090
+# 1 0x00007FF638FE765F in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: (anonymous namespace)::TX::txBitBlt() at C:/Users/Lenovo/Downloads/TX/TXLib.h:13854
+
+# 2 0x00007FF638FF2C7B in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: animation() at C:/MIPT/proga/prodva/projects/akinator/akinatorUI.cpp:280:
+
+    278:         // Посмотрите, как сделано в примере TX\Examples\Tennis\Tennis.cpp.
+    279: 
+=>  280:         txBitBlt (txDC(), 0, 0, 800, 600, frame1, 0, 0);
+    281: 
+    282:         txDeleteDC (frame1);
+
+# 3 0x00007FF6390281D2 in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: main() at C:/MIPT/proga/prodva/projects/akinator/main.cpp:19:
+
+     17:     akinator_t akinator;
+     18: 
+=>   19:     animation();
+     20: 
+     21:     // txSpeak ("Привет всем кожаным мешкам!");
+
+--------------------------------------------------
+Стек вызовов TX:
+
+# 0 in bool {anonymous}::TX::txBitBlt(HDC, double, double, double, double, HDC, double, double, unsigned int) at C:\Users\Lenovo\Downloads\TX/TXLib.h:13854:
+
+  13852:     {
+  13853: $1  if (_TX_HDC_FAILED (destImage))   return false;
+=>13854: $   if (_TX_HDC_FAILED (sourceImage)) return false;
+  13855: 
+  13856: $   POINT size = txGetExtent (sourceImage);
+
+# 1 in void animation() at akinatorUI.cpp:280:
+
+    278:         // Посмотрите, как сделано в примере TX\Examples\Tennis\Tennis.cpp.
+    279: 
+=>  280:         txBitBlt (txDC(), 0, 0, 800, 600, frame1, 0, 0);
+    281: 
+    282:         txDeleteDC (frame1);
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 174, Date: 2025-08-17 06:00:49 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Users\Lenovo\Downloads\TX/TXLib.h
+Compiled:	Nov 15 2025 00:27:42, GNU g++ 15.1.0, std=201703L, MinGW-W64 Runtime 14.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, DEBUG
+Started:	Nov 15 2025 00:27:57
+
+Run file:	C:\MIPT\proga\prodva\projects\akinator\akinator.exe
+Directory:	C:\MIPT\proga\prodva\projects\akinator
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\MIPT\proga\prodva\projects\akinator\akinator.exe, файл: C:\Users\Lenovo\Downloads\TX/TXLib.h, строка: 8800, функция: HWND__* {anonymous}::TX::txCreateWindow(double, double, bool),
+
+Сообщение: Окно рисования уже создано!
+
+#1: TXLib [Ver: 00173a, Rev: 174, Date: 2025-08-17 06:00:49 +0400], Instance: 0x00007FF60785B7D0 (64-bit), Flags: cMdRe0, Thread: 0x3CD4 (Main), GetLastError(): 13 (РќРµРґРѕРїСѓСЃС‚РёРјС‹Рµ РґР°РЅРЅС‹Рµ). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00007FF6077C3727 in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: (anonymous namespace)::TX::_txError() at C:/Users/Lenovo/Downloads/TX/TXLib.h:11090
+# 1 0x00007FF6077B39D2 in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: (anonymous namespace)::TX::txCreateWindow() at C:/Users/Lenovo/Downloads/TX/TXLib.h:8800
+
+# 2 0x00007FF6077E2B52 in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: animation() at C:/MIPT/proga/prodva/projects/akinator/akinatorUI.cpp:266:
+
+    264: 
+    265: void animation(){
+=>  266:     txCreateWindow (800, 600);
+    267: 
+    268: 
+
+# 3 0x00007FF607818252 in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: main() at C:/MIPT/proga/prodva/projects/akinator/main.cpp:20:
+
+     18: 
+     19:     while (true){
+=>   20:         animation();
+     21:     }
+     22: 
+
+--------------------------------------------------
+Стек вызовов TX:
+
+# 0 in HWND__* {anonymous}::TX::txCreateWindow(double, double, bool) at C:\Users\Lenovo\Downloads\TX/TXLib.h:8800:
+
+   8798:         {
+   8799: $       SetLastErrorEx (ERROR_INVALID_DATA, 0);
+=> 8800: $       _TX_ON_DEBUG (TX_ERROR ("\a" "Окно рисования уже создано!"));
+   8801: $       return wnd;
+   8802:         }
+
+# 1 in void animation() at akinatorUI.cpp:266:
+
+    264: 
+    265: void animation(){
+=>  266:     txCreateWindow (800, 600);
+    267: 
+    268: 
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 174, Date: 2025-08-17 06:00:49 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Users\Lenovo\Downloads\TX/TXLib.h
+Compiled:	Nov 15 2025 00:45:36, GNU g++ 15.1.0, std=201703L, MinGW-W64 Runtime 14.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, DEBUG
+Started:	Nov 15 2025 00:45:51
+
+Run file:	C:\MIPT\proga\prodva\projects\akinator\akinator.exe
+Directory:	C:\MIPT\proga\prodva\projects\akinator
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\MIPT\proga\prodva\projects\akinator\akinator.exe, файл: C:\Users\Lenovo\Downloads\TX/TXLib.h, строка: 13853, функция: bool {anonymous}::TX::txBitBlt(HDC, double, double, double, double, HDC, double, double, unsigned int),
+
+Сообщение: Параметр "destImage" неверен. Возможно, этот холст не создан, или уже уничтожен, или не загрузилась картинка.
+
+#1: TXLib [Ver: 00173a, Rev: 174, Date: 2025-08-17 06:00:49 +0400], Instance: 0x00007FF6D25AD7D0 (64-bit), Flags: cmdre0, Thread: 0xB604 (Main), GetLastError(): 13 (РќРµРґРѕРїСѓСЃС‚РёРјС‹Рµ РґР°РЅРЅС‹Рµ). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00007FF6D24D3727 in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: (anonymous namespace)::TX::_txError() at C:/Users/Lenovo/Downloads/TX/TXLib.h:11090
+# 1 0x00007FF6D24E75C4 in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: (anonymous namespace)::TX::txBitBlt() at C:/Users/Lenovo/Downloads/TX/TXLib.h:13853
+
+# 2 0x00007FF6D24F2C89 in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: animation() at C:/MIPT/proga/prodva/projects/akinator/akinatorUI.cpp:282:
+
+    280:         // Посмотрите, как сделано в примере TX\Examples\Tennis\Tennis.cpp.
+    281: 
+=>  282:         txBitBlt (txDC(), 0, 0, 800, 600, frame, 0, 0);
+    283: 
+    284:         txDeleteDC (frame);
+
+# 3 0x00007FF6D2558DD1 in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: main() at C:/MIPT/proga/prodva/projects/akinator/main.cpp:21:
+
+     19:     txCreateWindow (800, 600);
+     20:     while (true){
+=>   21:         animation();
+     22:     }
+     23: 
+
+--------------------------------------------------
+Стек вызовов TX:
+
+# 0 in bool {anonymous}::TX::txBitBlt(HDC, double, double, double, double, HDC, double, double, unsigned int) at C:\Users\Lenovo\Downloads\TX/TXLib.h:13853:
+
+  13851:                HDC sourceImage, double xSource /*= 0*/, double ySource /*= 0*/, unsigned operation /*= SRCCOPY*/)
+  13852:     {
+=>13853: $1  if (_TX_HDC_FAILED (destImage))   return false;
+  13854: $   if (_TX_HDC_FAILED (sourceImage)) return false;
+  13855: 
+
+# 1 in void animation() at akinatorUI.cpp:282:
+
+    280:         // Посмотрите, как сделано в примере TX\Examples\Tennis\Tennis.cpp.
+    281: 
+=>  282:         txBitBlt (txDC(), 0, 0, 800, 600, frame, 0, 0);
+    283: 
+    284:         txDeleteDC (frame);
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 174, Date: 2025-08-17 06:00:49 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Users\Lenovo\Downloads\TX/TXLib.h
+Compiled:	Nov 15 2025 00:46:43, GNU g++ 15.1.0, std=201703L, MinGW-W64 Runtime 14.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, DEBUG
+Started:	Nov 15 2025 00:47:07
+
+Run file:	C:\MIPT\proga\prodva\projects\akinator\akinator.exe
+Directory:	C:\MIPT\proga\prodva\projects\akinator
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\MIPT\proga\prodva\projects\akinator\akinator.exe, файл: C:\Users\Lenovo\Downloads\TX/TXLib.h, строка: 13853, функция: bool {anonymous}::TX::txBitBlt(HDC, double, double, double, double, HDC, double, double, unsigned int),
+
+Сообщение: Параметр "destImage" неверен. Возможно, этот холст не создан, или уже уничтожен, или не загрузилась картинка.
+
+#1: TXLib [Ver: 00173a, Rev: 174, Date: 2025-08-17 06:00:49 +0400], Instance: 0x00007FF6DA66D7D0 (64-bit), Flags: cmdre0, Thread: 0xD2E4 (Main), GetLastError(): 13 (РќРµРґРѕРїСѓСЃС‚РёРјС‹Рµ РґР°РЅРЅС‹Рµ). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00007FF6DA593727 in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: (anonymous namespace)::TX::_txError() at C:/Users/Lenovo/Downloads/TX/TXLib.h:11090
+# 1 0x00007FF6DA5A75C4 in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: (anonymous namespace)::TX::txBitBlt() at C:/Users/Lenovo/Downloads/TX/TXLib.h:13853
+
+# 2 0x00007FF6DA5B2C89 in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: animation() at C:/MIPT/proga/prodva/projects/akinator/akinatorUI.cpp:282:
+
+    280:         // Посмотрите, как сделано в примере TX\Examples\Tennis\Tennis.cpp.
+    281: 
+=>  282:         txBitBlt (txDC(), 0, 0, 800, 600, frame, 0, 0);
+    283: 
+    284:         txDeleteDC (frame);
+
+# 3 0x00007FF6DA618DE1 in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: main() at C:/MIPT/proga/prodva/projects/akinator/main.cpp:20:
+
+     18: 
+     19:     txCreateWindow (500, 500);
+=>   20:     animation();
+     21: 
+     22:     // txSpeak ("Привет всем кожаным мешкам!");
+
+--------------------------------------------------
+Стек вызовов TX:
+
+# 0 in bool {anonymous}::TX::txBitBlt(HDC, double, double, double, double, HDC, double, double, unsigned int) at C:\Users\Lenovo\Downloads\TX/TXLib.h:13853:
+
+  13851:                HDC sourceImage, double xSource /*= 0*/, double ySource /*= 0*/, unsigned operation /*= SRCCOPY*/)
+  13852:     {
+=>13853: $1  if (_TX_HDC_FAILED (destImage))   return false;
+  13854: $   if (_TX_HDC_FAILED (sourceImage)) return false;
+  13855: 
+
+# 1 in void animation() at akinatorUI.cpp:282:
+
+    280:         // Посмотрите, как сделано в примере TX\Examples\Tennis\Tennis.cpp.
+    281: 
+=>  282:         txBitBlt (txDC(), 0, 0, 800, 600, frame, 0, 0);
+    283: 
+    284:         txDeleteDC (frame);
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 174, Date: 2025-08-17 06:00:49 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Users\Lenovo\Downloads\TX/TXLib.h
+Compiled:	Nov 15 2025 01:17:25, GNU g++ 15.1.0, std=201703L, MinGW-W64 Runtime 14.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, DEBUG
+Started:	Nov 15 2025 01:17:47
+
+Run file:	C:\MIPT\proga\prodva\projects\akinator\akinator.exe
+Directory:	C:\MIPT\proga\prodva\projects\akinator
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\MIPT\proga\prodva\projects\akinator\akinator.exe, файл: C:\Users\Lenovo\Downloads\TX/TXLib.h, строка: 8800, функция: HWND__* {anonymous}::TX::txCreateWindow(double, double, bool),
+
+Сообщение: Окно рисования уже создано!
+
+#1: TXLib [Ver: 00173a, Rev: 174, Date: 2025-08-17 06:00:49 +0400], Instance: 0x00007FF767FDD7D0 (64-bit), Flags: cMdRe0, Thread: 0x6D10 (Main), GetLastError(): 13 (РќРµРґРѕРїСѓСЃС‚РёРјС‹Рµ РґР°РЅРЅС‹Рµ). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00007FF767F03727 in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: (anonymous namespace)::TX::_txError() at C:/Users/Lenovo/Downloads/TX/TXLib.h:11090
+# 1 0x00007FF767EF39D2 in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: (anonymous namespace)::TX::txCreateWindow() at C:/Users/Lenovo/Downloads/TX/TXLib.h:8800
+
+# 2 0x00007FF767F22B5E in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: animation() at C:/MIPT/proga/prodva/projects/akinator/akinatorUI.cpp:268:
+
+    266:     static size_t countAnimationCalls = 0;
+    267:     if(countAnimationCalls == 0){
+=>  268:         txCreateWindow (500, 500);
+    269:     }
+    270: 
+
+# 3 0x00007FF767F88DE0 in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: main() at C:/MIPT/proga/prodva/projects/akinator/main.cpp:20:
+
+     18: 
+     19:     while (true){
+=>   20:         animation();
+     21:     }    
+     22: 
+
+--------------------------------------------------
+Стек вызовов TX:
+
+# 0 in HWND__* {anonymous}::TX::txCreateWindow(double, double, bool) at C:\Users\Lenovo\Downloads\TX/TXLib.h:8800:
+
+   8798:         {
+   8799: $       SetLastErrorEx (ERROR_INVALID_DATA, 0);
+=> 8800: $       _TX_ON_DEBUG (TX_ERROR ("\a" "Окно рисования уже создано!"));
+   8801: $       return wnd;
+   8802:         }
+
+# 1 in void animation() at akinatorUI.cpp:268:
+
+    266:     static size_t countAnimationCalls = 0;
+    267:     if(countAnimationCalls == 0){
+=>  268:         txCreateWindow (500, 500);
+    269:     }
+    270: 
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 174, Date: 2025-08-17 06:00:49 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Users\Lenovo\Downloads\TX/TXLib.h
+Compiled:	Nov 15 2025 01:20:02, GNU g++ 15.1.0, std=201703L, MinGW-W64 Runtime 14.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, DEBUG
+Started:	Nov 15 2025 01:20:25
+
+Run file:	C:\MIPT\proga\prodva\projects\akinator\akinator.exe
+Directory:	C:\MIPT\proga\prodva\projects\akinator
+
+--------------------------------------------------
