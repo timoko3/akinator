@@ -34,6 +34,7 @@ struct treeNode_t{
     treeVal_t data;
     treeNode_t* right;
     treeNode_t* left;
+    treeNode_t* parent;
 };
 
 struct akinatorState_t{

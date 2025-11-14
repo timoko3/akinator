@@ -195,8 +195,9 @@ static void initGraphNodes(const treeNode_t* node, FILE* graphFilePtr){
     assert(node);
     assert(graphFilePtr);
 
-    fprintf(graphFilePtr, "\tnode%d [label=\"{address = %p | data = %s | {yes = %p | no = %p}} \"];\n", 
-        (int)(uintptr_t) node, 
+    fprintf(graphFilePtr, "\tnode%d [label=\"{parent = %p | address = %p | data = %s | {yes = %p | no = %p}} \"];\n", 
+        (int)(uintptr_t) node,
+        node->parent, 
         node, 
         node->data, 
         node->left, 

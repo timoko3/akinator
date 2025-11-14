@@ -23,6 +23,7 @@ static curAnchorNode akinatorCreateNodeFile(akinator_t* akinator, char* buffer, 
 static curAnchorNode readNode(akinator_t* akinator, char* buffer, size_t* curBufferPos);
 
 static curAnchorNode checkNode(akinator_t* akinator, treeNode_t* curNode, treeVal_t toDefine);
+static void printParent(treeNode_t* curNode);
 
 curAnchorNode akinatorCtor(akinator_t* akinator){
     assert(akinator);
@@ -38,6 +39,7 @@ curAnchorNode akinatorCtor(akinator_t* akinator){
     strcpy(akinator->root->data, "someThing");
     akinator->root->left = NULL;
     akinator->root->right = NULL;
+    akinator->root->parent = NULL;
 
     akinator->curState.Node = akinator->root;
 
@@ -117,31 +119,15 @@ curAnchorNode akinatorDefine(akinator_t* akinator){
 
     getWhatDefine(&toDefine);
 
-    checkNode(akinator, akinator->root, toDefine);
-
-    return akinator->root;
-}
-
-static curAnchorNode checkNode(akinator_t* akinator, treeNode_t* curNode, treeVal_t toDefine){
-    assert(akinator);
-    assert(curNode);
-    assert(toDefine);
-
-    if(isEqualStrings(curNode->data, toDefine)){
-        printf("%s —", toDefine);
-        return curNode;
+    curAnchorNode result = NULL;
+    if(!(result = checkNode(akinator, akinator->root, toDefine))){
+        printf("Я не имею представления об этом\n");
+        result = akinator->root;
     }
 
-    if(curNode->left){
-        checkNode(akinator, curNode->left, toDefine);
-    }
-
-    if(curNode->right){
-        checkNode(akinator, curNode->right, toDefine);
-    }
-
-    return NULL;
-}
+    free(toDefine);
+    return result;
+}   
 
 curAnchorNode akinatorSaveAndExit(akinator_t* akinator){
     assert(akinator);
@@ -196,6 +182,7 @@ curAnchorNode akinatorInsertLeft(akinator_t* akinator, treeNode_t* insertionAddr
 
     LPRINTF("NEW NODE: parent=%p -> left=%p (or right) allocated", (void*)insertionAddr, (void*)insertionAddr->left);
 
+    insertionAddr->left->parent = insertionAddr;
 
     akinatorInsert(akinator, insertionAddr->left, insertVal);
 
@@ -209,6 +196,8 @@ curAnchorNode akinatorInsertRight(akinator_t* akinator, treeNode_t* insertionAdd
 
     insertionAddr->right = (treeNode_t*) calloc(1, sizeof(treeNode_t));
     assert(insertionAddr->right);
+
+    insertionAddr->right->parent = insertionAddr;    
 
     LPRINTF("NEW NODE: parent=%p -> left=%p (or right) allocated", (void*)insertionAddr, (void*)insertionAddr->left);
 
@@ -364,7 +353,15 @@ static curAnchorNode readNode(akinator_t* akinator, char* buffer, size_t* curBuf
     (*curBufferPos)++;
     LPRINTF("\n\nрекурсивный запуск");
     createdNode->left  = readNode(akinator, buffer, curBufferPos);
+    if(createdNode->left){
+        createdNode->left->parent = createdNode;
+    }
+
     createdNode->right = readNode(akinator, buffer, curBufferPos);
+    if(createdNode->right){
+        createdNode->right->parent = createdNode;
+    }
+
 
     
     (akinator->size)++;
@@ -415,4 +412,44 @@ static curAnchorNode akinatorCreateNodeFile(akinator_t* akinator, char* buffer, 
 
     free(curNodeData);
     return curNode;
+}
+
+static curAnchorNode checkNode(akinator_t* akinator, treeNode_t* curNode, treeVal_t toDefine){
+    assert(akinator);
+    assert(curNode);
+    assert(toDefine);
+
+    if(isEqualStrings(curNode->data, toDefine)){
+        printf("%s — ", toDefine);
+        printParent(curNode);
+        return curNode;
+    }
+
+    if(curNode->left){
+        if(curAnchorNode result = checkNode(akinator, curNode->left, toDefine)) return result;
+    }
+
+    if(curNode->right){
+        if(curAnchorNode result = checkNode(akinator, curNode->right, toDefine)) return result;
+    }
+
+    return NULL;
+}
+
+static void printParent(treeNode_t* curNode){
+    assert(curNode);
+    
+    if(curNode->parent){
+        printParent(curNode->parent);
+    }
+    else{
+        return;
+    }
+
+    if(curNode->parent->left == curNode){
+        printf("%s, ", curNode->parent->data);
+    }
+    else{
+        printf("не %s, ", curNode->parent->data);
+    }    
 }
