@@ -3,6 +3,7 @@
 #include "general/strFunc.h"
 #include "general/hash.h"
 #include "akinatorModes.h"
+#include "general/debug.h"
 
 #include <stdio.h>
 #include <assert.h>
@@ -43,12 +44,10 @@ char* getAnswerUser(akinator_t* akinator){
 
     char* answer = (char*) calloc(MAX_ANSWER_SIZE, sizeof(char));
     assert(answer);
-    printf("%lu\n", malloc_usable_size(answer));
-
 
     while((!scanf("%s", answer)) || (!isYes(answer) && !isNo(answer))){
-        printf("answer: %s\n", answer);
-        printf("isYes: %d", isYes(answer));
+        LPRINTF("answer: %s\n", answer);
+        LPRINTF("isYes: %d", isYes(answer));
         printf("%s", CHOOSE_YES_OR_NO);
         clearBuffer();
     }
@@ -61,7 +60,7 @@ char* getAnswerUser(akinator_t* akinator){
 void printResult(akinator_t* akinator){
     assert(akinator);
 
-    printf("Опять Я угадал! Это %s", *curData(akinator));
+    printf("Опять Я угадал! Это %s\n", *curData(akinator));
 }
 
 char* getString(char** buffer){

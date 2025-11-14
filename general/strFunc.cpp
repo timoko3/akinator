@@ -41,7 +41,7 @@ char* myFGets(char* str, int count, FILE* stream){
     int i = 0;
     while(i < count) {
         str[i] = (char)fgetc(stream);
-        printf("Код текущего символа: %d\n", str[i]);
+        LPRINTF("Код текущего символа: %d\n", str[i]);
         if(str[i] == '\n'){
             break;
         }

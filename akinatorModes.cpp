@@ -1,5 +1,6 @@
 #include "akinatorModes.h"
 #include "akinatorUI.h"
+#include "general/debug.h"
 
 #include <assert.h>
 #include <stdio.h>
@@ -28,8 +29,8 @@ bool runMode(modeNum num, akinator_t* akinator){
 }
 
 static handler_t findHandler(modeNum num){
-    printf("num = %d\n", num);
-    printf("size: %lu\n", sizeof(modes) / sizeof(mode_t));
+    LPRINTF("num = %d\n", num);
+    LPRINTF("size: %lu\n", sizeof(modes) / sizeof(mode_t));
     for(size_t curMode = 0; curMode < sizeof(modes) / sizeof(mode_t); curMode++){
         if((modeNum) curMode == num){
             return modes[curMode].modeFunc;
