@@ -23,7 +23,6 @@ static curAnchorNode akinatorCreateNodeFile(akinator_t* akinator, char* buffer, 
 static curAnchorNode readNode(akinator_t* akinator, char* buffer, size_t* curBufferPos);
 
 static curAnchorNode findDefineNode(akinator_t* akinator, treeNode_t* curNode, treeVal_t toDefine);
-static void printParent(treeNode_t* curNode);
 
 static size_t countNodeDepth(treeNode_t* node);
 static curAnchorNode findCompareNode(akinator_t* akinator, treeNode_t* curNode, treeVal_t toCompare);
@@ -126,10 +125,10 @@ curAnchorNode akinatorDefine(akinator_t* akinator){
     printf("\n");
     curAnchorNode result = NULL;
     if(!(result = findDefineNode(akinator, akinator->root, toDefine))){
-        printf("Я не имею представления о %s\n", toDefine);
+        printf("Я не имею представления о %s", toDefine);
         result = akinator->root;
     }
-    printf("\n");
+    printf("\n\n");
     free(toDefine);
     return result;
 }   
@@ -157,7 +156,7 @@ curAnchorNode akinatorCompare(akinator_t* akinator){
     size_t depth2 = countNodeDepth(compareNode2);
     LPRINTF("depth2 : %lu", depth2);
 
-    printComparisonResults(depth1, depth2, compareNode1, compareNode2);
+    printComparisonResults(akinator, depth1, depth2, compareNode1, compareNode2);
 
     free(toCompare1);
     free(toCompare2);
@@ -467,8 +466,7 @@ static curAnchorNode findDefineNode(akinator_t* akinator, treeNode_t* curNode, t
     assert(toDefine);
 
     if(isEqualStrings(curNode->data, toDefine)){
-        printf("%s — ", toDefine);
-        printParent(curNode);
+        printDefinition(curNode, toDefine);
         return curNode;
     }
 
@@ -481,24 +479,6 @@ static curAnchorNode findDefineNode(akinator_t* akinator, treeNode_t* curNode, t
     }
 
     return NULL;
-}
-
-static void printParent(treeNode_t* curNode){
-    assert(curNode);
-    
-    if(curNode->parent){
-        printParent(curNode->parent);
-    }
-    else{
-        return;
-    }
-
-    if(curNode->parent->left == curNode){
-        printf("%s, ", curNode->parent->data);
-    }
-    else{
-        printf("не %s, ", curNode->parent->data);
-    }    
 }
 
 static curAnchorNode findCompareNode(akinator_t* akinator, treeNode_t* curNode, treeVal_t toCompare){
