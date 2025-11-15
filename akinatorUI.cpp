@@ -12,7 +12,7 @@
 #include <stdio.h>
 #include <assert.h>
 #include <malloc.h>
-
+#include <stdarg.h>
 
 const char* const ALERT_MENU_INCORRECT = "Выбирайте из предложенных вариантов\n";
 const char* const CHOOSE_YES_OR_NO     = "Выбирайте да или нет\n";
@@ -22,16 +22,13 @@ const menuModeVal_t  EXIT            = 4;
 
 void showMenu(){
     printf("Выберите одну из доступных опций: " SET_STYLE_BOLD_FONT_PURPLE "1)" RESET "Отгадывать " SET_STYLE_BOLD_FONT_PURPLE "2)" RESET "Определение " SET_STYLE_BOLD_FONT_PURPLE "3)" RESET "Сравнение " SET_STYLE_BOLD_FONT_PURPLE "4)" RESET "Выйти\n");
-    txSpeak("Выберите одну из доступных опций:");
-    txSpeak(NULL);
-    txSpeak("Могу отгадать, что ты загадал");
-    txSpeak(NULL);
-    txSpeak("Могу дать определение");
-    txSpeak(NULL);
-    txSpeak("Могу сравнить два объекта");
-    txSpeak(NULL);
-    txSpeak("Ну а если не устраивают иди нафиг и уходи");
-    txSpeak(NULL);
+
+    tellWithAnimation("\aВыберите одну из доступных опций:");
+
+    tellWithAnimation("\aМогу отгадать, что ты загадал");
+    tellWithAnimation("\aМогу дать определение");
+    tellWithAnimation("\aМогу сравнить два объекта");
+    tellWithAnimation("\aНу а если не устраивают иди нафиг и уходи");
 }
 
 menuModeVal_t getMode(){
@@ -49,6 +46,8 @@ menuModeVal_t getMode(){
 
 void askQuestionUser(akinator_t* akinator){
     assert(akinator);
+    txSpeak("\aЭто %s?", *curData(akinator));
+    animation();
 
     printf("%s?\n", *curData(akinator));
 }
@@ -74,8 +73,8 @@ char* getAnswerUser(akinator_t* akinator){
 void printResult(akinator_t* akinator){
     assert(akinator);
 
-    txSpeak("Тебе не провести меня кожаный мешок!");
-    txSpeak(NULL);
+    txSpeak("\aТебе не провести меня кожаный мешок!");
+    animation();
 
     printf("Опять Я угадал! Это %s\n", *curData(akinator));
 }
@@ -93,6 +92,9 @@ char* getString(char** buffer){
 
 char* getIntended(akinator_t* akinator, char** answer){
     assert(akinator);
+
+    txSpeak("\aговори уже кто был загадан");
+    animation();
 
     printf("Кто был загадан?\n");
 
@@ -266,6 +268,7 @@ void animation(){
     static size_t countAnimationCalls = 0;
     if(countAnimationCalls == 0){
         txCreateWindow (500, 500);
+        txSpeak ("\aПривет всем кожаным мешкам!");
     }
     countAnimationCalls++;
 
@@ -278,7 +281,7 @@ void animation(){
         HDC frame = txLoadImage (frameName, 500, 500);
 
         if (!frame)
-            txMessageBox ("Не могу загрузить", "Да, я скопировал это из примера");
+            txMessageBox ("Не могу загрузить");
 
         // Не надо часто загружать одно и то же изображение, особенно в цикле -- программа будет тормозить!
         // Загрузите один раз перед циклом, потом используйте много раз.
@@ -292,4 +295,18 @@ void animation(){
         //     curFrame = 0;
         // }
     }
+}
+
+void tellWithAnimation(const char* text, ...){
+    assert(text);
+
+    char phrase[MAX_ANSWER_SIZE];
+
+    va_list args;
+    va_start(args, text);
+    vsprintf(phrase, text, args);
+    va_end(args);
+
+    txSpeak(phrase);
+    animation();
 }

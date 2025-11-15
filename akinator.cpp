@@ -87,8 +87,7 @@ curAnchorNode akinatorGuess(akinator_t* akinator){
 
     // LOG(akinator, "before guess");
 
-    txSpeak("Анализирую импульсы твоего мозга");
-    txSpeak(NULL);
+    tellWithAnimation("\aАнализирую импульсы твоего мозга");
 
     while(true){
         askQuestionUser(akinator);
@@ -101,21 +100,19 @@ curAnchorNode akinatorGuess(akinator_t* akinator){
                 break;
             }
 
-            txSpeak("Так и знал!");
-            txSpeak(NULL);
+            tellWithAnimation("\aТак и знал!");
+
             *curNode(akinator) = (*curNode(akinator))->left;
         }
         else if(isNo(answer)){
             if(!(*curNode(akinator))->right){
-                txSpeak("Ну ладно первый и последний раз я не смог угадать");
-                txSpeak(NULL);
+                tellWithAnimation("\aНу ладно первый и последний раз я не смог угадать");
 
                 akinatorCreateNodeUser(akinator);
                 free(answer);
                 break;
             }
-            txSpeak("хм... Тебе меня не надурить");
-            txSpeak(NULL);
+            tellWithAnimation("\aхм... Тебе меня не надурить");
 
             *curNode(akinator) = (*curNode(akinator))->right;
         }

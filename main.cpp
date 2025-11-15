@@ -17,8 +17,6 @@ int main(void){
     akinator_t akinator;
 
     animation();
-    // txSpeak ("Привет всем кожаным мешкам!");
-    // txSpeak (NULL);
 
     akinatorCtor(&akinator);
 

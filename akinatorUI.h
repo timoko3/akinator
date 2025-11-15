@@ -23,3 +23,5 @@ void printDefinition(treeNode_t* curNode, treeVal_t toDefine);
 void printParent(treeNode_t* curNode);
 
 void animation();
+
+void tellWithAnimation(const char* text, ...);
