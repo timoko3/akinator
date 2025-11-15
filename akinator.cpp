@@ -112,7 +112,7 @@ curAnchorNode akinatorGuess(akinator_t* akinator){
                 free(answer);
                 break;
             }
-            tellWithAnimation("\aхм... Тебе меня не надурить");
+            tellWithAnimation("\aХм. Тебе меня не надурить");
 
             *curNode(akinator) = (*curNode(akinator))->right;
         }

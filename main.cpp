@@ -1,5 +1,4 @@
-#define TX_USE_SPEAK
-#include "TXLib.h" 
+
 
 #include "generalAkinator.h"
 #include "protectionAkinator.h"
@@ -16,7 +15,7 @@
 int main(void){
     akinator_t akinator;
 
-    animation();
+    tellWithAnimation("\aПривет всем кожаным мешкам!");
 
     akinatorCtor(&akinator);
 

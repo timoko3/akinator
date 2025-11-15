@@ -6,6 +6,7 @@
 #include "general/strFunc.h"
 #include "general/hash.h"
 #include "akinatorModes.h"
+#define DEBUG
 #include "general/debug.h"
 #include "genConsoleColors/consoleColors.h"
 
@@ -46,8 +47,7 @@ menuModeVal_t getMode(){
 
 void askQuestionUser(akinator_t* akinator){
     assert(akinator);
-    txSpeak("\aЭто %s?", *curData(akinator));
-    animation();
+    tellWithAnimation("\aЭто %s?", *curData(akinator));
 
     printf("%s?\n", *curData(akinator));
 }
@@ -73,8 +73,7 @@ char* getAnswerUser(akinator_t* akinator){
 void printResult(akinator_t* akinator){
     assert(akinator);
 
-    txSpeak("\aТебе не провести меня кожаный мешок!");
-    animation();
+    tellWithAnimation("\aТебе не провести меня кожаный мешок!");
 
     printf("Опять Я угадал! Это %s\n", *curData(akinator));
 }
@@ -93,8 +92,7 @@ char* getString(char** buffer){
 char* getIntended(akinator_t* akinator, char** answer){
     assert(akinator);
 
-    txSpeak("\aговори уже кто был загадан");
-    animation();
+    tellWithAnimation("\aговори уже кто был загадан");
 
     printf("Кто был загадан?\n");
 
@@ -264,15 +262,15 @@ void printParent(treeNode_t* curNode){
     }    
 }
 
-void animation(){
+void animation(size_t delay){
     static size_t countAnimationCalls = 0;
     if(countAnimationCalls == 0){
         txCreateWindow (500, 500);
-        txSpeak ("\aПривет всем кожаным мешкам!");
     }
     countAnimationCalls++;
 
-    for(size_t curFrame = 0; curFrame < 30; curFrame++){
+    printf("delay: %lu\n", delay);
+    for(size_t curFrame = 0; curFrame < 31; curFrame++){
         
         char frameName[50] = "";
 
@@ -290,11 +288,9 @@ void animation(){
         txBitBlt (txDC(), 0, 0, 800, 600, frame, 0, 0);
 
         txDeleteDC (frame);
-        txSleep(100);
-        // if(curFrame == 29){
-        //     curFrame = 0;
-        // }
+        txSleep(delay);
     }
+
 }
 
 void tellWithAnimation(const char* text, ...){
@@ -307,6 +303,8 @@ void tellWithAnimation(const char* text, ...){
     vsprintf(phrase, text, args);
     va_end(args);
 
+    size_t delay = myStrLen(phrase) * 73 / 30;
+
     txSpeak(phrase);
-    animation();
+    animation(delay);
 }

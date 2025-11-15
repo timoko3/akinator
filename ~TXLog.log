@@ -1137,3 +1137,93 @@ Run file:	C:\MIPT\proga\prodva\projects\akinator\akinator.exe
 Directory:	C:\MIPT\proga\prodva\projects\akinator
 
 --------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\MIPT\proga\prodva\projects\akinator\akinator.exe, файл: C:\Users\Lenovo\Downloads\TX/TXLib.h, строка: 13854, функция: bool {anonymous}::TX::txBitBlt(HDC, double, double, double, double, HDC, double, double, unsigned int),
+
+Сообщение: Параметр "sourceImage" неверен. Возможно, этот холст не создан, или уже уничтожен, или не загрузилась картинка.
+
+#1: TXLib [Ver: 00173a, Rev: 174, Date: 2025-08-17 06:00:49 +0400], Instance: 0x00007FF60DABB7D0 (64-bit), Flags: cMdRe0, Thread: 0x877C (Main), GetLastError(): 13 (РќРµРґРѕРїСѓСЃС‚РёРјС‹Рµ РґР°РЅРЅС‹Рµ). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00007FF60DA23727 in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: (anonymous namespace)::TX::_txError() at C:/Users/Lenovo/Downloads/TX/TXLib.h:11090
+# 1 0x00007FF60DA3765F in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: (anonymous namespace)::TX::txBitBlt() at C:/Users/Lenovo/Downloads/TX/TXLib.h:13854
+
+# 2 0x00007FF60DA42BF8 in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: animation() at C:/MIPT/proga/prodva/projects/akinator/akinatorUI.cpp:288:
+
+    286:         // Посмотрите, как сделано в примере TX\Examples\Tennis\Tennis.cpp.
+    287: 
+=>  288:         txBitBlt (txDC(), 0, 0, 800, 600, frame, 0, 0);
+    289: 
+    290:         txDeleteDC (frame);
+
+# 3 0x00007FF60DA42D3B in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: tellWithAnimation() at C:/MIPT/proga/prodva/projects/akinator/akinatorUI.cpp:311:
+
+    309: 
+    310:     txSpeak(phrase);
+=>  311:     animation(amountFrames);
+    312: }
+
+# 4 0x00007FF60DA41FF4 in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: showMenu() at C:/MIPT/proga/prodva/projects/akinator/akinatorUI.cpp:27:
+
+     25:     printf("Выберите одну из доступных опций: " SET_STYLE_BOLD_FONT_PURPLE "1)" RESET "Отгадывать " SET_STYLE_BOLD_FONT_PURPLE "2)" RESET "Определение " SET_STYLE_BOLD_FONT_PURPLE "3)" RESET "Сравнение " SET_STYLE_BOLD_FONT_PURPLE "4)" RESET "Выйти\n");
+     26: 
+=>   27:     tellWithAnimation("\aВыберите одну из доступных опций:");
+     28: 
+     29:     tellWithAnimation("\aМогу отгадать, что ты загадал");
+
+# 5 0x00007FF60DA441A9 in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: runModeMenu() at C:/MIPT/proga/prodva/projects/akinator/akinatorModes.cpp:14:
+
+     12: 
+     13:     while(true){
+=>   14:         showMenu();
+     15:         menuModeVal_t userModeNum = getMode();
+     16:         if(!runMode(userModeNum, akinator)) return;
+
+# 6 0x00007FF60DA78170 in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: main() at C:/MIPT/proga/prodva/projects/akinator/main.cpp:24:
+
+     22:     akinatorReadData(&akinator);
+     23: 
+=>   24:     runModeMenu(&akinator);
+     25: 
+     26:     akinatorDtor(&akinator);
+
+--------------------------------------------------
+Стек вызовов TX:
+
+# 0 in bool {anonymous}::TX::txBitBlt(HDC, double, double, double, double, HDC, double, double, unsigned int) at C:\Users\Lenovo\Downloads\TX/TXLib.h:13854:
+
+  13852:     {
+  13853: $1  if (_TX_HDC_FAILED (destImage))   return false;
+=>13854: $   if (_TX_HDC_FAILED (sourceImage)) return false;
+  13855: 
+  13856: $   POINT size = txGetExtent (sourceImage);
+
+# 1 in void animation(size_t) at akinatorUI.cpp:288:
+
+    286:         // Посмотрите, как сделано в примере TX\Examples\Tennis\Tennis.cpp.
+    287: 
+=>  288:         txBitBlt (txDC(), 0, 0, 800, 600, frame, 0, 0);
+    289: 
+    290:         txDeleteDC (frame);
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 174, Date: 2025-08-17 06:00:49 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Users\Lenovo\Downloads\TX/TXLib.h
+Compiled:	Nov 15 2025 15:55:50, GNU g++ 15.1.0, std=201703L, MinGW-W64 Runtime 14.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, DEBUG
+Started:	Nov 15 2025 15:56:04
+
+Run file:	C:\MIPT\proga\prodva\projects\akinator\akinator.exe
+Directory:	C:\MIPT\proga\prodva\projects\akinator
+
+--------------------------------------------------
