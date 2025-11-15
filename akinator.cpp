@@ -43,7 +43,7 @@ curAnchorNode akinatorCtor(akinator_t* akinator){
     akinator->root->data = (treeVal_t) calloc(MAX_ANSWER_SIZE, sizeof(char));
     assert(akinator->root->data);
 
-    strcpy(akinator->root->data, "someThing");
+    strcpy(akinator->root->data, "Непонятно что");
     akinator->root->left = NULL;
     akinator->root->right = NULL;
     akinator->root->parent = NULL;
@@ -161,15 +161,25 @@ curAnchorNode akinatorCompare(akinator_t* akinator){
     assert(toCompare2);
 
     getWhatCompare(&toCompare2);
-    printf("toCompare1: %s\n", toCompare1);
-    printf("toCompare2: %s\n", toCompare2);
 
     treeNode_t* compareNode1 = findCompareNode(akinator, akinator->root, toCompare1);
+    if(!compareNode1){
+
+        printf("Не знаю я кто такой %s. Иди в баню!\n", toCompare1);
+        tellWithAnimation("\aНе знаю я кто такой %s. Иди в баню!", toCompare1);
+        return akinator->root;
+    }
 
     size_t depth1 = countNodeDepth(compareNode1);
     LPRINTF("depth1 : %lu", depth1);
 
     treeNode_t* compareNode2 = findCompareNode(akinator, akinator->root, toCompare2);
+    if(!compareNode2){
+
+        printf("Не знаю я кто такой %s. Иди в баню!\n", toCompare2);
+        tellWithAnimation("\aНе знаю я кто такой %s. Иди в баню!", toCompare2);
+        return akinator->root;
+    }
 
     size_t depth2 = countNodeDepth(compareNode2);
     LPRINTF("depth2 : %lu", depth2);
@@ -391,12 +401,12 @@ static bool isNilNode(char* buffer, size_t* curBufferPos){
     assert(curNodeData);
 
     LPRINTF("буфер перед чтением: %s", &buffer[*curBufferPos]);
-    size_t lenName = 0;
+    int lenName = 0;
     sscanf(&buffer[*curBufferPos], "%s%n", curNodeData, &lenName);
     LPRINTF("Прочиталось внутри случая nil: %s", curNodeData);
     if(isEqualStrings(curNodeData, "nil")){
         LPRINTF("Зашел в nil");
-        *curBufferPos += lenName;
+        *curBufferPos += (size_t) lenName;
         LPRINTF("буфер после чтения: %s\n", &buffer[*curBufferPos]);
         free(curNodeData);
         return true;
@@ -463,7 +473,7 @@ static curAnchorNode akinatorCreateNodeFile(akinator_t* akinator, char* buffer, 
     (*curBufferPose)++;
     
     LPRINTF("записал указатель в data нового node");
-    size_t lenName = 0;
+    int lenName = 0;
 
     treeVal_t curNodeData = (treeVal_t) calloc(MAX_ANSWER_SIZE, sizeof(char));
     assert(curNodeData);
@@ -471,9 +481,9 @@ static curAnchorNode akinatorCreateNodeFile(akinator_t* akinator, char* buffer, 
     LPRINTF("буфер перед чтением: %s", &buffer[*curBufferPose]);
 
     sscanf(&buffer[*curBufferPose], "\"%[^\"]\"%n", curNodeData, &lenName);
-    LPRINTF("Получил размер строки %lu и саму строку %s", lenName, curNodeData);
+    LPRINTF("Получил размер строки %d и саму строку %s", lenName, curNodeData);
     strcpy(curNode->data, curNodeData);
-    *curBufferPose += lenName;
+    *curBufferPose += (size_t) lenName;
     LPRINTF("\nбуфер после чтением: %s", &buffer[*curBufferPose]);
 
     free(curNodeData);

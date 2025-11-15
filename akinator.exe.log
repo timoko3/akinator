@@ -229,3 +229,226 @@ Run file:	C:\MIPT\proga\prodva\projects\akinator\akinator.exe
 Directory:	C:\MIPT\proga\prodva\projects\akinator
 
 --------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\MIPT\proga\prodva\projects\akinator\akinator.exe,
+
+ВНЕЗАПНО: signal (22, 0x00): SIGABRT: Аварийное завершение программы, вызвана функция abort(). 
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#1: TXLib [Ver: 00173a, Rev: 174, Date: 2025-08-17 06:00:49 +0400], Instance: 0x00007FF654F43050 (64-bit), Flags: Cmdre0, Thread: 0x7BEC (Main), GetLastError(): 183 (Невозможно создать файл, так как он уже существует). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00007FF654EA6F07 in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: (anonymous namespace)::TX::_txError() at C:/Users/Lenovo/Downloads/TX/TXLib.h:11090
+# 1 0x00007FF654EA74D7 in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: (anonymous namespace)::TX::_txOnSignal() at C:/Users/Lenovo/Downloads/TX/TXLib.h:11171
+# 2 0x00007FFA92A8EC01 in C:\Windows\System32\msvcrt.dll: raise()
+# 3 0x00007FFA92A9305B in C:\Windows\System32\msvcrt.dll: abort()
+# 4 0x00007FFA92A8F9DD in C:\Windows\System32\msvcrt.dll: assert()
+
+# 5 0x00007FF654EC6F06 in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: countNodeDepth() at C:/MIPT/proga/prodva/projects/akinator/akinator.cpp:525:
+
+    523: 
+    524: static size_t countNodeDepth(treeNode_t* node){
+=>  525:     assert(node);
+    526: 
+    527:     size_t depth = 0;
+
+# 6 0x00007FF654EC5E28 in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: akinatorCompare() at C:/MIPT/proga/prodva/projects/akinator/akinator.cpp:174:
+
+    172:     treeNode_t* compareNode2 = findCompareNode(akinator, akinator->root, toCompare2);
+    173: 
+=>  174:     size_t depth2 = countNodeDepth(compareNode2);
+    175:     LPRINTF("depth2 : %lu", depth2);
+    176: 
+
+# 7 0x00007FF654E943D7 in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: runMode() at C:/MIPT/proga/prodva/projects/akinator/akinatorModes.cpp:27:
+
+     25: 
+     26: 
+=>   27:     if(!handler(akinator))return false;
+     28:     return true;
+     29: }
+
+# 8 0x00007FF654E9434F in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: runModeMenu() at C:/MIPT/proga/prodva/projects/akinator/akinatorModes.cpp:16:
+
+     14:         showMenu();
+     15:         menuModeVal_t userModeNum = getMode();
+=>   16:         if(!runMode(userModeNum, akinator)) return;
+     17:     }
+     18: }
+
+# 9 0x00007FF654EC8390 in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: main() at C:/MIPT/proga/prodva/projects/akinator/main.cpp:24:
+
+     22:     akinatorReadData(&akinator);
+     23: 
+=>   24:     runModeMenu(&akinator);
+     25: 
+     26:     akinatorDtor(&akinator);
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 174, Date: 2025-08-17 06:00:49 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Users\Lenovo\Downloads\TX/TXLib.h
+Compiled:	Nov 15 2025 22:52:17, GNU g++ 15.1.0, std=201703L, MinGW-W64 Runtime 14.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, DEBUG
+Started:	Nov 15 2025 23:03:52
+
+Run file:	C:\MIPT\proga\prodva\projects\akinator\akinator.exe
+Directory:	C:\MIPT\proga\prodva\projects\akinator
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\MIPT\proga\prodva\projects\akinator\akinator.exe,
+
+ВНЕЗАПНО: signal (22, 0x00): SIGABRT: Аварийное завершение программы, вызвана функция abort(). 
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#1: TXLib [Ver: 00173a, Rev: 174, Date: 2025-08-17 06:00:49 +0400], Instance: 0x00007FF688A43050 (64-bit), Flags: Cmdre0, Thread: 0x998C (Main), GetLastError(): 183 (Невозможно создать файл, так как он уже существует). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00007FF6889A6F27 in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: (anonymous namespace)::TX::_txError() at C:/Users/Lenovo/Downloads/TX/TXLib.h:11090
+# 1 0x00007FF6889A74F7 in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: (anonymous namespace)::TX::_txOnSignal() at C:/Users/Lenovo/Downloads/TX/TXLib.h:11171
+# 2 0x00007FFA92A8EC01 in C:\Windows\System32\msvcrt.dll: raise()
+# 3 0x00007FFA92A9305B in C:\Windows\System32\msvcrt.dll: abort()
+# 4 0x00007FFA92A8F9DD in C:\Windows\System32\msvcrt.dll: assert()
+
+# 5 0x00007FF6889C6F26 in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: countNodeDepth() at C:/MIPT/proga/prodva/projects/akinator/akinator.cpp:525:
+
+    523: 
+    524: static size_t countNodeDepth(treeNode_t* node){
+=>  525:     assert(node);
+    526: 
+    527:     size_t depth = 0;
+
+# 6 0x00007FF6889C5E48 in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: akinatorCompare() at C:/MIPT/proga/prodva/projects/akinator/akinator.cpp:174:
+
+    172:     treeNode_t* compareNode2 = findCompareNode(akinator, akinator->root, toCompare2);
+    173: 
+=>  174:     size_t depth2 = countNodeDepth(compareNode2);
+    175:     LPRINTF("depth2 : %lu", depth2);
+    176: 
+
+# 7 0x00007FF6889943F7 in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: runMode() at C:/MIPT/proga/prodva/projects/akinator/akinatorModes.cpp:27:
+
+     25: 
+     26: 
+=>   27:     if(!handler(akinator))return false;
+     28:     return true;
+     29: }
+
+# 8 0x00007FF68899436F in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: runModeMenu() at C:/MIPT/proga/prodva/projects/akinator/akinatorModes.cpp:16:
+
+     14:         showMenu();
+     15:         menuModeVal_t userModeNum = getMode();
+=>   16:         if(!runMode(userModeNum, akinator)) return;
+     17:     }
+     18: }
+
+# 9 0x00007FF6889C83B0 in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: main() at C:/MIPT/proga/prodva/projects/akinator/main.cpp:24:
+
+     22:     akinatorReadData(&akinator);
+     23: 
+=>   24:     runModeMenu(&akinator);
+     25: 
+     26:     akinatorDtor(&akinator);
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 174, Date: 2025-08-17 06:00:49 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Users\Lenovo\Downloads\TX/TXLib.h
+Compiled:	Nov 16 2025 00:36:57, GNU g++ 15.1.0, std=201703L, MinGW-W64 Runtime 14.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, DEBUG
+Started:	Nov 16 2025 00:37:08
+
+Run file:	C:\MIPT\proga\prodva\projects\akinator\akinator.exe
+Directory:	C:\MIPT\proga\prodva\projects\akinator
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\MIPT\proga\prodva\projects\akinator\akinator.exe,
+
+ВНЕЗАПНО: signal (22, 0x00): SIGABRT: Аварийное завершение программы, вызвана функция abort(). 
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#1: TXLib [Ver: 00173a, Rev: 174, Date: 2025-08-17 06:00:49 +0400], Instance: 0x00007FF732783050 (64-bit), Flags: Cmdre0, Thread: 0xC3CC (Main), GetLastError(): 183 (Невозможно создать файл, так как он уже существует). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00007FF7326E6F27 in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: (anonymous namespace)::TX::_txError() at C:/Users/Lenovo/Downloads/TX/TXLib.h:11090
+# 1 0x00007FF7326E74F7 in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: (anonymous namespace)::TX::_txOnSignal() at C:/Users/Lenovo/Downloads/TX/TXLib.h:11171
+# 2 0x00007FFA92A8EC01 in C:\Windows\System32\msvcrt.dll: raise()
+# 3 0x00007FFA92A9305B in C:\Windows\System32\msvcrt.dll: abort()
+# 4 0x00007FFA92A8F9DD in C:\Windows\System32\msvcrt.dll: assert()
+
+# 5 0x00007FF732705E35 in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: akinatorCompare() at C:/MIPT/proga/prodva/projects/akinator/akinator.cpp:168:
+
+    166: 
+    167:     treeNode_t* compareNode1 = findCompareNode(akinator, akinator->root, toCompare1);
+=>  168:     assert(compareNode1);
+    169: 
+    170:     size_t depth1 = countNodeDepth(compareNode1);
+
+# 6 0x00007FF7326D43F7 in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: runMode() at C:/MIPT/proga/prodva/projects/akinator/akinatorModes.cpp:27:
+
+     25: 
+     26: 
+=>   27:     if(!handler(akinator))return false;
+     28:     return true;
+     29: }
+
+# 7 0x00007FF7326D436F in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: runModeMenu() at C:/MIPT/proga/prodva/projects/akinator/akinatorModes.cpp:16:
+
+     14:         showMenu();
+     15:         menuModeVal_t userModeNum = getMode();
+=>   16:         if(!runMode(userModeNum, akinator)) return;
+     17:     }
+     18: }
+
+# 8 0x00007FF732708400 in C:\MIPT\proga\prodva\projects\akinator\akinator.exe: main() at C:/MIPT/proga/prodva/projects/akinator/main.cpp:24:
+
+     22:     akinatorReadData(&akinator);
+     23: 
+=>   24:     runModeMenu(&akinator);
+     25: 
+     26:     akinatorDtor(&akinator);
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 174, Date: 2025-08-17 06:00:49 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Users\Lenovo\Downloads\TX/TXLib.h
+Compiled:	Nov 16 2025 00:39:26, GNU g++ 15.1.0, std=201703L, MinGW-W64 Runtime 14.0.0 (alpha - rev. 0) 0000-00-00, 64-bit, DEBUG
+Started:	Nov 16 2025 00:39:36
+
+Run file:	C:\MIPT\proga\prodva\projects\akinator\akinator.exe
+Directory:	C:\MIPT\proga\prodva\projects\akinator
+
+--------------------------------------------------

@@ -26,5 +26,4 @@ int main(void){
     akinatorDtor(&akinator);
 
     return 0;
-    closeWindow();
 }

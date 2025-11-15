@@ -22,14 +22,19 @@ const menuModeVal_t  EXIT            = 4;
 
 
 void showMenu(){
+    static size_t countShowMenu = 0;
+
     printf("Выберите одну из доступных опций: " SET_STYLE_BOLD_FONT_PURPLE "1)" RESET "Отгадывать " SET_STYLE_BOLD_FONT_PURPLE "2)" RESET "Определение " SET_STYLE_BOLD_FONT_PURPLE "3)" RESET "Сравнение " SET_STYLE_BOLD_FONT_PURPLE "4)" RESET "Выйти\n");
-
     tellWithAnimation("\aВыберите одну из доступных опций:");
+    
+    if(countShowMenu == 0){
+        tellWithAnimation("\aМогу отгадать, что ты загадал");
+        tellWithAnimation("\aМогу дать определение");
+        tellWithAnimation("\aМогу сравнить два объекта");
+        tellWithAnimation("\aНу а если не устраивают иди нафиг и уходи");
+    }
 
-    tellWithAnimation("\aМогу отгадать, что ты загадал");
-    tellWithAnimation("\aМогу дать определение");
-    tellWithAnimation("\aМогу сравнить два объекта");
-    tellWithAnimation("\aНу а если не устраивают иди нафиг и уходи");
+    countShowMenu++;
 }
 
 menuModeVal_t getMode(){
@@ -75,6 +80,7 @@ void printResult(akinator_t* akinator){
 
     tellWithAnimation("\aТебе не провести меня кожаный мешок!");
 
+    tellWithAnimation("\aЭто %s", *curData(akinator));
     printf("Опять Я угадал! Это %s\n", *curData(akinator));
 }
 
@@ -151,12 +157,10 @@ void printComparisonResults(akinator_t* akinator, size_t depth1, size_t depth2,
     }
 
     treeNode_t* firstBeforeEqualNode1 = NULL;
-    treeNode_t* firstBeforeEqualNode2 = NULL;
     while (compareNode1 && compareNode2 && (compareNode1 != compareNode2)) {
         firstBeforeEqualNode1 = compareNode1;
         compareNode1 = compareNode1->parent;
 
-        firstBeforeEqualNode2 = compareNode2;
         compareNode2 = compareNode2->parent;
     }
 
@@ -259,7 +263,7 @@ void animation(size_t delay){
         
         char frameName[50] = "";
 
-        sprintf(frameName, "animation/OmnX-%lu.bmp", curFrame);
+        sprintf(frameName, "animation/OmnX-%llu.bmp", curFrame);
 
         HDC frame = txLoadImage (frameName, 750, 750);
 
@@ -269,7 +273,7 @@ void animation(size_t delay){
         txBitBlt (txDC(), 0, 0, 1200, 900, frame, 0, 0);
 
         txDeleteDC (frame);
-        txSleep(delay);
+        txSleep((double) delay);
     }
 
 }

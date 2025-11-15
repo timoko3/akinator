@@ -2,6 +2,7 @@
 #include "general/file.h"
 
 #include "general/debug.h"
+#include "general/encode.h"
 // #define DEBUG
 
 #include <assert.h>
@@ -125,7 +126,7 @@ void htmlLog(akinator_t* akinator, const char* callFileName, const char* callFun
 
     fprintf(logFilePtr, "<table><tbody>"
                         "<tr><th>Root</th><td>%p</td></tr>"
-                        "<tr><th>Size</th><td>%lu</td></tr>"
+                        "<tr><th>Size</th><td>%llu</td></tr>"
                         "</tbody></table>\n",
                         akinator->root, akinator->size);
 
@@ -195,14 +196,17 @@ static void initGraphNodes(const treeNode_t* node, FILE* graphFilePtr){
     assert(node);
     assert(graphFilePtr);
 
-    fprintf(graphFilePtr, "\tnode%d [label=\"{parent = %p | address = %p | data = %s | {yes = %p | no = %p}} \"];\n", 
+    char* tempData =  encodeRussian1251ToUTF8(node->data);
+
+    fprintf(graphFilePtr, "\tnode%d [label=\"{parent = %p | address = %p | data = %s | {yes = %p | no = %p}}\"];\n", 
         (int)(uintptr_t) node,
         node->parent, 
         node, 
-        node->data, 
+        tempData, 
         node->left, 
         node->right);
 
+    free(tempData);
     if(node->left){
         initGraphNodes(node->left, graphFilePtr);
     }

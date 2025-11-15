@@ -1,0 +1,1 @@
+g++  general/*.cpp -o encode.exe 

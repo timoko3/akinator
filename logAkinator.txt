@@ -2154,3 +2154,2099 @@
 
 [DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
 
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer нет, длина 4: 2095248041, hash да, длина 3: 193632681
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer нет, длина 4: 2095248041, hash нет, длина 4: 2095248041
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer нет, длина 4: 2095248041, hash да, длина 3: 193632681
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer нет, длина 4: 2095248041, hash нет, длина 4: 2095248041
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer да, длина 3: 193632681, hash да, длина 3: 193632681
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer да, длина 3: 193632681, hash да, длина 3: 193632681
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer да, длина 3: 193632681, hash да, длина 3: 193632681
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer да, длина 3: 193632681, hash да, длина 3: 193632681
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer да, длина 3: 193632681, hash да, длина 3: 193632681
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer да, длина 3: 193632681, hash да, длина 3: 193632681
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer да, длина 3: 193632681, hash да, длина 3: 193632681
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer да, длина 3: 193632681, hash да, длина 3: 193632681
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer да, длина 3: 193632681, hash да, длина 3: 193632681
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer да, длина 3: 193632681, hash да, длина 3: 193632681
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer , длина 1: 177573, hash да, длина 3: 193632681
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer да, длина 3: 193632681, hash да, длина 3: 193632681
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer да, длина 3: 193632681, hash да, длина 3: 193632681
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer нет, длина 4: 2095248041, hash да, длина 3: 193632681
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer нет, длина 4: 2095248041, hash нет, длина 4: 2095248041
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer нет, длина 4: 2095248041, hash да, длина 3: 193632681
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer нет, длина 4: 2095248041, hash нет, длина 4: 2095248041
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer да, длина 3: 193632681, hash да, длина 3: 193632681
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer да, длина 3: 193632681, hash да, длина 3: 193632681
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer да, длина 3: 193632681, hash да, длина 3: 193632681
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer да, длина 3: 193632681, hash да, длина 3: 193632681
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: -31
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: -27
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: -21
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: -22
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: -32
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: 10
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: -20
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: -27
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: -28
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: -30
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: -27
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: -28
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: -4
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: -3
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: 10
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer готовит, длина 8: -796221230, hash белка, длина 6: 627868416
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer лучше всех, длина 11: -1469951356, hash белка, длина 6: 627868416
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer мама, длина 5: 422343869, hash белка, длина 6: 627868416
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer готовит из человечинки, длина 23: -1611448165, hash белка, длина 6: 627868416
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer ТРОЛЛЬ, длина 7: 490273575, hash белка, длина 6: 627868416
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer повар, длина 6: 1186103412, hash белка, длина 6: 627868416
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer ест из тюбика, длина 14: 713359551, hash белка, длина 6: 627868416
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer космонавт, длина 10: -803460439, hash белка, длина 6: 627868416
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer ест мед, длина 8: -2123188670, hash белка, длина 6: 627868416
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer делает мед, длина 11: 174468869, hash белка, длина 6: 627868416
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer ВАКРУГ НИЙО ЗИМЛА ВЭРТИЦЦА, длина 27: -1321093666, hash белка, длина 6: 627868416
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer МАК ОС, длина 7: 694348058, hash белка, длина 6: 627868416
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer а кстати у меня апач, длина 21: -484023230, hash белка, длина 6: 627868416
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer ос, длина 3: 193644132, hash белка, длина 6: 627868416
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer пчела, длина 6: 1196895963, hash белка, длина 6: 627868416
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer медведь, длина 8: 1217343617, hash белка, длина 6: 627868416
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer ест орехи, длина 10: -1368430067, hash белка, длина 6: 627868416
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer белка, длина 6: 627868416, hash белка, длина 6: 627868416
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer готовит, длина 8: -796221230, hash медведьэ, длина 9: 1517642046
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer лучше всех, длина 11: -1469951356, hash медведьэ, длина 9: 1517642046
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer мама, длина 5: 422343869, hash медведьэ, длина 9: 1517642046
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer готовит из человечинки, длина 23: -1611448165, hash медведьэ, длина 9: 1517642046
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer ТРОЛЛЬ, длина 7: 490273575, hash медведьэ, длина 9: 1517642046
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer повар, длина 6: 1186103412, hash медведьэ, длина 9: 1517642046
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer ест из тюбика, длина 14: 713359551, hash медведьэ, длина 9: 1517642046
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer космонавт, длина 10: -803460439, hash медведьэ, длина 9: 1517642046
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer ест мед, длина 8: -2123188670, hash медведьэ, длина 9: 1517642046
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer делает мед, длина 11: 174468869, hash медведьэ, длина 9: 1517642046
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer ВАКРУГ НИЙО ЗИМЛА ВЭРТИЦЦА, длина 27: -1321093666, hash медведьэ, длина 9: 1517642046
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer МАК ОС, длина 7: 694348058, hash медведьэ, длина 9: 1517642046
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer а кстати у меня апач, длина 21: -484023230, hash медведьэ, длина 9: 1517642046
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer ос, длина 3: 193644132, hash медведьэ, длина 9: 1517642046
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer пчела, длина 6: 1196895963, hash медведьэ, длина 9: 1517642046
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer медведь, длина 8: 1217343617, hash медведьэ, длина 9: 1517642046
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer ест орехи, длина 10: -1368430067, hash медведьэ, длина 9: 1517642046
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer белка, длина 6: 627868416, hash медведьэ, длина 9: 1517642046
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer питается триввиальностью бытия, длина 31: -880860001, hash медведьэ, длина 9: 1517642046
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer кириков, длина 8: 1936170153, hash медведьэ, длина 9: 1517642046
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer someThing, длина 10: 1252682419, hash медведьэ, длина 9: 1517642046
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: -31
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: -27
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: -21
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: -22
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: -32
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: 10
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: -20
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: -27
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: -28
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: -30
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: -27
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: -28
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: -4
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: 10
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer готовит, длина 8: -796221230, hash белка, длина 6: 627868416
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer лучше всех, длина 11: -1469951356, hash белка, длина 6: 627868416
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer мама, длина 5: 422343869, hash белка, длина 6: 627868416
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer готовит из человечинки, длина 23: -1611448165, hash белка, длина 6: 627868416
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer ТРОЛЛЬ, длина 7: 490273575, hash белка, длина 6: 627868416
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer повар, длина 6: 1186103412, hash белка, длина 6: 627868416
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer ест из тюбика, длина 14: 713359551, hash белка, длина 6: 627868416
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer космонавт, длина 10: -803460439, hash белка, длина 6: 627868416
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer ест мед, длина 8: -2123188670, hash белка, длина 6: 627868416
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer делает мед, длина 11: 174468869, hash белка, длина 6: 627868416
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer ВАКРУГ НИЙО ЗИМЛА ВЭРТИЦЦА, длина 27: -1321093666, hash белка, длина 6: 627868416
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer МАК ОС, длина 7: 694348058, hash белка, длина 6: 627868416
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer а кстати у меня апач, длина 21: -484023230, hash белка, длина 6: 627868416
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer ос, длина 3: 193644132, hash белка, длина 6: 627868416
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer пчела, длина 6: 1196895963, hash белка, длина 6: 627868416
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer медведь, длина 8: 1217343617, hash белка, длина 6: 627868416
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer ест орехи, длина 10: -1368430067, hash белка, длина 6: 627868416
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer белка, длина 6: 627868416, hash белка, длина 6: 627868416
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer готовит, длина 8: -796221230, hash медведь, длина 8: 1217343617
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer лучше всех, длина 11: -1469951356, hash медведь, длина 8: 1217343617
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer мама, длина 5: 422343869, hash медведь, длина 8: 1217343617
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer готовит из человечинки, длина 23: -1611448165, hash медведь, длина 8: 1217343617
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer ТРОЛЛЬ, длина 7: 490273575, hash медведь, длина 8: 1217343617
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer повар, длина 6: 1186103412, hash медведь, длина 8: 1217343617
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer ест из тюбика, длина 14: 713359551, hash медведь, длина 8: 1217343617
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer космонавт, длина 10: -803460439, hash медведь, длина 8: 1217343617
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer ест мед, длина 8: -2123188670, hash медведь, длина 8: 1217343617
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer делает мед, длина 11: 174468869, hash медведь, длина 8: 1217343617
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer ВАКРУГ НИЙО ЗИМЛА ВЭРТИЦЦА, длина 27: -1321093666, hash медведь, длина 8: 1217343617
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer МАК ОС, длина 7: 694348058, hash медведь, длина 8: 1217343617
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer а кстати у меня апач, длина 21: -484023230, hash медведь, длина 8: 1217343617
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer ос, длина 3: 193644132, hash медведь, длина 8: 1217343617
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer пчела, длина 6: 1196895963, hash медведь, длина 8: 1217343617
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer медведь, длина 8: 1217343617, hash медведь, длина 8: 1217343617
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer , длина 1: 177573, hash да, длина 3: 193632681
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer да, длина 3: 193632681, hash да, длина 3: 193632681
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer да, длина 3: 193632681, hash да, длина 3: 193632681
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer да, длина 3: 193632681, hash да, длина 3: 193632681
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer да, длина 3: 193632681, hash да, длина 3: 193632681
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer да, длина 3: 193632681, hash да, длина 3: 193632681
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer да, длина 3: 193632681, hash да, длина 3: 193632681
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: -31
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: -27
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: -21
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: -22
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: -32
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: 10
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: -20
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: -27
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: -28
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: -30
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: -27
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: -28
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: -4
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: 10
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer готовит, длина 8: -796221230, hash белка, длина 6: 627868416
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer лучше всех, длина 11: -1469951356, hash белка, длина 6: 627868416
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer мама, длина 5: 422343869, hash белка, длина 6: 627868416
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer готовит из человечинки, длина 23: -1611448165, hash белка, длина 6: 627868416
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer ТРОЛЛЬ, длина 7: 490273575, hash белка, длина 6: 627868416
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer повар, длина 6: 1186103412, hash белка, длина 6: 627868416
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer ест из тюбика, длина 14: 713359551, hash белка, длина 6: 627868416
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer космонавт, длина 10: -803460439, hash белка, длина 6: 627868416
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer ест мед, длина 8: -2123188670, hash белка, длина 6: 627868416
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer делает мед, длина 11: 174468869, hash белка, длина 6: 627868416
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer ВАКРУГ НИЙО ЗИМЛА ВЭРТИЦЦА, длина 27: -1321093666, hash белка, длина 6: 627868416
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer МАК ОС, длина 7: 694348058, hash белка, длина 6: 627868416
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer а кстати у меня апач, длина 21: -484023230, hash белка, длина 6: 627868416
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer ос, длина 3: 193644132, hash белка, длина 6: 627868416
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer пчела, длина 6: 1196895963, hash белка, длина 6: 627868416
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer медведь, длина 8: 1217343617, hash белка, длина 6: 627868416
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer ест орехи, длина 10: -1368430067, hash белка, длина 6: 627868416
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer белка, длина 6: 627868416, hash белка, длина 6: 627868416
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer готовит, длина 8: -796221230, hash медведь, длина 8: 1217343617
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer лучше всех, длина 11: -1469951356, hash медведь, длина 8: 1217343617
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer мама, длина 5: 422343869, hash медведь, длина 8: 1217343617
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer готовит из человечинки, длина 23: -1611448165, hash медведь, длина 8: 1217343617
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer ТРОЛЛЬ, длина 7: 490273575, hash медведь, длина 8: 1217343617
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer повар, длина 6: 1186103412, hash медведь, длина 8: 1217343617
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer ест из тюбика, длина 14: 713359551, hash медведь, длина 8: 1217343617
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer космонавт, длина 10: -803460439, hash медведь, длина 8: 1217343617
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer ест мед, длина 8: -2123188670, hash медведь, длина 8: 1217343617
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer делает мед, длина 11: 174468869, hash медведь, длина 8: 1217343617
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer ВАКРУГ НИЙО ЗИМЛА ВЭРТИЦЦА, длина 27: -1321093666, hash медведь, длина 8: 1217343617
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer МАК ОС, длина 7: 694348058, hash медведь, длина 8: 1217343617
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer а кстати у меня апач, длина 21: -484023230, hash медведь, длина 8: 1217343617
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer ос, длина 3: 193644132, hash медведь, длина 8: 1217343617
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer пчела, длина 6: 1196895963, hash медведь, длина 8: 1217343617
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer медведь, длина 8: 1217343617, hash медведь, длина 8: 1217343617
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: -22
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: -24
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: -16
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: -24
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: -22
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: -18
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: -30
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: 10
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer готовит, длина 8: -796221230, hash кириков, длина 8: 1936170153
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer лучше всех, длина 11: -1469951356, hash кириков, длина 8: 1936170153
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer мама, длина 5: 422343869, hash кириков, длина 8: 1936170153
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer готовит из человечинки, длина 23: -1611448165, hash кириков, длина 8: 1936170153
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer ТРОЛЛЬ, длина 7: 490273575, hash кириков, длина 8: 1936170153
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer повар, длина 6: 1186103412, hash кириков, длина 8: 1936170153
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer ест из тюбика, длина 14: 713359551, hash кириков, длина 8: 1936170153
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer космонавт, длина 10: -803460439, hash кириков, длина 8: 1936170153
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer ест мед, длина 8: -2123188670, hash кириков, длина 8: 1936170153
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer делает мед, длина 11: 174468869, hash кириков, длина 8: 1936170153
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer ВАКРУГ НИЙО ЗИМЛА ВЭРТИЦЦА, длина 27: -1321093666, hash кириков, длина 8: 1936170153
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer МАК ОС, длина 7: 694348058, hash кириков, длина 8: 1936170153
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer а кстати у меня апач, длина 21: -484023230, hash кириков, длина 8: 1936170153
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer ос, длина 3: 193644132, hash кириков, длина 8: 1936170153
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer пчела, длина 6: 1196895963, hash кириков, длина 8: 1936170153
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer медведь, длина 8: 1217343617, hash кириков, длина 8: 1936170153
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer ест орехи, длина 10: -1368430067, hash кириков, длина 8: 1936170153
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer белка, длина 6: 627868416, hash кириков, длина 8: 1936170153
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer питается триввиальностью бытия, длина 31: -880860001, hash кириков, длина 8: 1936170153
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer кириков, длина 8: 1936170153, hash кириков, длина 8: 1936170153
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: -31
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: -27
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: -21
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: -22
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: -32
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: 10
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer готовит, длина 8: -796221230, hash белка, длина 6: 627868416
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer лучше всех, длина 11: -1469951356, hash белка, длина 6: 627868416
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer мама, длина 5: 422343869, hash белка, длина 6: 627868416
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer готовит из человечинки, длина 23: -1611448165, hash белка, длина 6: 627868416
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer ТРОЛЛЬ, длина 7: 490273575, hash белка, длина 6: 627868416
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer повар, длина 6: 1186103412, hash белка, длина 6: 627868416
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer ест из тюбика, длина 14: 713359551, hash белка, длина 6: 627868416
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer космонавт, длина 10: -803460439, hash белка, длина 6: 627868416
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer ест мед, длина 8: -2123188670, hash белка, длина 6: 627868416
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer делает мед, длина 11: 174468869, hash белка, длина 6: 627868416
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer ВАКРУГ НИЙО ЗИМЛА ВЭРТИЦЦА, длина 27: -1321093666, hash белка, длина 6: 627868416
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer МАК ОС, длина 7: 694348058, hash белка, длина 6: 627868416
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer а кстати у меня апач, длина 21: -484023230, hash белка, длина 6: 627868416
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer ос, длина 3: 193644132, hash белка, длина 6: 627868416
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer пчела, длина 6: 1196895963, hash белка, длина 6: 627868416
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer медведь, длина 8: 1217343617, hash белка, длина 6: 627868416
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer ест орехи, длина 10: -1368430067, hash белка, длина 6: 627868416
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer белка, длина 6: 627868416, hash белка, длина 6: 627868416
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: -18
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: -15
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: 10
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: -22
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: -24
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: -16
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: -22
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: -18
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: -16
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: -18
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: -30
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: 10
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer готовит, длина 8: -796221230, hash ос, длина 3: 193644132
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer лучше всех, длина 11: -1469951356, hash ос, длина 3: 193644132
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer мама, длина 5: 422343869, hash ос, длина 3: 193644132
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer готовит из человечинки, длина 23: -1611448165, hash ос, длина 3: 193644132
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer ТРОЛЛЬ, длина 7: 490273575, hash ос, длина 3: 193644132
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer повар, длина 6: 1186103412, hash ос, длина 3: 193644132
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer ест из тюбика, длина 14: 713359551, hash ос, длина 3: 193644132
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer космонавт, длина 10: -803460439, hash ос, длина 3: 193644132
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer ест мед, длина 8: -2123188670, hash ос, длина 3: 193644132
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer делает мед, длина 11: 174468869, hash ос, длина 3: 193644132
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer ВАКРУГ НИЙО ЗИМЛА ВЭРТИЦЦА, длина 27: -1321093666, hash ос, длина 3: 193644132
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer МАК ОС, длина 7: 694348058, hash ос, длина 3: 193644132
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer а кстати у меня апач, длина 21: -484023230, hash ос, длина 3: 193644132
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer ос, длина 3: 193644132, hash ос, длина 3: 193644132
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer готовит, длина 8: -796221230, hash киркоров, длина 9: 3847179775
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer лучше всех, длина 11: -1469951356, hash киркоров, длина 9: 3847179775
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer мама, длина 5: 422343869, hash киркоров, длина 9: 3847179775
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer готовит из человечинки, длина 23: -1611448165, hash киркоров, длина 9: 3847179775
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer ТРОЛЛЬ, длина 7: 490273575, hash киркоров, длина 9: 3847179775
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer повар, длина 6: 1186103412, hash киркоров, длина 9: 3847179775
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer ест из тюбика, длина 14: 713359551, hash киркоров, длина 9: 3847179775
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer космонавт, длина 10: -803460439, hash киркоров, длина 9: 3847179775
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer ест мед, длина 8: -2123188670, hash киркоров, длина 9: 3847179775
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer делает мед, длина 11: 174468869, hash киркоров, длина 9: 3847179775
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer ВАКРУГ НИЙО ЗИМЛА ВЭРТИЦЦА, длина 27: -1321093666, hash киркоров, длина 9: 3847179775
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer МАК ОС, длина 7: 694348058, hash киркоров, длина 9: 3847179775
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer а кстати у меня апач, длина 21: -484023230, hash киркоров, длина 9: 3847179775
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer ос, длина 3: 193644132, hash киркоров, длина 9: 3847179775
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer пчела, длина 6: 1196895963, hash киркоров, длина 9: 3847179775
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer медведь, длина 8: 1217343617, hash киркоров, длина 9: 3847179775
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer ест орехи, длина 10: -1368430067, hash киркоров, длина 9: 3847179775
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer белка, длина 6: 627868416, hash киркоров, длина 9: 3847179775
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer питается триввиальностью бытия, длина 31: -880860001, hash киркоров, длина 9: 3847179775
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer кириков, длина 8: 1936170153, hash киркоров, длина 9: 3847179775
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer someThing, длина 10: 1252682419, hash киркоров, длина 9: 3847179775
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: 102
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: 100
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: 115
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: 102
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: 10
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: 102
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: 115
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: 100
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: 100
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: 115
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: 10
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer готовит, длина 8: -796221230, hash fdsf, длина 5: 258838472
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer лучше всех, длина 11: -1469951356, hash fdsf, длина 5: 258838472
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer мама, длина 5: 422343869, hash fdsf, длина 5: 258838472
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer готовит из человечинки, длина 23: -1611448165, hash fdsf, длина 5: 258838472
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer ТРОЛЛЬ, длина 7: 490273575, hash fdsf, длина 5: 258838472
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer повар, длина 6: 1186103412, hash fdsf, длина 5: 258838472
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer ест из тюбика, длина 14: 713359551, hash fdsf, длина 5: 258838472
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer космонавт, длина 10: -803460439, hash fdsf, длина 5: 258838472
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer ест мед, длина 8: -2123188670, hash fdsf, длина 5: 258838472
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer делает мед, длина 11: 174468869, hash fdsf, длина 5: 258838472
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer ВАКРУГ НИЙО ЗИМЛА ВЭРТИЦЦА, длина 27: -1321093666, hash fdsf, длина 5: 258838472
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer МАК ОС, длина 7: 694348058, hash fdsf, длина 5: 258838472
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer а кстати у меня апач, длина 21: -484023230, hash fdsf, длина 5: 258838472
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer ос, длина 3: 193644132, hash fdsf, длина 5: 258838472
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer пчела, длина 6: 1196895963, hash fdsf, длина 5: 258838472
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer медведь, длина 8: 1217343617, hash fdsf, длина 5: 258838472
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer ест орехи, длина 10: -1368430067, hash fdsf, длина 5: 258838472
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer белка, длина 6: 627868416, hash fdsf, длина 5: 258838472
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer питается триввиальностью бытия, длина 31: -880860001, hash fdsf, длина 5: 258838472
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer кириков, длина 8: 1936170153, hash fdsf, длина 5: 258838472
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer someThing, длина 10: 1252682419, hash fdsf, длина 5: 258838472
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: 102
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: 100
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: 115
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: 102
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: 115
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: 10
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: 102
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: 115
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: 100
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: 115
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: 10
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer готовит, длина 8: -796221230, hash fdsfs, длина 6: 4246706075
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer лучше всех, длина 11: -1469951356, hash fdsfs, длина 6: 4246706075
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer мама, длина 5: 422343869, hash fdsfs, длина 6: 4246706075
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer готовит из человечинки, длина 23: -1611448165, hash fdsfs, длина 6: 4246706075
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer ТРОЛЛЬ, длина 7: 490273575, hash fdsfs, длина 6: 4246706075
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer повар, длина 6: 1186103412, hash fdsfs, длина 6: 4246706075
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer ест из тюбика, длина 14: 713359551, hash fdsfs, длина 6: 4246706075
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer космонавт, длина 10: -803460439, hash fdsfs, длина 6: 4246706075
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer ест мед, длина 8: -2123188670, hash fdsfs, длина 6: 4246706075
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer делает мед, длина 11: 174468869, hash fdsfs, длина 6: 4246706075
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer ВАКРУГ НИЙО ЗИМЛА ВЭРТИЦЦА, длина 27: -1321093666, hash fdsfs, длина 6: 4246706075
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer МАК ОС, длина 7: 694348058, hash fdsfs, длина 6: 4246706075
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer а кстати у меня апач, длина 21: -484023230, hash fdsfs, длина 6: 4246706075
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer ос, длина 3: 193644132, hash fdsfs, длина 6: 4246706075
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer пчела, длина 6: 1196895963, hash fdsfs, длина 6: 4246706075
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer медведь, длина 8: 1217343617, hash fdsfs, длина 6: 4246706075
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer ест орехи, длина 10: -1368430067, hash fdsfs, длина 6: 4246706075
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer белка, длина 6: 627868416, hash fdsfs, длина 6: 4246706075
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer питается триввиальностью бытия, длина 31: -880860001, hash fdsfs, длина 6: 4246706075
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer кириков, длина 8: 1936170153, hash fdsfs, длина 6: 4246706075
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer someThing, длина 10: 1252682419, hash fdsfs, длина 6: 4246706075
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: -27
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: -26
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: -24
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: -22
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: 10
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: -32
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: -30
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: -32
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: -5
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: -32
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: -5
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: 10
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer готовит, длина 8: -796221230, hash ежик, длина 5: 414254018
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer лучше всех, длина 11: -1469951356, hash ежик, длина 5: 414254018
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer мама, длина 5: 422343869, hash ежик, длина 5: 414254018
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer готовит из человечинки, длина 23: -1611448165, hash ежик, длина 5: 414254018
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer ТРОЛЛЬ, длина 7: 490273575, hash ежик, длина 5: 414254018
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer повар, длина 6: 1186103412, hash ежик, длина 5: 414254018
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer ест из тюбика, длина 14: 713359551, hash ежик, длина 5: 414254018
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer космонавт, длина 10: -803460439, hash ежик, длина 5: 414254018
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer ест мед, длина 8: -2123188670, hash ежик, длина 5: 414254018
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer делает мед, длина 11: 174468869, hash ежик, длина 5: 414254018
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer ВАКРУГ НИЙО ЗИМЛА ВЭРТИЦЦА, длина 27: -1321093666, hash ежик, длина 5: 414254018
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer МАК ОС, длина 7: 694348058, hash ежик, длина 5: 414254018
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer а кстати у меня апач, длина 21: -484023230, hash ежик, длина 5: 414254018
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer ос, длина 3: 193644132, hash ежик, длина 5: 414254018
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer пчела, длина 6: 1196895963, hash ежик, длина 5: 414254018
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer медведь, длина 8: 1217343617, hash ежик, длина 5: 414254018
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer ест орехи, длина 10: -1368430067, hash ежик, длина 5: 414254018
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer белка, длина 6: 627868416, hash ежик, длина 5: 414254018
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer питается триввиальностью бытия, длина 31: -880860001, hash ежик, длина 5: 414254018
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer кириков, длина 8: 1936170153, hash ежик, длина 5: 414254018
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer someThing, длина 10: 1252682419, hash ежик, длина 5: 414254018
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: 102
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: 115
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: 97
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: 100
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: 102
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: 97
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: 10
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: 97
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: 115
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: 102
+
+[DEBUG] general/strFunc.cpp:44:myFGets(): Код текущего символа: 10
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer готовит, длина 8: -796221230, hash fsadfa, длина 7: 3267948490
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer лучше всех, длина 11: -1469951356, hash fsadfa, длина 7: 3267948490
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer мама, длина 5: 422343869, hash fsadfa, длина 7: 3267948490
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer готовит из человечинки, длина 23: -1611448165, hash fsadfa, длина 7: 3267948490
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer ТРОЛЛЬ, длина 7: 490273575, hash fsadfa, длина 7: 3267948490
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer повар, длина 6: 1186103412, hash fsadfa, длина 7: 3267948490
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer ест из тюбика, длина 14: 713359551, hash fsadfa, длина 7: 3267948490
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer космонавт, длина 10: -803460439, hash fsadfa, длина 7: 3267948490
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer ест мед, длина 8: -2123188670, hash fsadfa, длина 7: 3267948490
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer делает мед, длина 11: 174468869, hash fsadfa, длина 7: 3267948490
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer ВАКРУГ НИЙО ЗИМЛА ВЭРТИЦЦА, длина 27: -1321093666, hash fsadfa, длина 7: 3267948490
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer МАК ОС, длина 7: 694348058, hash fsadfa, длина 7: 3267948490
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer а кстати у меня апач, длина 21: -484023230, hash fsadfa, длина 7: 3267948490
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer ос, длина 3: 193644132, hash fsadfa, длина 7: 3267948490
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer пчела, длина 6: 1196895963, hash fsadfa, длина 7: 3267948490
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer медведь, длина 8: 1217343617, hash fsadfa, длина 7: 3267948490
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer ест орехи, длина 10: -1368430067, hash fsadfa, длина 7: 3267948490
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer белка, длина 6: 627868416, hash fsadfa, длина 7: 3267948490
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer питается триввиальностью бытия, длина 31: -880860001, hash fsadfa, длина 7: 3267948490
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer кириков, длина 8: 1936170153, hash fsadfa, длина 7: 3267948490
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer someThing, длина 10: 1252682419, hash fsadfa, длина 7: 3267948490
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
+[DEBUG] general/strFunc.cpp:57:isEqualStrings(): hash answer nil, длина 4: 2090544584, hash nil, длина 4: 2090544584
+
