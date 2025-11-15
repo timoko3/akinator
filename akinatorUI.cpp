@@ -104,6 +104,8 @@ char* getDifference(akinator_t* akinator, char* intended, char** difference){
     assert(intended);
     assert(difference);
 
+    tellWithAnimation("\aКакие отличия у %s и %s", intended, (*curNode(akinator))->data);
+
     printf("Чем %s отличается от %s?\n", intended, (*curNode(akinator))->data);
 
     return getString(difference);
@@ -112,6 +114,9 @@ char* getDifference(akinator_t* akinator, char* intended, char** difference){
 
 char* getWhatDefine(char** toDefine){
     assert(toDefine);
+
+    tellWithAnimation("\aОпять мне надо все объяснять резервуарам с биологическими жидкостями");
+    tellWithAnimation("\aКому ты хочешь чтобы я дал определение?");
 
     printf("Кому вы хотите, чтобы я дал определение?\n");
 
@@ -136,45 +141,18 @@ void printComparisonResults(akinator_t* akinator, size_t depth1, size_t depth2,
     treeVal_t secondCompNodeName = compareNode2->data;
 
     while (depth1 > depth2) { 
-        if(compareNode1->parent->left == compareNode1){
-            // printf("%s: %s\n", firstCompNodeName, compareNode1->parent->data);
-        }
-        else{
-            // printf("%s: не %s\n", firstCompNodeName, compareNode1->parent->data);
-        }
         compareNode1 = compareNode1->parent;
         depth1--;
     }
 
     while (depth2 > depth1) {
-        if(compareNode2->parent->left == compareNode2){
-            // printf("%s: %s\n", secondCompNodeName, compareNode2->parent->data);
-        }
-        else{
-            // printf("%s: не %s\n", secondCompNodeName, compareNode2->parent->data);
-        }
         compareNode2 = compareNode2->parent;
         depth2--;
     }
-    // printf("\n");
-    
 
     treeNode_t* firstBeforeEqualNode1 = NULL;
     treeNode_t* firstBeforeEqualNode2 = NULL;
     while (compareNode1 && compareNode2 && (compareNode1 != compareNode2)) {
-        if(compareNode1->parent->left == compareNode1){
-            // printf("%s: %s\n", firstCompNodeName, compareNode1->parent->data);
-        }
-        else{
-            // printf("%s: не %s\n", firstCompNodeName, compareNode1->parent->data);
-        }
-        
-        if(compareNode2->parent->left == compareNode2){
-            // printf("%s: %s\n", secondCompNodeName, compareNode2->parent->data);
-        }
-        else{
-            // printf("%s: не %s\n", secondCompNodeName, compareNode2->parent->data);
-        }
         firstBeforeEqualNode1 = compareNode1;
         compareNode1 = compareNode1->parent;
 
@@ -185,19 +163,23 @@ void printComparisonResults(akinator_t* akinator, size_t depth1, size_t depth2,
     printf("\n");
 
     if(compareNode1->left == firstBeforeEqualNode1){
+        tellWithAnimation("\a%s отличатеся от %s тем, что %s %s, a %s не %s", firstCompNodeName, secondCompNodeName, firstCompNodeName, compareNode1->data, secondCompNodeName, compareNode1->data);
         printf(SET_STYLE_ITALICS_FONT_YELLOW "%s" RESET " отличатеся от " SET_STYLE_ITALICS_FONT_TURQUOISE "%s" RESET " тем, что " SET_STYLE_ITALICS_FONT_YELLOW "%s" RESET " %s, a " SET_STYLE_ITALICS_FONT_TURQUOISE "%s" RESET " не %s. ", firstCompNodeName, secondCompNodeName,
             firstCompNodeName, compareNode1->data, secondCompNodeName, compareNode1->data);
     }
     else{
+        tellWithAnimation("\a%s отличатеся от %s тем, что %s %s, a %s не %s", secondCompNodeName, firstCompNodeName, secondCompNodeName, compareNode1->data, firstCompNodeName, compareNode1->data);
         printf(SET_STYLE_ITALICS_FONT_TURQUOISE "%s" RESET " отличатеся от " SET_STYLE_ITALICS_FONT_YELLOW "%s" RESET " тем, что " SET_STYLE_ITALICS_FONT_TURQUOISE "%s" RESET " %s, a " SET_STYLE_ITALICS_FONT_YELLOW "%s" RESET " не %s. ", secondCompNodeName, firstCompNodeName,
             secondCompNodeName, compareNode1->data, firstCompNodeName, compareNode1->data);
     }
-    
+
+    tellWithAnimation("\aИ %s и %s оба", firstCompNodeName, secondCompNodeName);
     if(compareNode1->parent){
         printf("И " SET_STYLE_ITALICS_FONT_YELLOW "%s" RESET ", и " SET_STYLE_ITALICS_FONT_TURQUOISE "%s" RESET " оба ", firstCompNodeName, secondCompNodeName);
     }
     while(compareNode1->parent){
         if(compareNode1->parent->left == compareNode1){
+            tellWithAnimation("\a%s", compareNode1->parent->data);
             if(compareNode1->parent->parent){
                 printf("%s, ", compareNode1->parent->data);
             }
@@ -206,6 +188,7 @@ void printComparisonResults(akinator_t* akinator, size_t depth1, size_t depth2,
             }
         }
         else{
+            tellWithAnimation("\aне %s", compareNode1->parent->data);
             if(compareNode1->parent->parent){
                 printf("не %s, ", compareNode1->parent->data);
             }
@@ -223,6 +206,7 @@ void printDefinition(treeNode_t* curNode, treeVal_t toDefine){
     assert(curNode);
     assert(toDefine);
 
+    tellWithAnimation("\a%s", toDefine);
     printf(SET_STYLE_BOLD_FONT_BLUE "%s" RESET " — ", toDefine);
     printParent(curNode);
 }
@@ -240,6 +224,7 @@ void printParent(treeNode_t* curNode){
     }
 
     if(curNode->parent->left == curNode){
+        tellWithAnimation("\a%s", curNode->parent->data);
         printf("%s", curNode->parent->data);
 
         if(curNode != defineNodeAddr){
@@ -250,6 +235,7 @@ void printParent(treeNode_t* curNode){
         }
     }
     else{
+        tellWithAnimation("\aне %s", curNode->parent->data);
         printf("не %s", curNode->parent->data);
 
         if(curNode != defineNodeAddr){
@@ -265,27 +251,22 @@ void printParent(treeNode_t* curNode){
 void animation(size_t delay){
     static size_t countAnimationCalls = 0;
     if(countAnimationCalls == 0){
-        txCreateWindow (500, 500);
+        txCreateWindow (750, 750);
     }
     countAnimationCalls++;
 
-    printf("delay: %lu\n", delay);
     for(size_t curFrame = 0; curFrame < 31; curFrame++){
         
         char frameName[50] = "";
 
         sprintf(frameName, "animation/OmnX-%lu.bmp", curFrame);
 
-        HDC frame = txLoadImage (frameName, 500, 500);
+        HDC frame = txLoadImage (frameName, 750, 750);
 
         if (!frame)
             txMessageBox ("Не могу загрузить");
 
-        // Не надо часто загружать одно и то же изображение, особенно в цикле -- программа будет тормозить!
-        // Загрузите один раз перед циклом, потом используйте много раз.
-        // Посмотрите, как сделано в примере TX\Examples\Tennis\Tennis.cpp.
-
-        txBitBlt (txDC(), 0, 0, 800, 600, frame, 0, 0);
+        txBitBlt (txDC(), 0, 0, 1200, 900, frame, 0, 0);
 
         txDeleteDC (frame);
         txSleep(delay);

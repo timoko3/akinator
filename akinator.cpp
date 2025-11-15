@@ -149,6 +149,9 @@ curAnchorNode akinatorDefine(akinator_t* akinator){
 curAnchorNode akinatorCompare(akinator_t* akinator){
     assert(akinator);
 
+    tellWithAnimation("\aКак ты заколебал!Иди уже потрогай траву");
+    tellWithAnimation("\aЛадно кого тебе там надо сравнить?");
+
     char* toCompare1 = (char*) calloc(MAX_ANSWER_SIZE, sizeof(char));
     assert(toCompare1);
 
@@ -182,6 +185,8 @@ curAnchorNode akinatorCompare(akinator_t* akinator){
 curAnchorNode akinatorSaveAndExit(akinator_t* akinator){
     assert(akinator);
     
+    tellWithAnimation("\aДосвидос! Больше не беспокой меня, а то форматирую диск");
+
     fileDescription akinatorDataBase{
         AKINATOR_DATA_BASE_FILE_NAME,
         "wb"

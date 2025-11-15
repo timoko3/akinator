@@ -24,4 +24,7 @@ int main(void){
     runModeMenu(&akinator);
 
     akinatorDtor(&akinator);
+
+    return 0;
+    closeWindow();
 }
